@@ -85,6 +85,14 @@ function renderHome() {
         </div>
       </div>
 
+      ${historias.length ? `<div class="grid gap-4">
+        <div class="flex items-end justify-between gap-4 border-b-4 border-ink pb-2">
+          <h2 class="font-display font-black text-3xl sm:text-4xl leading-none">Historias</h2>
+          <a href="#historias" class="kicker text-red no-underline hover:underline">Ver todas <i class="fa-solid fa-arrow-right ml-1"></i></a>
+        </div>
+        <div class="story-grid">${historias.slice(0, 3).map(storyCard).join('')}</div>
+      </div>` : ''}
+
       <div class="grid gap-1">
         <div class="flex items-end justify-between gap-4 border-b-4 border-ink pb-2">
           <h2 class="font-display font-black text-3xl sm:text-4xl leading-none">En este número</h2>
@@ -176,11 +184,114 @@ function songRow(a, c, i, n) {
     <span class="title">${esc(c.titulo)}</span>
     <span class="meta">${esc(c.disco)}<span class="md:hidden"> · <span class="year">${c.anio ?? '—'}</span></span></span>
     <span class="meta yearcol hidden md:block"><span class="year">${c.anio ?? '—'}</span></span>
+    ${spotifyLink(a, c)}
     <button class="fav" aria-pressed="${on}" aria-label="${on ? 'Quitar de' : 'Guardar en'} favoritos: ${esc(c.titulo)}"><i class="${on ? 'fa-solid' : 'fa-regular'} fa-heart"></i></button>
     <span class="bar" aria-hidden="true"></span>
   </li>`;
 }
+/* Enlace a Spotify: exacto si la canción tiene "spotify" en data.js; si no, búsqueda por artista y título */
+function spotifyUrl(a, c) {
+  if (c.spotify) return c.spotify;
+  const q = `${a.spotifyNombre || a.nombre} ${c.titulo}`.replace(/[’‘]/g, "'").replace(/[“”]/g, '');
+  return 'https://open.spotify.com/search/' + encodeURIComponent(q);
+}
+function spotifyLink(a, c) {
+  const exacto = !!c.spotify;
+  return `<a class="sp-link" href="${esc(spotifyUrl(a, c))}" target="_blank" rel="noopener" aria-label="${exacto ? 'Escuchar' : 'Buscar'} ${esc(c.titulo)} en Spotify"><i class="fa-brands fa-spotify"></i>${exacto ? 'Escuchar en Spotify' : 'Buscar en Spotify'}</a>`;
+}
 function songRows(a) { return a.canciones.map((c, i) => songRow(a, c, i, i + 1)).join(''); }
+
+/* ---------- historias ---------- */
+const historias = (typeof HISTORIAS !== 'undefined' ? HISTORIAS : []).slice().sort((x, y) => String(y.fecha).localeCompare(String(x.fecha)));
+const MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+function fechaLarga(f) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(f || '');
+  return m ? `${+m[3]} de ${MESES[+m[2] - 1]} de ${m[1]}` : '';
+}
+const artistaDe = h => artistas.find(a => a.id === h.artista);
+const storyKey = id => 'moonshiner:historia-foto:' + id;
+const fotoPropia = h => store.get(storyKey(h.id)) || h._foto || '';
+const imagenDe = h => fotoPropia(h) || h.imagen || (artistaDe(h) ? heroOf(artistaDe(h)) : '');
+
+function storyCard(h) {
+  const a = artistaDe(h), img = imagenDe(h);
+  return `<a class="story-card" href="#historia-${esc(h.id)}">
+    <span class="cover">${img ? `<img src="${esc(img)}" alt="" style="object-position:${esc(fotoPropia(h) ? 'center' : ((a && a.heroPos) || 'center'))}">` : ''}
+      <span class="cover-top tag">${esc(h.etiqueta || (a ? a.nombre : 'Historia'))}</span></span>
+    <span class="kicker text-muted">${h.cancion ? '“' + esc(h.cancion) + '”' : ''}${h.cancion && h.fecha ? ' · ' : ''}${esc(fechaLarga(h.fecha))}${h.ejemplo ? ' <span class="tag-ghost">Ejemplo</span>' : ''}</span>
+    <h3>${esc(h.titulo)}</h3>
+    ${h.bajada ? `<p>${esc(h.bajada)}</p>` : ''}
+  </a>`;
+}
+
+function renderHistorias() {
+  $('#stats').textContent = '';
+  $('#view').innerHTML = `
+    <section class="view-enter grid gap-8">
+      <div class="songs-head border-b-4 border-ink pb-2">
+        <h1 class="songs-title">Historias</h1>
+        <span class="kicker text-muted">${historias.length} ${historias.length === 1 ? 'historia' : 'historias'}</span>
+      </div>
+      <p class="standfirst max-w-3xl">Lo que hay detrás de las canciones: cómo nacieron, quién las inspiró y qué pasó después.</p>
+      ${historias.length ? `<div class="story-grid">${historias.map(storyCard).join('')}</div>` : `
+        <div class="story-empty">
+          <i class="fa-solid fa-feather-pointed text-4xl text-red" aria-hidden="true"></i>
+          <p class="text-lg">Todavía no hay historias publicadas.</p>
+          <p class="text-muted">Muy pronto, las historias detrás de las canciones y los artistas de este libro.</p>
+        </div>`}
+    </section>`;
+}
+
+function renderHistoria(h) {
+  const a = artistaDe(h), img = imagenDe(h);
+  const ci = a && h.cancion ? a.canciones.findIndex(c => c.titulo.toLowerCase() === String(h.cancion).toLowerCase()) : -1;
+  $('#stats').textContent = '';
+  $('#view').innerHTML = `
+    <article class="view-enter grid gap-8">
+      <a href="#historias" class="kicker inline-flex items-center gap-2 w-fit hover:text-red no-underline"><i class="fa-solid fa-arrow-left"></i>Todas las historias</a>
+      <header class="grid gap-4 max-w-4xl">
+        <span class="kicker"><span class="tag">Historias</span>${h.etiqueta ? ` <span class="text-red ml-1">${esc(h.etiqueta)}</span>` : a ? ` <a href="#${a.id}" class="text-red no-underline hover:underline ml-1">${esc(a.nombre)}</a>` : ''}${h.ejemplo ? ' <span class="tag-ghost ml-1">Ejemplo</span>' : ''}</span>
+        <h1 class="story-title">${esc(h.titulo)}</h1>
+        ${h.bajada ? `<p class="standfirst">${esc(h.bajada)}</p>` : ''}
+        ${h.fecha ? `<span class="kicker text-muted">${esc(fechaLarga(h.fecha))} · por ${esc(FIRMA)}</span>` : ''}
+      </header>
+      <div class="grid gap-2">
+        <div class="story-hero">
+          ${img ? `<img src="${esc(img)}" alt="${a ? 'Foto de ' + esc(a.nombre) : ''}" style="object-position:${esc(fotoPropia(h) ? 'center' : ((a && a.heroPos) || 'center'))}">` : `<div class="hero-hint"><span><i class="fa-regular fa-image text-3xl block mb-2"></i>Espacio para la foto de la historia</span></div>`}
+          <div class="hero-tools">
+            <label class="tool-btn" for="story-file"><i class="fa-solid fa-upload"></i>${fotoPropia(h) ? 'Cambiar foto' : (img ? 'Cambiar foto' : 'Subir foto')}</label>
+            <input id="story-file" type="file" accept="image/*" class="sr-only">
+            ${fotoPropia(h) ? `<button class="tool-btn" id="story-remove"><i class="fa-solid fa-trash-can"></i>Quitar</button>` : ''}
+          </div>
+        </div>
+        <p id="story-msg" class="kicker text-muted" hidden></p>
+      </div>
+      <div class="article">${(h.cuerpo || []).map(p => `<p>${esc(p)}</p>`).join('')}</div>
+      ${ci >= 0 ? `<section class="grid gap-2 max-w-4xl">
+        <div class="songs-head border-b-4 border-ink pb-2"><h2 class="font-display font-black text-2xl leading-none">La canción</h2></div>
+        <ol class="list-none p-0 m-0">${songRow(a, a.canciones[ci], ci, ci + 1)}</ol>
+      </section>` : h.cancion ? `<section class="grid gap-2 max-w-4xl">
+        <div class="songs-head border-b-4 border-ink pb-2"><h2 class="font-display font-black text-2xl leading-none">La canción</h2></div>
+        <div class="grid gap-1 py-2">
+          <span class="font-hand font-bold text-2xl leading-tight">${esc(h.cancion)}</span>
+          <span class="kicker text-muted">${esc(h.cancionArtista || (a ? a.nombre : ''))}${h.cancionDisco ? ' · ' + esc(h.cancionDisco) : ''}${h.cancionAnio ? ' · <span class="text-ink">' + h.cancionAnio + '</span>' : ''}</span>
+          <a class="sp-link" href="${esc('https://open.spotify.com/search/' + encodeURIComponent((h.cancionArtista || (a ? a.nombre : '')) + ' ' + h.cancion))}" target="_blank" rel="noopener"><i class="fa-brands fa-spotify"></i>Buscar en Spotify</a>
+        </div>
+      </section>` : ''}
+      ${a ? `<a href="#${a.id}" class="fav-link w-fit"><i class="fa-solid fa-record-vinyl"></i>Ver las esenciales de ${esc(a.nombre)}</a>` : ''}
+    </article>`;
+  wireSongs($('#view'));
+  const file = $('#story-file');
+  file.addEventListener('change', () => file.files[0] && leerFoto(file.files[0], $('#story-msg'), data => {
+    const saved = store.set(storyKey(h.id), data);
+    if (!saved) h._foto = data;
+    renderHistoria(h); buildBook();
+    const m = $('#story-msg'); m.hidden = false;
+    m.textContent = saved ? 'Foto guardada en este navegador.' : 'Foto cargada solo por esta sesión: este navegador no permite guardarla.';
+  }));
+  const rm = $('#story-remove');
+  if (rm) rm.addEventListener('click', () => { store.del(storyKey(h.id)); delete h._foto; renderHistoria(h); buildBook(); });
+}
 
 /* ---------- favoritos (se guardan en este navegador) ---------- */
 const FAV_KEY = 'moonshiner:favoritos';
@@ -279,8 +390,8 @@ function renderArtist(a) {
   if (rm) rm.addEventListener('click', () => { store.del(heroKey(a.id)); renderArtist(a); buildBook(); });
 }
 
-function loadHero(a, f) {
-  const msg = $('#hero-msg');
+/* lee una foto elegida por el usuario, la achica y la devuelve como data URL */
+function leerFoto(f, msg, done) {
   if (!f.type.startsWith('image/')) { msg.hidden = false; msg.textContent = 'Ese archivo no es una imagen. Elegí un JPG, PNG o WebP.'; return; }
   const reader = new FileReader();
   reader.onload = () => {
@@ -290,16 +401,22 @@ function loadHero(a, f) {
       const c = document.createElement('canvas');
       c.width = Math.round(img.width * s); c.height = Math.round(img.height * s);
       c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
-      const data = c.toDataURL('image/jpeg', 0.85);
+      done(c.toDataURL('image/jpeg', 0.85));
+    };
+    img.onerror = () => { msg.hidden = false; msg.textContent = 'No se pudo leer esa imagen. Probá con otro archivo.'; };
+    img.src = reader.result;
+  };
+  reader.readAsDataURL(f);
+}
+
+function loadHero(a, f) {
+  leerFoto(f, $('#hero-msg'), data => {
       const saved = store.set(heroKey(a.id), data);
       if (!saved) a.hero = data;
       renderArtist(a); buildBook();
       const m = $('#hero-msg'); m.hidden = false;
       m.textContent = saved ? 'Foto guardada en este navegador.' : 'Foto cargada solo por esta sesión: este navegador no permite guardarla.';
-    };
-    img.src = reader.result;
-  };
-  reader.readAsDataURL(f);
+  });
 }
 
 /* ---------- fragmentos de audio (vista previa de 30 s de iTunes) ---------- */
@@ -358,7 +475,7 @@ function stopPlayer() {
 function showFallback(a, c, row, btn) {
   setBtn(btn, 'off'); btn.setAttribute('aria-pressed', 'false');
   if (row.querySelector('.fallback')) return;
-  const q = encodeURIComponent(`${a.nombre} ${c.titulo}`);
+  const q = encodeURIComponent(`${a.spotifyNombre || a.nombre} ${c.titulo}`);
   const p = document.createElement('span');
   p.className = 'fallback';
   p.innerHTML = `No pude cargar el fragmento acá. Escuchala en <a href="https://open.spotify.com/search/${q}" target="_blank" rel="noopener"><i class="fa-brands fa-spotify"></i> Spotify</a> o <a href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> YouTube</a>.`;
@@ -427,7 +544,13 @@ function buildBook() {
           ${a.canciones.map((c, i) => `<li class="song no-play"><span class="num">${pad(i + 1)}</span><span class="title">${esc(c.titulo)}</span><span class="meta">${esc(c.disco)}</span><span class="meta yearcol"><span class="year">${c.anio ?? '—'}</span></span></li>`).join('')}
         </ol>
       </section>`;
-    }).join('')}`;
+    }).join('')}
+    ${historias.filter(h => !h.ejemplo).map(h => `<section class="chapter">
+      <p class="kicker"><span class="tag">Historias</span> ${esc(h.etiqueta || (artistaDe(h) ? artistaDe(h).nombre : ''))}</p>
+      <h2 class="story-title" style="font-size:2.4rem;margin-top:.6rem">${esc(h.titulo)}</h2>
+      ${h.bajada ? `<p class="standfirst" style="margin-top:.6rem;font-size:1.15rem">${esc(h.bajada)}</p>` : ''}
+      <div class="article" style="margin-top:.8rem">${(h.cuerpo || []).map(p => `<p>${esc(p)}</p>`).join('')}</div>
+    </section>`).join('')}`;
 }
 
 /* ---------- navegación ---------- */
@@ -435,7 +558,12 @@ function route() {
   stopPlayer();
   const id = decodeURIComponent(location.hash.slice(1));
   const a = artistas.find(x => x.id === id);
-  if (id === 'favoritos') { renderFavs(); document.title = 'Mis favoritos · Moonshiner'; }
+  const h = id.startsWith('historia-') ? historias.find(x => 'historia-' + x.id === id) : null;
+  const tab = id === 'favoritos' ? 'favoritos' : (id === 'historias' || h) ? 'historias' : a ? '' : 'sumario';
+  document.querySelectorAll('.tabs a').forEach(t => t.dataset.tab === tab ? t.setAttribute('aria-current', 'page') : t.removeAttribute('aria-current'));
+  if (id === 'historias') { renderHistorias(); document.title = 'Historias · Moonshiner'; }
+  else if (h) { renderHistoria(h); document.title = h.titulo + ' · Moonshiner'; }
+  else if (id === 'favoritos') { renderFavs(); document.title = 'Mis favoritos · Moonshiner'; }
   else if (a) { renderArtist(a); document.title = a.nombre + ' · Moonshiner'; }
   else { renderHome(); document.title = 'Moonshiner'; }
   window.scrollTo(0, 0);

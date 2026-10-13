@@ -30,7 +30,7 @@
   <header class="grid gap-3 pb-6">
     <div class="flex flex-wrap items-center justify-between gap-x-6 gap-y-1 kicker text-muted">
       <span>Edición n.º 1 · Octubre 2026</span>
-      <span class="flex flex-wrap items-center gap-x-4 gap-y-1"><span id="stats"></span><a href="#favoritos" class="fav-link"><i class="fa-solid fa-heart"></i>Mis favoritos <span id="fav-count" class="text-ink">(0)</span></a></span>
+      <span id="stats"></span>
     </div>
     <hr class="rule-thick">
     <a href="#" class="no-underline grid gap-2 pt-1">
@@ -38,6 +38,11 @@
       <span class="kicker text-base sm:text-lg">Los recomendados esenciales de la historia del rock · por Exequiel Fernández Montini</span>
     </a>
     <hr class="rule-double mt-2">
+    <nav class="tabs" aria-label="Secciones">
+      <a href="#" data-tab="sumario"><i class="fa-solid fa-list-ol" aria-hidden="true"></i>Sumario</a>
+      <a href="#historias" data-tab="historias"><i class="fa-solid fa-feather-pointed" aria-hidden="true"></i>Historias</a>
+      <a href="#favoritos" data-tab="favoritos"><i class="fa-solid fa-heart" aria-hidden="true"></i>Mis favoritos <span id="fav-count">(0)</span></a>
+    </nav>
   </header>
   <main id="view" aria-live="polite"></main>
 </div>
@@ -48,6 +53,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.0.0/fuse.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.1.14/swiper-bundle.min.js"></script>
 <script src="assets/js/data.js"></script>
+<script src="assets/js/historias.js"></script>
 <script src="assets/js/app.js"></script>
+<script>
+  // Aviso si se abrió index.html sin las carpetas assets/ e img/ al lado
+  if (typeof ARTISTAS === 'undefined') {
+    document.getElementById('view').innerHTML =
+      '<div style="max-width:36em;margin:2rem 0;padding:1.2rem 1.4rem;border:2px solid #cf1820;font-family:Georgia,serif;line-height:1.5">' +
+      '<strong>No se encontraron los archivos del sitio.</strong><br>' +
+      'Este index.html necesita tener al lado las carpetas <code>assets</code> e <code>img</code>. ' +
+      'Si lo abriste desde adentro del zip, primero descomprimilo (clic derecho → Extraer todo) y abrí el index.html de la carpeta extraída. ' +
+      'Para verlo en tu computadora sin carpetas, usá el archivo moonshiner.html.</div>';
+  }
+</script>
 </body>
 </html>
