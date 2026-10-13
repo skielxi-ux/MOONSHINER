@@ -5373,8 +5373,8 @@ const ARTISTAS = [
       "Stevie Nicks",
       "Peter Green"
     ],
-    "hero": "",
-    "heroPos": "center 30%",
+    "hero": "img/fleetwood-mac.jpg",
+    "heroPos": "center 25%",
     "bajada": "Una banda de blues inglesa que se reinventó en California y grabó, en medio de sus propias rupturas, uno de los discos más vendidos de la historia.",
     "descripcion": [
       "Fleetwood Mac nació en Londres en 1967 como una banda de blues liderada por el guitarrista Peter Green, con Mick Fleetwood en batería y John McVie en bajo, que le dieron el nombre. De esa primera etapa es “Albatross”, un instrumental sereno que llegó al número uno en Inglaterra.",
@@ -5450,7 +5450,7 @@ const ARTISTAS = [
       "Matt Sorum",
       "Dizzy Reed"
     ],
-    "hero": "",
+    "hero": "img/guns-n-roses.jpg",
     "heroPos": "center 30%",
     "bajada": "La última gran banda peligrosa del rock: el chillido de Axl Rose, la galera de Slash y un debut que arrasó con todo.",
     "descripcion": [
@@ -5576,7 +5576,7 @@ const ARTISTAS = [
       "Jeff Tweedy",
       "Jody Stephens"
     ],
-    "hero": "",
+    "hero": "img/golden-smog.jpg",
     "heroPos": "center 30%",
     "bajada": "Una superbanda de amigos de Mineápolis que se juntaba por diversión y terminó grabando algunas de las canciones más lindas del alt-country.",
     "descripcion": [
@@ -5632,7 +5632,7 @@ const ARTISTAS = [
     "integrantes": [
       "Warren Zevon (solista, voz y piano)"
     ],
-    "hero": "",
+    "hero": "img/warren-zevon.jpg",
     "heroPos": "center 30%",
     "bajada": "El cantautor más filoso de California: humor negro, mercenarios, hombres lobo y algunas de las baladas más tristes del rock.",
     "descripcion": [
@@ -5757,7 +5757,7 @@ const ARTISTAS = [
       "Neil Mitchell",
       "Graeme Duffin"
     ],
-    "hero": "",
+    "hero": "img/wet-wet-wet.jpg",
     "heroPos": "center 30%",
     "bajada": "Cuatro amigos de un pueblo escocés, la voz de Marti Pellow y una canción que pasó quince semanas en el número uno.",
     "descripcion": [
@@ -5799,7 +5799,7 @@ const ARTISTAS = [
       "Mikael Jorgensen",
       "Jay Bennett"
     ],
-    "hero": "",
+    "hero": "img/wilco.jpg",
     "heroPos": "center 30%",
     "bajada": "De la música country alternativa a la experimentación: la banda de Jeff Tweedy nunca hizo dos discos iguales.",
     "descripcion": [
@@ -5842,8 +5842,8 @@ const ARTISTAS = [
       "Mike Dirnt",
       "Tré Cool"
     ],
-    "hero": "",
-    "heroPos": "center 30%",
+    "hero": "img/green-day.jpg",
+    "heroPos": "center 35%",
     "bajada": "Tres chicos del punk de Berkeley que llenaron estadios y terminaron escribiendo una ópera rock sobre su país.",
     "descripcion": [
       "Billie Joe Armstrong y Mike Dirnt se conocieron de chicos en Rodeo, cerca de Berkeley, y armaron la banda a fines de los ochenta en la escena punk del club 924 Gilman Street. Con Tré Cool en batería, su tercer disco, Dookie, de 1994, con “Basket Case” y “When I Come Around”, llevó el pop punk a millones de oyentes.",
@@ -5909,7 +5909,7 @@ const ARTISTAS = [
       "George Michael (solista)",
       "Andrew Ridgeley (en Wham!)"
     ],
-    "hero": "",
+    "hero": "img/george-michael.jpg",
     "heroPos": "center 30%",
     "bajada": "Una de las grandes voces del pop: del ídolo adolescente de Wham! al compositor que peleó por ser tomado en serio.",
     "descripcion": [
@@ -5955,7 +5955,7 @@ const ARTISTAS = [
     "integrantes": [
       "George Harrison (solista)"
     ],
-    "hero": "",
+    "hero": "img/george-harrison.jpg",
     "heroPos": "center 30%",
     "bajada": "“El Beatle silencioso”: guitarrista, compositor que tardó en ser escuchado y buscador espiritual que llevó la India al rock.",
     "descripcion": [
@@ -6261,7 +6261,7 @@ const ARTISTAS = [
       "Kirk Pengilly",
       "Garry Gary Beers"
     ],
-    "hero": "",
+    "hero": "img/inxs.jpg",
     "heroPos": "center 30%",
     "bajada": "Tres hermanos Farriss, un grupo de amigos de Sídney y Michael Hutchence, uno de los frontman más magnéticos del rock.",
     "descripcion": [
@@ -6370,7 +6370,7 @@ const ARTISTAS = [
       "Ben McKee",
       "Daniel Platzman"
     ],
-    "hero": "",
+    "hero": "img/imagine-dragons.jpg",
     "heroPos": "center 30%",
     "bajada": "Tambores gigantes, estribillos para gritar en un estadio y letras sobre luchar contra los propios demonios.",
     "descripcion": [
@@ -6437,7 +6437,7 @@ const ARTISTAS = [
       "Iggy Pop (solista)",
       "David Bowie (productor en Berlín)"
     ],
-    "hero": "",
+    "hero": "img/iggy-pop.jpg",
     "heroPos": "center 30%",
     "bajada": "El padrino del punk: el cuerpo como instrumento, la voz grave y una amistad con Bowie que le cambió la vida.",
     "descripcion": [
@@ -6473,8 +6473,8 @@ const ARTISTAS = [
     "integrantes": [
       "Jackie Wilson (solista)"
     ],
-    "hero": "",
-    "heroPos": "center 30%",
+    "hero": "img/jackie-wilson.jpg",
+    "heroPos": "center 22%",
     "bajada": "“Mr. Excitement”: una voz de cuatro octavas y unos movimientos en el escenario que hasta Elvis admiraba.",
     "descripcion": [
       "Jackie Wilson creció en Detroit, fue boxeador amateur de adolescente y empezó a cantar en grupos de gospel. A comienzos de los cincuenta reemplazó a Clyde McPhatter en The Dominoes y en 1957 inició su carrera solista con canciones escritas por un joven Berry Gordy, que con ese dinero fundaría Motown.",
@@ -6542,8 +6542,8 @@ const ARTISTAS = [
       "Merlo Podlewski",
       "Zach Gill"
     ],
-    "hero": "",
-    "heroPos": "center 30%",
+    "hero": "img/jack-johnson.jpg",
+    "heroPos": "center 40%",
     "bajada": "Un surfista de Hawái con una guitarra acústica y canciones tranquilas que suenan a domingo frente al mar.",
     "descripcion": [
       "Jack Johnson creció en la costa norte de Oʻahu, en Hawái, y a los diecisiete años ya era surfista profesional, hasta que un accidente grave lo alejó de la competencia. Estudió cine en California, filmó películas de surf y empezó a componer canciones para sus bandas sonoras.",
@@ -6614,7 +6614,7 @@ const ARTISTAS = [
       "Jackson Browne (solista)",
       "David Lindley (guitarra y violín)"
     ],
-    "hero": "",
+    "hero": "img/jackson-browne.jpg",
     "heroPos": "center 30%",
     "bajada": "El poeta del rock californiano: canciones sobre el amor, la pérdida y cómo seguir viviendo en un mundo que no siempre tiene sentido.",
     "descripcion": [
@@ -6685,7 +6685,7 @@ const ARTISTAS = [
     "integrantes": [
       "Joan Baez (solista)"
     ],
-    "hero": "",
+    "hero": "img/joan-baez.jpg",
     "heroPos": "center 30%",
     "bajada": "La voz cristalina del folk y de la canción de protesta, que le abrió el escenario a un joven Bob Dylan.",
     "descripcion": [
@@ -6711,8 +6711,8 @@ const ARTISTAS = [
     "integrantes": [
       "Joe Walsh (solista, guitarra y voz)"
     ],
-    "hero": "",
-    "heroPos": "center 30%",
+    "hero": "img/joe-walsh.jpg",
+    "heroPos": "center 25%",
     "bajada": "Un guitarrista con humor, slide filoso y riffs enormes, que pasó de la James Gang a ser uno de los Eagles.",
     "descripcion": [
       "Joe Walsh nació en Wichita, Kansas, y se hizo guitarrista en Ohio. A fines de los sesenta se hizo conocido en la James Gang, un trío de hard rock de Cleveland, y después siguió como solista. En 1973 “Rocky Mountain Way”, con su slide y su talk box, se volvió un clásico de la radio.",
@@ -6755,7 +6755,7 @@ const ARTISTAS = [
       "Douglas Hart",
       "Bobby Gillespie"
     ],
-    "hero": "",
+    "hero": "img/the-jesus-and-mary-chain.jpg",
     "heroPos": "center 30%",
     "bajada": "Melodías de los sesenta enterradas bajo una pared de ruido: los hermanos Reid inventaron un sonido que todavía se imita.",
     "descripcion": [
@@ -6812,8 +6812,8 @@ const ARTISTAS = [
       "Kid Rock (Robert James Ritchie)",
       "Twisted Brown Trucker Band"
     ],
-    "hero": "",
-    "heroPos": "center 30%",
+    "hero": "img/kid-rock.jpg",
+    "heroPos": "center 18%",
     "bajada": "Del rap rock de Detroit al rock sureño y el country: un mismo tipo con sombrero que mezcla todo lo que escuchó de chico.",
     "descripcion": [
       "Robert James Ritchie creció en Romeo, un pueblo rural cerca de Detroit, y a fines de los ochenta empezó como DJ y rapero en la escena de la ciudad. Su gran salto llegó con Devil Without a Cause, de 1998, que mezclaba hip hop, hard rock y guitarras sureñas, con canciones como “Cowboy” y la balada “Only God Knows Why”.",
@@ -6900,8 +6900,8 @@ const ARTISTAS = [
       "Tommy Thayer",
       "Eric Singer"
     ],
-    "hero": "",
-    "heroPos": "center 30%",
+    "hero": "img/kiss.jpg",
+    "heroPos": "center 20%",
     "bajada": "Maquillaje, fuego, sangre falsa y botas de plataforma: la banda que convirtió cada concierto en un espectáculo de historieta.",
     "descripcion": [
       "Paul Stanley y Gene Simmons formaron KISS en Nueva York en 1973, junto al guitarrista Ace Frehley y el baterista Peter Criss. Cada uno se pintó la cara como un personaje: el Chico Estrella, el Demonio, el Hombre del Espacio y el Gato. Sus shows, con fuego, explosiones y Simmons escupiendo sangre, los hicieron famosos antes que sus discos.",
