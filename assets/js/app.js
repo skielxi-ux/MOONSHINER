@@ -23,7 +23,9 @@ const fuse = new Fuse(artistas, {
   threshold: 0.38, ignoreLocation: true
 });
 
-const state = { q: '', pais: '' };
+const state = { q: '', pais: '', letra: '' };
+const inicial = a => a.nombre.normalize('NFD').replace(/[\u0300-\u036f]/g, '').charAt(0).toUpperCase();
+const LETRAS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 let swiper = null;
 
 const CARTA = [
@@ -69,6 +71,12 @@ function renderHome() {
           <button class="chip" data-pais="" aria-pressed="${!state.pais}">Todas</button>
           ${paises.map(p => `<button class="chip" data-pais="${esc(p)}" aria-pressed="${state.pais === p}">${esc(p)}</button>`).join('')}
         </div>
+        <div class="flex flex-wrap items-center gap-1.5 pt-1" role="group" aria-label="Filtrar por letra">
+          <span class="kicker text-muted mr-2"><i class="fa-solid fa-arrow-down-a-z mr-1"></i>Abecedario</span>
+          <button class="letra letra-todas" data-letra="" aria-pressed="${!state.letra}">Todas</button>
+          ${LETRAS.map(l => { const hay = artistas.some(a => inicial(a) === l);
+            return `<button class="letra" data-letra="${l}" aria-pressed="${state.letra === l}" ${hay ? '' : 'disabled'} aria-label="Artistas con ${l}">${l}</button>`; }).join('')}
+        </div>
       </div>
 
       <div class="grid gap-4">
@@ -81,7 +89,6 @@ function renderHome() {
         </div>
         <div class="swiper w-full">
           <div class="swiper-wrapper" id="carousel"></div>
-          <div class="swiper-pagination"></div>
         </div>
       </div>
 
@@ -120,7 +127,6 @@ function renderHome() {
   swiper = new Swiper('.swiper', {
     slidesPerView: 1.15, spaceBetween: 20, grabCursor: true,
     navigation: { prevEl: '.js-prev', nextEl: '.js-next' },
-    pagination: { el: '.swiper-pagination', clickable: true },
     breakpoints: { 600: { slidesPerView: 2 }, 960: { slidesPerView: 3 } },
     a11y: { prevSlideMessage: 'Anterior', nextSlideMessage: 'Siguiente' }
   });
@@ -133,12 +139,18 @@ function renderHome() {
     document.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', c === b));
     renderResults();
   }));
+  document.querySelectorAll('.letra').forEach(b => b.addEventListener('click', () => {
+    state.letra = state.letra === b.dataset.letra ? '' : b.dataset.letra;
+    document.querySelectorAll('.letra').forEach(c => c.setAttribute('aria-pressed', c.dataset.letra === state.letra));
+    renderResults();
+  }));
   renderResults();
 }
 
 function renderResults() {
   let list = state.q.trim() ? fuse.search(state.q.trim()).map(r => r.item) : artistas;
   if (state.pais) list = list.filter(a => a.pais === state.pais);
+  if (state.letra) list = list.filter(a => inicial(a) === state.letra);
   $('#count').textContent = list.length === 1 ? '1 artista' : `${list.length} artistas`;
   $('#results').innerHTML = list.length ? list.map(a => {
     const r = resumen(a), i = artistas.indexOf(a) + 1;
@@ -153,8 +165,8 @@ function renderResults() {
   }).join('') : `
     <div class="py-10 grid gap-2 justify-items-center text-center">
       <i class="fa-solid fa-compact-disc text-4xl text-muted" aria-hidden="true"></i>
-      <p class="text-lg">No hay ningún artista que coincida con “${esc(state.q)}”${state.pais ? ` en ${esc(state.pais)}` : ''}.</p>
-      <p class="text-muted">Probá con otra palabra o elegí la nacionalidad “Todas”.</p>
+      <p class="text-lg">No hay ningún artista que coincida${state.q ? ` con “${esc(state.q)}”` : ''}${state.letra ? ` que empiece con ${state.letra}` : ''}${state.pais ? ` en ${esc(state.pais)}` : ''}.</p>
+      <p class="text-muted">Probá con otra palabra o elegí “Todas”.</p>
     </div>`;
 }
 

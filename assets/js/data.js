@@ -6990,5 +6990,1303 @@ const ARTISTAS = [
         "anio": 1998
       }
     ]
+  },
+  {
+    "id": "van-morrison",
+    "nombre": "Van Morrison",
+    "pais": "Reino Unido",
+    "ciudad": "Belfast, Irlanda del Norte",
+    "anios": "1964 – presente",
+    "genero": "Rock, soul, folk, R&B celta",
+    "integrantes": [
+      "Van Morrison (voz, guitarra, saxo, armónica)"
+    ],
+    "hero": "img/van-morrison.jpg",
+    "heroPos": "center 30%",
+    "bajada": "La voz de Belfast que mezcló el soul de Ray Charles con la poesía irlandesa.",
+    "descripcion": [
+      "George Ivan Morrison nació en Belfast en 1945 y creció escuchando los discos de jazz, blues y soul que coleccionaba su padre. A mediados de los sesenta cantó en Them, la banda de “Gloria”, y en 1967 se lanzó solo con “Brown Eyed Girl”, que se volvió uno de los temas más pasados de la radio.",
+      "En 1968 grabó Astral Weeks, un disco casi improvisado que hoy figura entre los mejores de la historia, y en 1970 llegó Moondance, más luminoso y con canciones como “Into the Mystic”. Lo llaman “The Belfast Cowboy”. Lleva más de cuarenta discos editados y sigue grabando y tocando en vivo."
+    ],
+    "nota": "La lista va en orden cronológico.",
+    "canciones": [
+      {
+        "titulo": "Brown Eyed Girl",
+        "disco": "Blowin’ Your Mind!",
+        "anio": 1967
+      },
+      {
+        "titulo": "And It Stoned Me",
+        "disco": "Moondance",
+        "anio": 1970
+      },
+      {
+        "titulo": "Into the Mystic",
+        "disco": "Moondance",
+        "anio": 1970
+      },
+      {
+        "titulo": "Bright Side of the Road",
+        "disco": "Into the Music",
+        "anio": 1979
+      },
+      {
+        "titulo": "Days Like This",
+        "disco": "Days Like This",
+        "anio": 1995
+      }
+    ]
+  },
+  {
+    "id": "u2",
+    "nombre": "U2",
+    "pais": "Irlanda",
+    "ciudad": "Dublín",
+    "anios": "1976 – presente",
+    "genero": "Rock, post-punk, pop rock",
+    "integrantes": [
+      "Bono (voz)",
+      "The Edge (guitarra, teclados)",
+      "Adam Clayton (bajo)",
+      "Larry Mullen Jr. (batería)"
+    ],
+    "hero": "img/u2.jpg",
+    "heroPos": "center 25%",
+    "bajada": "Cuatro chicos de un colegio de Dublín que terminaron llenando estadios en todo el mundo.",
+    "descripcion": [
+      "U2 nació en 1976, cuando el baterista Larry Mullen Jr. pegó un aviso en el colegio Mount Temple de Dublín buscando músicos. Se sumaron Bono, The Edge y Adam Clayton, y desde entonces son los mismos cuatro. Arrancaron en el post-punk con Boy (1980) y con War (1983) empezaron a cantar sobre política y conflictos, como en “Sunday Bloody Sunday”.",
+      "The Joshua Tree, de 1987, los convirtió en la banda más grande del mundo. En los noventa se reinventaron con la electrónica y la ironía de Achtung Baby y Zooropa, y en 2000 volvieron a un sonido más clásico con All That You Can’t Leave Behind. Ganaron 22 premios Grammy y en 2023 inauguraron el Sphere de Las Vegas."
+    ],
+    "nota": "La lista va en orden cronológico. En “When Love Comes to Town” canta y toca la guitarra B.B. King. “Everlasting Love” es una versión del tema de Robert Knight que salió como lado B de “All I Want Is You”. “Sweetest Thing” aparecía dos veces en la lista y quedó una sola.",
+    "canciones": [
+      {
+        "titulo": "I Will Follow",
+        "disco": "Boy",
+        "anio": 1980
+      },
+      {
+        "titulo": "Sunday Bloody Sunday",
+        "disco": "War",
+        "anio": 1983
+      },
+      {
+        "titulo": "New Year’s Day",
+        "disco": "War",
+        "anio": 1983
+      },
+      {
+        "titulo": "Pride (In the Name of Love)",
+        "disco": "The Unforgettable Fire",
+        "anio": 1984
+      },
+      {
+        "titulo": "Bad",
+        "disco": "The Unforgettable Fire",
+        "anio": 1984
+      },
+      {
+        "titulo": "Where the Streets Have No Name",
+        "disco": "The Joshua Tree",
+        "anio": 1987
+      },
+      {
+        "titulo": "I Still Haven’t Found What I’m Looking For",
+        "disco": "The Joshua Tree",
+        "anio": 1987
+      },
+      {
+        "titulo": "With or Without You",
+        "disco": "The Joshua Tree",
+        "anio": 1987
+      },
+      {
+        "titulo": "Running to Stand Still",
+        "disco": "The Joshua Tree",
+        "anio": 1987
+      },
+      {
+        "titulo": "One Tree Hill",
+        "disco": "The Joshua Tree",
+        "anio": 1987
+      },
+      {
+        "titulo": "Angel of Harlem",
+        "disco": "Rattle and Hum",
+        "anio": 1988
+      },
+      {
+        "titulo": "When Love Comes to Town (con B.B. King)",
+        "disco": "Rattle and Hum",
+        "anio": 1988
+      },
+      {
+        "titulo": "All I Want Is You",
+        "disco": "Rattle and Hum",
+        "anio": 1988
+      },
+      {
+        "titulo": "Everlasting Love",
+        "disco": "Simple · lado B de “All I Want Is You”",
+        "anio": 1989
+      },
+      {
+        "titulo": "Even Better Than the Real Thing",
+        "disco": "Achtung Baby",
+        "anio": 1991
+      },
+      {
+        "titulo": "One",
+        "disco": "Achtung Baby",
+        "anio": 1991
+      },
+      {
+        "titulo": "Mysterious Ways",
+        "disco": "Achtung Baby",
+        "anio": 1991
+      },
+      {
+        "titulo": "Numb",
+        "disco": "Zooropa",
+        "anio": 1993
+      },
+      {
+        "titulo": "Stay (Faraway, So Close!)",
+        "disco": "Zooropa",
+        "anio": 1993
+      },
+      {
+        "titulo": "Staring at the Sun",
+        "disco": "Pop",
+        "anio": 1997
+      },
+      {
+        "titulo": "Sweetest Thing",
+        "disco": "The Best of 1980–1990",
+        "anio": 1998
+      },
+      {
+        "titulo": "Beautiful Day",
+        "disco": "All That You Can’t Leave Behind",
+        "anio": 2000
+      },
+      {
+        "titulo": "Stuck in a Moment You Can’t Get Out Of",
+        "disco": "All That You Can’t Leave Behind",
+        "anio": 2000
+      },
+      {
+        "titulo": "Elevation",
+        "disco": "All That You Can’t Leave Behind",
+        "anio": 2000
+      },
+      {
+        "titulo": "Walk On",
+        "disco": "All That You Can’t Leave Behind",
+        "anio": 2000
+      },
+      {
+        "titulo": "Kite",
+        "disco": "All That You Can’t Leave Behind",
+        "anio": 2000
+      },
+      {
+        "titulo": "In a Little While",
+        "disco": "All That You Can’t Leave Behind",
+        "anio": 2000
+      },
+      {
+        "titulo": "Peace on Earth",
+        "disco": "All That You Can’t Leave Behind",
+        "anio": 2000
+      },
+      {
+        "titulo": "Grace",
+        "disco": "All That You Can’t Leave Behind",
+        "anio": 2000
+      },
+      {
+        "titulo": "Vertigo",
+        "disco": "How to Dismantle an Atomic Bomb",
+        "anio": 2004
+      },
+      {
+        "titulo": "Sometimes You Can’t Make It on Your Own",
+        "disco": "How to Dismantle an Atomic Bomb",
+        "anio": 2004
+      },
+      {
+        "titulo": "City of Blinding Lights",
+        "disco": "How to Dismantle an Atomic Bomb",
+        "anio": 2004
+      },
+      {
+        "titulo": "Original of the Species",
+        "disco": "How to Dismantle an Atomic Bomb",
+        "anio": 2004
+      },
+      {
+        "titulo": "No Line on the Horizon",
+        "disco": "No Line on the Horizon",
+        "anio": 2009
+      },
+      {
+        "titulo": "Moment of Surrender",
+        "disco": "No Line on the Horizon",
+        "anio": 2009
+      },
+      {
+        "titulo": "The Miracle (Of Joey Ramone)",
+        "disco": "Songs of Innocence",
+        "anio": 2014
+      },
+      {
+        "titulo": "Every Breaking Wave",
+        "disco": "Songs of Innocence",
+        "anio": 2014
+      }
+    ]
+  },
+  {
+    "id": "young-the-giant",
+    "nombre": "Young the Giant",
+    "pais": "Estados Unidos",
+    "ciudad": "Irvine, California",
+    "anios": "2004 – presente",
+    "genero": "Indie rock, rock alternativo",
+    "integrantes": [
+      "Sameer Gadhia (voz)",
+      "Jacob Tilley (guitarra)",
+      "Eric Cannata (guitarra)",
+      "Payam Doostzadeh (bajo)",
+      "François Comtois (batería)"
+    ],
+    "hero": "img/young-the-giant.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Indie rock californiano con una voz que viene de muchos lugares a la vez.",
+    "descripcion": [
+      "Young the Giant se formó en 2004 en Irvine, California, con el nombre de The Jakes, y en 2009 se cambió al actual. Su cantante, Sameer Gadhia, es hijo de inmigrantes de la India, y el resto de la banda tiene raíces en Irán, Canadá y Estados Unidos, algo que con los años se volvió un tema central de sus letras.",
+      "Su primer disco, Young the Giant (2010), traía “My Body” y “Cough Syrup”, que los hicieron conocidos en las radios alternativas. Después vinieron Mind Over Matter (2014), Home of the Strange (2016) y Mirror Master (2018), y en 2022 American Bollywood, un disco conceptual sobre la historia de la familia de Gadhia."
+    ],
+    "nota": "La lista va en orden cronológico.",
+    "canciones": [
+      {
+        "titulo": "Cough Syrup",
+        "disco": "Young the Giant",
+        "anio": 2010
+      },
+      {
+        "titulo": "Strings",
+        "disco": "Young the Giant",
+        "anio": 2010
+      },
+      {
+        "titulo": "Mind Over Matter",
+        "disco": "Mind Over Matter",
+        "anio": 2014
+      },
+      {
+        "titulo": "Something to Believe In",
+        "disco": "Home of the Strange",
+        "anio": 2016
+      },
+      {
+        "titulo": "Heat of the Summer",
+        "disco": "Mirror Master",
+        "anio": 2018
+      }
+    ]
+  },
+  {
+    "id": "aerosmith",
+    "nombre": "Aerosmith",
+    "pais": "Estados Unidos",
+    "ciudad": "Boston, Massachusetts",
+    "anios": "1970 – 2024",
+    "genero": "Hard rock, blues rock",
+    "integrantes": [
+      "Steven Tyler (voz)",
+      "Joe Perry (guitarra)",
+      "Brad Whitford (guitarra)",
+      "Tom Hamilton (bajo)",
+      "Joey Kramer (batería)"
+    ],
+    "hero": "img/aerosmith.jpg",
+    "heroPos": "center 25%",
+    "bajada": "Los “Toxic Twins” de Boston: la banda de rock más vendida de la historia de Estados Unidos.",
+    "descripcion": [
+      "Aerosmith se formó en Boston en 1970, alrededor del cantante Steven Tyler y el guitarrista Joe Perry, a quienes por sus excesos apodaron “los gemelos tóxicos”. Con Toys in the Attic (1975) y Rocks (1976) se volvieron la gran banda de hard rock estadounidense, con temas como “Walk This Way”, “Sweet Emotion” y “Dream On”.",
+      "Las drogas y las peleas casi los destruyen a fines de los setenta, y Perry se fue de la banda por unos años. En 1986 la versión de “Walk This Way” con Run-DMC los rescató, y con Permanent Vacation, Pump y Get a Grip vivieron una segunda época dorada, ahora con baladas y videos en MTV. En 2024 anunciaron su retiro de los escenarios por una lesión en la voz de Tyler."
+    ],
+    "nota": "La lista va en orden cronológico. “Remember (Walking in the Sand)”, “Road Runner” y “Stop Messin’ Around” son versiones de otros artistas. “Love in an Elevator” aparecía dos veces en la lista y quedó una sola. “Sedona Sunrise” es una grabación de la época de Get a Grip que se editó recién en 2006.",
+    "canciones": [
+      {
+        "titulo": "Dream On",
+        "disco": "Aerosmith",
+        "anio": 1973
+      },
+      {
+        "titulo": "Walk This Way",
+        "disco": "Toys in the Attic",
+        "anio": 1975
+      },
+      {
+        "titulo": "Sweet Emotion",
+        "disco": "Toys in the Attic",
+        "anio": 1975
+      },
+      {
+        "titulo": "You See Me Crying",
+        "disco": "Toys in the Attic",
+        "anio": 1975
+      },
+      {
+        "titulo": "Back in the Saddle",
+        "disco": "Rocks",
+        "anio": 1976
+      },
+      {
+        "titulo": "Remember (Walking in the Sand)",
+        "disco": "Night in the Ruts",
+        "anio": 1979
+      },
+      {
+        "titulo": "Rag Doll",
+        "disco": "Permanent Vacation",
+        "anio": 1987
+      },
+      {
+        "titulo": "Dude (Looks Like a Lady)",
+        "disco": "Permanent Vacation",
+        "anio": 1987
+      },
+      {
+        "titulo": "Angel",
+        "disco": "Permanent Vacation",
+        "anio": 1987
+      },
+      {
+        "titulo": "Young Lust",
+        "disco": "Pump",
+        "anio": 1989
+      },
+      {
+        "titulo": "F.I.N.E.",
+        "disco": "Pump",
+        "anio": 1989
+      },
+      {
+        "titulo": "Love in an Elevator",
+        "disco": "Pump",
+        "anio": 1989
+      },
+      {
+        "titulo": "Janie’s Got a Gun",
+        "disco": "Pump",
+        "anio": 1989
+      },
+      {
+        "titulo": "What It Takes",
+        "disco": "Pump",
+        "anio": 1989
+      },
+      {
+        "titulo": "Get a Grip",
+        "disco": "Get a Grip",
+        "anio": 1993
+      },
+      {
+        "titulo": "Livin’ on the Edge",
+        "disco": "Get a Grip",
+        "anio": 1993
+      },
+      {
+        "titulo": "Cryin’",
+        "disco": "Get a Grip",
+        "anio": 1993
+      },
+      {
+        "titulo": "Crazy",
+        "disco": "Get a Grip",
+        "anio": 1993
+      },
+      {
+        "titulo": "Amazing",
+        "disco": "Get a Grip",
+        "anio": 1993
+      },
+      {
+        "titulo": "Hole in My Soul",
+        "disco": "Nine Lives",
+        "anio": 1997
+      },
+      {
+        "titulo": "Pink",
+        "disco": "Nine Lives",
+        "anio": 1997
+      },
+      {
+        "titulo": "I Don’t Want to Miss a Thing",
+        "disco": "Armageddon: The Album (banda sonora)",
+        "anio": 1998
+      },
+      {
+        "titulo": "Fly Away from Here",
+        "disco": "Just Push Play",
+        "anio": 2001
+      },
+      {
+        "titulo": "Sunshine",
+        "disco": "Just Push Play",
+        "anio": 2001
+      },
+      {
+        "titulo": "Road Runner",
+        "disco": "Honkin’ on Bobo",
+        "anio": 2004
+      },
+      {
+        "titulo": "Stop Messin’ Around",
+        "disco": "Honkin’ on Bobo",
+        "anio": 2004
+      },
+      {
+        "titulo": "Sedona Sunrise",
+        "disco": "Devil’s Got a New Disguise (compilado)",
+        "anio": 2006
+      }
+    ]
+  },
+  {
+    "id": "badfinger",
+    "nombre": "Badfinger",
+    "pais": "Reino Unido",
+    "ciudad": "Swansea, Gales",
+    "anios": "1969 – 1984",
+    "genero": "Power pop, pop rock",
+    "integrantes": [
+      "Pete Ham (voz, guitarra)",
+      "Tom Evans (bajo, voz)",
+      "Joey Molland (guitarra, voz)",
+      "Mike Gibbins (batería)"
+    ],
+    "hero": "img/badfinger.jpg",
+    "heroPos": "center 40%",
+    "bajada": "Los protegidos de los Beatles, padres del power pop.",
+    "descripcion": [
+      "Badfinger empezó en Swansea, Gales, con el nombre de The Iveys, y fue una de las primeras bandas que firmó con Apple, el sello de los Beatles. En 1969 Paul McCartney les regaló “Come and Get It”, que fue su primer éxito, y George Harrison produjo parte de Straight Up (1971), donde están “Day After Day” y “Baby Blue”.",
+      "Pete Ham y Tom Evans escribieron “Without You”, que años después fue un éxito enorme para Harry Nilsson y Mariah Carey. Pero los problemas con sus representantes y el dinero terminaron en tragedia y la banda nunca tuvo el reconocimiento que merecía. En 2013 “Baby Blue” volvió a sonar en todo el mundo al cerrar la serie Breaking Bad."
+    ],
+    "nota": "La lista va en orden cronológico. “Come and Get It” la escribió y produjo Paul McCartney. En “Day After Day” toca la guitarra slide George Harrison.",
+    "canciones": [
+      {
+        "titulo": "Come and Get It",
+        "disco": "Magic Christian Music",
+        "anio": 1970
+      },
+      {
+        "titulo": "No Matter What",
+        "disco": "No Dice",
+        "anio": 1970
+      },
+      {
+        "titulo": "Day After Day",
+        "disco": "Straight Up",
+        "anio": 1971
+      },
+      {
+        "titulo": "Baby Blue",
+        "disco": "Straight Up",
+        "anio": 1971
+      }
+    ]
+  },
+  {
+    "id": "barry-manilow",
+    "nombre": "Barry Manilow",
+    "pais": "Estados Unidos",
+    "ciudad": "Brooklyn, Nueva York",
+    "anios": "1973 – presente",
+    "genero": "Pop, soft rock, adult contemporary",
+    "integrantes": [
+      "Barry Manilow (voz, piano)"
+    ],
+    "hero": "img/barry-manilow.jpg",
+    "heroPos": "center 30%",
+    "bajada": "El rey de la balada romántica de los setenta.",
+    "descripcion": [
+      "Barry Manilow nació en Brooklyn en 1943. Antes de ser estrella escribía jingles publicitarios y fue pianista y arreglador de Bette Midler. En 1974 “Mandy” llegó al número uno en Estados Unidos y lo lanzó como solista.",
+      "Durante los setenta encadenó éxitos como “I Write the Songs”, “Copacabana” y “Can’t Smile Without You”, y se convirtió en uno de los artistas que más discos vendió en esa década. Sigue tocando en vivo y tiene una larga residencia en Las Vegas."
+    ],
+    "nota": "La lista va en orden cronológico.",
+    "canciones": [
+      {
+        "titulo": "Mandy",
+        "disco": "Barry Manilow II",
+        "anio": 1974
+      },
+      {
+        "titulo": "Can’t Smile Without You",
+        "disco": "Even Now",
+        "anio": 1978
+      }
+    ]
+  },
+  {
+    "id": "bread",
+    "nombre": "Bread",
+    "pais": "Estados Unidos",
+    "ciudad": "Los Ángeles, California",
+    "anios": "1968 – 1973 · 1976 – 1978",
+    "genero": "Soft rock, pop rock",
+    "integrantes": [
+      "David Gates (voz, guitarra, teclados)",
+      "James Griffin (guitarra, voz)",
+      "Robb Royer (bajo, guitarra)",
+      "Mike Botts (batería)",
+      "Larry Knechtel (teclados, bajo)"
+    ],
+    "hero": "img/bread.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Las baladas suaves de David Gates que sonaron en todas las radios de los setenta.",
+    "descripcion": [
+      "Bread se formó en Los Ángeles en 1968, cuando el compositor y productor David Gates se juntó con James Griffin y Robb Royer. En 1970 “Make It with You” llegó al número uno en Estados Unidos, y desde ahí encadenaron éxitos como “If”, “Baby I’m-a Want You” y “Everything I Own”.",
+      "Su sonido suave, con armonías y guitarras acústicas, fue uno de los que definió el soft rock de los setenta. Las diferencias entre Gates y Griffin sobre qué canciones salían como simples separaron a la banda en 1973. Volvieron en 1976 con Lost Without Your Love y se despidieron poco después."
+    ],
+    "nota": "La lista va en orden cronológico. Gates escribió “Everything I Own” pensando en su padre, que había muerto poco antes.",
+    "canciones": [
+      {
+        "titulo": "Mother Freedom",
+        "disco": "Baby I’m-a Want You",
+        "anio": 1972
+      },
+      {
+        "titulo": "Everything I Own",
+        "disco": "Baby I’m-a Want You",
+        "anio": 1972
+      }
+    ]
+  },
+  {
+    "id": "brewer-and-shipley",
+    "nombre": "Brewer & Shipley",
+    "pais": "Estados Unidos",
+    "ciudad": "Kent, Ohio · Los Ángeles",
+    "anios": "1967 – 1978 · 1993 – 2021",
+    "genero": "Folk rock, country rock",
+    "integrantes": [
+      "Mike Brewer (voz, guitarra)",
+      "Tom Shipley (voz, guitarra)"
+    ],
+    "hero": "img/brewer-and-shipley.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Dos voces folk de la contracultura, famosos por “One Toke Over the Line”.",
+    "descripcion": [
+      "Mike Brewer, de Oklahoma, y Tom Shipley se conocieron en el circuito de cafés folk de Kent, Ohio, y en 1968 se mudaron juntos a Los Ángeles. Allí grabaron sus primeros discos, Down in L.A. y Weeds, con armonías a dos voces en la línea de Simon & Garfunkel o Crosby, Stills & Nash.",
+      "En 1970 sacaron Tarkio, y su tema “One Toke Over the Line” fue un éxito que el gobierno de Nixon señaló como una canción sobre drogas. Siguieron con Shake Off the Demon y Rural Space, y después de separarse a fines de los setenta volvieron a tocar juntos durante muchos años en el Medio Oeste."
+    ],
+    "nota": "La lista va en orden cronológico. “Fifty States of Freedom” cierra el disco Tarkio y dura casi siete minutos.",
+    "canciones": [
+      {
+        "titulo": "People Love Each Other",
+        "disco": "Weeds",
+        "anio": 1969
+      },
+      {
+        "titulo": "Fifty States of Freedom",
+        "disco": "Tarkio",
+        "anio": 1970
+      },
+      {
+        "titulo": "Shake Off the Demon",
+        "disco": "Shake Off the Demon",
+        "anio": 1971
+      }
+    ]
+  },
+  {
+    "id": "albert-hammond",
+    "nombre": "Albert Hammond",
+    "pais": "Reino Unido",
+    "ciudad": "Gibraltar",
+    "anios": "1960 – presente",
+    "genero": "Pop, soft rock",
+    "integrantes": [
+      "Albert Hammond (voz, guitarra)"
+    ],
+    "hero": "img/albert-hammond.jpg",
+    "heroPos": "center 35%",
+    "bajada": "El cantautor de Gibraltar que escribió éxitos para medio mundo.",
+    "descripcion": [
+      "Albert Hammond nació en Londres en 1944 y creció en Gibraltar, donde empezó a tocar en bandas locales y en España. En 1972 se mudó a Estados Unidos y grabó “It Never Rains in Southern California”, una canción sobre llegar a Los Ángeles a buscar suerte y no encontrarla, que fue un éxito en todo el mundo.",
+      "Pero su mayor obra está en canciones que cantaron otros: con Mike Hazlewood compuso “The Air That I Breathe”, que grabaron The Hollies, y también escribió “When I Need You” para Leo Sayer, “Nothing’s Gonna Stop Us Now” para Starship y “One Moment in Time” para Whitney Houston. Grabó además discos en español, y es el padre de Albert Hammond Jr., guitarrista de The Strokes."
+    ],
+    "nota": "“The Air That I Breathe”, de The Hollies, también es suya.",
+    "canciones": [
+      {
+        "titulo": "It Never Rains in Southern California",
+        "disco": "It Never Rains in Southern California",
+        "anio": 1972
+      }
+    ]
+  },
+  {
+    "id": "alex-ebert",
+    "nombre": "Alex Ebert",
+    "pais": "Estados Unidos",
+    "ciudad": "Los Ángeles, California",
+    "anios": "1998 – presente",
+    "genero": "Indie folk, rock alternativo",
+    "integrantes": [
+      "Alex Ebert (voz, guitarra)"
+    ],
+    "hero": "img/alex-ebert.jpg",
+    "heroPos": "center 20%",
+    "bajada": "La voz de Edward Sharpe and the Magnetic Zeros, en su faceta solista.",
+    "descripcion": [
+      "Alex Ebert nació en Los Ángeles en 1978. A fines de los noventa armó la banda Ima Robot, pero después de salir de una época de adicciones inventó a Edward Sharpe, un personaje mesiánico, y formó Edward Sharpe and the Magnetic Zeros, un colectivo folk con más de diez músicos que se hizo conocido en 2009 con “Home”.",
+      "En 2011 sacó su primer disco solista, Alexander, grabado casi todo por él solo en su casa, de donde sale “Truth”, con su silbido y su ritmo lento, que después sonó en muchas series y publicidades. En 2014 ganó un Globo de Oro por la música de la película All Is Lost."
+    ],
+    "nota": "",
+    "canciones": [
+      {
+        "titulo": "Truth",
+        "disco": "Alexander",
+        "anio": 2011
+      }
+    ]
+  },
+  {
+    "id": "al-green",
+    "nombre": "Al Green",
+    "pais": "Estados Unidos",
+    "ciudad": "Forrest City, Arkansas · Memphis",
+    "anios": "1967 – presente",
+    "genero": "Soul, R&B, gospel",
+    "integrantes": [
+      "Al Green (voz)"
+    ],
+    "hero": "img/al-green.jpg",
+    "heroPos": "center 30%",
+    "bajada": "La voz más dulce del soul de Memphis.",
+    "descripcion": [
+      "Al Green nació en 1946 en Forrest City, Arkansas, y empezó cantando gospel con sus hermanos. En Memphis conoció al productor Willie Mitchell, del sello Hi Records, y juntos crearon un soul suave y elegante, con la voz de Green casi susurrada sobre una banda muy contenida. “Tired of Being Alone” fue su primer gran éxito, en 1971.",
+      "Después llegaron “Let’s Stay Together”, “I’m Still in Love with You” y “Love and Happiness”, que lo convirtieron en el gran cantante de soul de los setenta. A fines de esa década se ordenó pastor y dejó la música secular para dedicarse al gospel desde su propia iglesia en Memphis, aunque años después volvió a grabar soul."
+    ],
+    "nota": "La lista va en orden cronológico. “How Can You Mend a Broken Heart” es una canción de los Bee Gees.",
+    "canciones": [
+      {
+        "titulo": "Tired of Being Alone",
+        "disco": "Al Green Gets Next to You",
+        "anio": 1971
+      },
+      {
+        "titulo": "How Can You Mend a Broken Heart",
+        "disco": "Let’s Stay Together",
+        "anio": 1972
+      }
+    ]
+  },
+  {
+    "id": "a-ha",
+    "nombre": "a-ha",
+    "pais": "Noruega",
+    "ciudad": "Oslo",
+    "anios": "1982 – presente",
+    "genero": "Synth-pop, new wave, pop rock",
+    "integrantes": [
+      "Morten Harket (voz)",
+      "Paul Waaktaar-Savoy (guitarra)",
+      "Magne Furuholmen (teclados)"
+    ],
+    "hero": "img/a-ha.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Tres noruegos, un falsete imposible y el video más famoso de los ochenta.",
+    "descripcion": [
+      "a-ha se formó en Oslo en 1982, cuando Paul Waaktaar-Savoy y Magne Furuholmen se juntaron con el cantante Morten Harket y se mudaron a Londres a buscar suerte. “Take On Me” fracasó dos veces antes de que, en 1985, un video que mezclaba imagen real con dibujos a lápiz la llevara al número uno en Estados Unidos y a medio mundo.",
+      "Fueron la primera banda noruega en lograr un éxito global y siguieron llenando estadios, sobre todo en Europa y Sudamérica: en 1991 tocaron ante casi 200.000 personas en el Rock in Rio. En los noventa se separaron y volvieron varias veces, y en 2017 grabaron un MTV Unplugged que les dio un segundo aire."
+    ],
+    "nota": "La lista va en orden cronológico. “Crying in the Rain” es una versión de los Everly Brothers.",
+    "canciones": [
+      {
+        "titulo": "Take On Me",
+        "disco": "Hunting High and Low",
+        "anio": 1985
+      },
+      {
+        "titulo": "Crying in the Rain",
+        "disco": "East of the Sun, West of the Moon",
+        "anio": 1990
+      }
+    ]
+  },
+  {
+    "id": "crowded-house",
+    "nombre": "Crowded House",
+    "pais": "Australia",
+    "ciudad": "Melbourne",
+    "anios": "1985 – 1996 · 2006 – presente",
+    "genero": "Pop rock, rock alternativo",
+    "integrantes": [
+      "Neil Finn (voz, guitarra)",
+      "Nick Seymour (bajo)",
+      "Paul Hester (batería)",
+      "Tim Finn (teclados, voz)",
+      "Mark Hart (teclados, guitarra)"
+    ],
+    "hero": "img/crowded-house.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Las canciones perfectas del neozelandés Neil Finn.",
+    "descripcion": [
+      "Crowded House se formó en Melbourne en 1985, después de la separación de Split Enz, la banda neozelandesa de los hermanos Tim y Neil Finn. Neil, junto al baterista Paul Hester y el bajista Nick Seymour, se fue a Los Ángeles a grabar el primer disco, y en 1987 “Don’t Dream It’s Over” llegó al número dos en Estados Unidos.",
+      "Con Temple of Low Men y Woodface, donde se sumó Tim Finn, se ganaron fama de tener algunas de las canciones pop mejor escritas de su época. Se despidieron en 1996 con un concierto gratuito frente a la Ópera de Sídney. Hester murió en 2005, y al año siguiente Neil Finn volvió a armar la banda."
+    ],
+    "nota": "La lista va en orden cronológico.",
+    "canciones": [
+      {
+        "titulo": "Don’t Dream It’s Over",
+        "disco": "Crowded House",
+        "anio": 1986
+      },
+      {
+        "titulo": "Better Be Home Soon",
+        "disco": "Temple of Low Men",
+        "anio": 1988
+      },
+      {
+        "titulo": "Fall at Your Feet",
+        "disco": "Woodface",
+        "anio": 1991
+      }
+    ]
+  },
+  {
+    "id": "counting-crows",
+    "nombre": "Counting Crows",
+    "pais": "Estados Unidos",
+    "ciudad": "Berkeley, California",
+    "anios": "1991 – presente",
+    "genero": "Rock alternativo, folk rock",
+    "integrantes": [
+      "Adam Duritz (voz)",
+      "David Bryson (guitarra)",
+      "Charlie Gillingham (teclados)",
+      "Dan Vickrey (guitarra)",
+      "David Immerglück (guitarra)",
+      "Millard Powers (bajo)",
+      "Jim Bogios (batería)"
+    ],
+    "hero": "img/counting-crows.jpg",
+    "heroPos": "center 30%",
+    "bajada": "La voz y las rastas de Adam Duritz, entre Van Morrison y The Band.",
+    "descripcion": [
+      "Counting Crows se formó en 1991 en la zona de San Francisco, alrededor del cantante Adam Duritz. Su primer disco, August and Everything After (1993), con “Mr. Jones” y “Round Here”, vendió millones de copias y los ubicó como herederos del rock de raíz de Van Morrison y The Band.",
+      "Duritz escribe canciones muy personales, en las que cuenta sus problemas de ansiedad, la fama y sus amores, y en vivo cambia las letras cada noche. Siguieron editando discos, como Recovering the Satellites, y en 2004 su versión de “Accidentally in Love” para Shrek 2 fue nominada al Oscar."
+    ],
+    "nota": "La lista va en orden cronológico. “Big Yellow Taxi” es una versión de Joni Mitchell, cantada con Vanessa Carlton.",
+    "canciones": [
+      {
+        "titulo": "Round Here",
+        "disco": "August and Everything After",
+        "anio": 1993
+      },
+      {
+        "titulo": "Mr. Jones",
+        "disco": "August and Everything After",
+        "anio": 1993
+      },
+      {
+        "titulo": "Big Yellow Taxi (con Vanessa Carlton)",
+        "disco": "Hard Candy",
+        "anio": 2002
+      }
+    ]
+  },
+  {
+    "id": "chris-isaak",
+    "nombre": "Chris Isaak",
+    "pais": "Estados Unidos",
+    "ciudad": "Stockton, California",
+    "anios": "1984 – presente",
+    "genero": "Rock, rockabilly, pop",
+    "integrantes": [
+      "Chris Isaak (voz, guitarra)"
+    ],
+    "hero": "img/chris-isaak.jpg",
+    "heroPos": "center 25%",
+    "bajada": "El heredero californiano de Roy Orbison y Elvis.",
+    "descripcion": [
+      "Chris Isaak nació en Stockton, California, en 1956, y fue boxeador aficionado antes de dedicarse a la música. Con su banda Silvertone grabó discos que mezclaban rockabilly, baladas y guitarras con mucho eco, y una voz que pasaba del registro grave al falsete, al estilo de Roy Orbison.",
+      "Su gran salto fue casi casual: en 1990 David Lynch usó una versión instrumental de “Wicked Game” en la película Corazón salvaje, una radio de Atlanta empezó a pasarla y terminó siendo un éxito mundial, con un video en blanco y negro junto a la modelo Helena Christensen. También actuó en películas y tuvo su propio programa de televisión."
+    ],
+    "nota": "La lista va en orden cronológico. “I Want You to Want Me” es una versión de Cheap Trick, grabada para su disco de grandes éxitos.",
+    "canciones": [
+      {
+        "titulo": "Wicked Game",
+        "disco": "Heart Shaped World",
+        "anio": 1989
+      },
+      {
+        "titulo": "San Francisco Days",
+        "disco": "San Francisco Days",
+        "anio": 1993
+      },
+      {
+        "titulo": "I Want You to Want Me",
+        "disco": "Best of Chris Isaak",
+        "anio": 2006
+      }
+    ]
+  },
+  {
+    "id": "christopher-denny",
+    "nombre": "Christopher Denny",
+    "pais": "Estados Unidos",
+    "ciudad": "Little Rock, Arkansas",
+    "anios": "2007 – presente",
+    "genero": "Americana, country, folk",
+    "integrantes": [
+      "Christopher Denny (voz, guitarra)"
+    ],
+    "hero": "img/christopher-denny.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Una voz de otra época salida de Arkansas.",
+    "descripcion": [
+      "Christopher Denny es un cantautor de Little Rock, Arkansas, que se formó tocando en veredas y bares de Dallas y Chicago. Su voz aguda y temblorosa, con ecos de Roy Orbison y Jeff Buckley, llamó la atención desde su primer disco, Age Old Hunger, de 2007.",
+      "Pasaron siete años hasta el segundo, If the Roses Don’t Kill Us (2014), producido en Nashville, con canciones de amor y de redención escritas después de una época de adicciones. Es un artista de culto dentro del country y la Americana."
+    ],
+    "nota": "La lista va en orden cronológico.",
+    "canciones": [
+      {
+        "titulo": "Heart’s on Fire",
+        "disco": "Age Old Hunger",
+        "anio": 2007
+      },
+      {
+        "titulo": "Our Kind of Love",
+        "disco": "If the Roses Don’t Kill Us",
+        "anio": 2014
+      },
+      {
+        "titulo": "If the Roses Don’t Kill Us",
+        "disco": "If the Roses Don’t Kill Us",
+        "anio": 2014
+      }
+    ]
+  },
+  {
+    "id": "commodores",
+    "nombre": "Commodores",
+    "pais": "Estados Unidos",
+    "ciudad": "Tuskegee, Alabama",
+    "anios": "1968 – presente",
+    "genero": "Funk, soul, R&B",
+    "integrantes": [
+      "Lionel Richie (voz, saxo, piano)",
+      "William King (trompeta)",
+      "Thomas McClary (guitarra)",
+      "Milan Williams (teclados)",
+      "Ronald LaPread (bajo)",
+      "Walter Orange (batería, voz)"
+    ],
+    "hero": "img/commodores.jpg",
+    "heroPos": "center 40%",
+    "bajada": "Del funk de Motown a las baladas de Lionel Richie.",
+    "descripcion": [
+      "Commodores se formó en 1968 con estudiantes del Instituto Tuskegee, en Alabama. Firmaron con Motown y en sus comienzos telonearon a los Jackson 5, tocando un funk bailable con temas como “Machine Gun” y “Brick House”.",
+      "Con el tiempo las baladas que escribía Lionel Richie se volvieron su sello: “Easy” en 1977 y “Three Times a Lady” en 1978, que llegó al número uno. Richie se fue en 1982 para hacer carrera solista y la banda siguió sin él; en 1985 “Nightshift”, un homenaje a Marvin Gaye y Jackie Wilson, les dio un Grammy."
+    ],
+    "nota": "La lista va en orden cronológico. “Nightshift” la canta el baterista Walter Orange y está dedicada a Marvin Gaye y Jackie Wilson, los dos muertos en 1984.",
+    "canciones": [
+      {
+        "titulo": "Easy",
+        "disco": "Commodores",
+        "anio": 1977
+      },
+      {
+        "titulo": "Three Times a Lady",
+        "disco": "Natural High",
+        "anio": 1978
+      },
+      {
+        "titulo": "Nightshift",
+        "disco": "Nightshift",
+        "anio": 1985
+      }
+    ]
+  },
+  {
+    "id": "the-beach-boys",
+    "nombre": "The Beach Boys",
+    "pais": "Estados Unidos",
+    "ciudad": "Hawthorne, California",
+    "anios": "1961 – presente",
+    "genero": "Pop, surf rock, pop psicodélico",
+    "integrantes": [
+      "Brian Wilson (bajo, teclados, voz)",
+      "Mike Love (voz)",
+      "Carl Wilson (guitarra, voz)",
+      "Dennis Wilson (batería, voz)",
+      "Al Jardine (guitarra, voz)",
+      "Bruce Johnston (bajo, teclados, voz)"
+    ],
+    "hero": "img/the-beach-boys.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Las armonías de California y el genio de Brian Wilson.",
+    "descripcion": [
+      "The Beach Boys se formó en 1961 en Hawthorne, California, con los hermanos Brian, Dennis y Carl Wilson, su primo Mike Love y su amigo Al Jardine. Empezaron cantando sobre surf, autos y chicas del verano, con armonías vocales muy elaboradas, y temas como “Surfin’ U.S.A.” e “I Get Around” los convirtieron en la gran respuesta estadounidense a los Beatles.",
+      "Brian Wilson dejó de salir de gira para encerrarse en el estudio y en 1966 creó Pet Sounds, considerado uno de los mejores discos de la historia, y el simple “Good Vibrations”. Después vinieron años difíciles por la salud mental de Brian, pero la banda siguió grabando joyas como Surf’s Up y Holland, y en 1988 volvió al número uno con “Kokomo”. Brian Wilson murió en junio de 2025."
+    ],
+    "nota": "La lista va en orden cronológico. Paul McCartney dijo que “God Only Knows” es su canción favorita de todos los tiempos.",
+    "canciones": [
+      {
+        "titulo": "Surfin’ U.S.A.",
+        "disco": "Surfin’ U.S.A.",
+        "anio": 1963
+      },
+      {
+        "titulo": "Fun, Fun, Fun",
+        "disco": "Shut Down Volume 2",
+        "anio": 1964
+      },
+      {
+        "titulo": "Don’t Worry Baby",
+        "disco": "Shut Down Volume 2",
+        "anio": 1964
+      },
+      {
+        "titulo": "I Get Around",
+        "disco": "All Summer Long",
+        "anio": 1964
+      },
+      {
+        "titulo": "California Girls",
+        "disco": "Summer Days (and Summer Nights!!)",
+        "anio": 1965
+      },
+      {
+        "titulo": "Barbara Ann",
+        "disco": "Beach Boys’ Party!",
+        "anio": 1965
+      },
+      {
+        "titulo": "Wouldn’t It Be Nice",
+        "disco": "Pet Sounds",
+        "anio": 1966
+      },
+      {
+        "titulo": "God Only Knows",
+        "disco": "Pet Sounds",
+        "anio": 1966
+      },
+      {
+        "titulo": "Good Vibrations",
+        "disco": "Smiley Smile",
+        "anio": 1967
+      },
+      {
+        "titulo": "Do It Again",
+        "disco": "20/20",
+        "anio": 1969
+      },
+      {
+        "titulo": "I Can Hear Music",
+        "disco": "20/20",
+        "anio": 1969
+      },
+      {
+        "titulo": "Time to Get Alone",
+        "disco": "20/20",
+        "anio": 1969
+      },
+      {
+        "titulo": "Feel Flows",
+        "disco": "Surf’s Up",
+        "anio": 1971
+      },
+      {
+        "titulo": "Sail On, Sailor",
+        "disco": "Holland",
+        "anio": 1973
+      },
+      {
+        "titulo": "Come Go with Me",
+        "disco": "M.I.U. Album",
+        "anio": 1978
+      },
+      {
+        "titulo": "Kokomo",
+        "disco": "Cocktail (banda sonora)",
+        "anio": 1988
+      }
+    ]
+  },
+  {
+    "id": "the-doors",
+    "nombre": "The Doors",
+    "pais": "Estados Unidos",
+    "ciudad": "Los Ángeles, California",
+    "anios": "1965 – 1973",
+    "genero": "Rock psicodélico, blues rock",
+    "integrantes": [
+      "Jim Morrison (voz)",
+      "Ray Manzarek (teclados, bajo)",
+      "Robby Krieger (guitarra)",
+      "John Densmore (batería)"
+    ],
+    "hero": "img/the-doors.jpg",
+    "heroPos": "center 30%",
+    "bajada": "El Rey Lagarto y el órgano de Ray Manzarek: el lado oscuro de los sesenta.",
+    "descripcion": [
+      "The Doors se formó en Los Ángeles en 1965, cuando Jim Morrison, un estudiante de cine que escribía poesía, le recitó unos versos a Ray Manzarek en una playa de Venice. Sumaron a Robby Krieger y John Densmore, y tomaron el nombre de un libro de Aldous Huxley. No tenían bajista: Manzarek tocaba las líneas de bajo con la mano izquierda en un teclado.",
+      "Su primer disco, de 1967, trajo “Light My Fire”, que llegó al número uno, y “Break On Through”. Morrison, con su voz grave y sus shows provocadores, se volvió un ícono de la contracultura y tuvo varios problemas con la policía. En 1971, después de grabar L.A. Woman, se fue a París, donde murió en julio de ese año, a los 27. La banda siguió dos discos más sin él."
+    ],
+    "nota": "La lista va en orden cronológico. “Light My Fire” y “Love Me Two Times” las escribió el guitarrista Robby Krieger.",
+    "canciones": [
+      {
+        "titulo": "Break On Through (To the Other Side)",
+        "disco": "The Doors",
+        "anio": 1967
+      },
+      {
+        "titulo": "Light My Fire",
+        "disco": "The Doors",
+        "anio": 1967
+      },
+      {
+        "titulo": "People Are Strange",
+        "disco": "Strange Days",
+        "anio": 1967
+      },
+      {
+        "titulo": "Love Me Two Times",
+        "disco": "Strange Days",
+        "anio": 1967
+      },
+      {
+        "titulo": "Tell All the People",
+        "disco": "The Soft Parade",
+        "anio": 1969
+      },
+      {
+        "titulo": "Peace Frog",
+        "disco": "Morrison Hotel",
+        "anio": 1970
+      },
+      {
+        "titulo": "Roadhouse Blues",
+        "disco": "Morrison Hotel",
+        "anio": 1970
+      },
+      {
+        "titulo": "Riders on the Storm",
+        "disco": "L.A. Woman",
+        "anio": 1971
+      }
+    ]
+  },
+  {
+    "id": "the-jayhawks",
+    "nombre": "The Jayhawks",
+    "pais": "Estados Unidos",
+    "ciudad": "Minneapolis, Minnesota",
+    "anios": "1984 – presente",
+    "genero": "Alt-country, country rock, Americana",
+    "integrantes": [
+      "Gary Louris (voz, guitarra)",
+      "Mark Olson (voz, guitarra)",
+      "Marc Perlman (bajo)",
+      "Karen Grotberg (teclados, voz)",
+      "Tim O’Reagan (batería, voz)"
+    ],
+    "hero": "img/the-jayhawks.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Las armonías de Minneapolis que fundaron el alt-country.",
+    "descripcion": [
+      "The Jayhawks se formó en Minneapolis en 1984 alrededor de Mark Olson, y al año siguiente se sumó Gary Louris. Las dos voces juntas, con ecos de Gram Parsons y los Everly Brothers, se volvieron su marca. Con Hollywood Town Hall (1992) y “Waiting for the Sun” llegaron a un público más amplio, y Tomorrow the Green Grass (1995) es uno de los discos clave del alt-country.",
+      "Olson se fue a fines de 1995 y Louris tomó el mando, llevando a la banda hacia un pop rock más pulido en Sound of Lies, Smile y Rainy Day Music. Después de varias pausas y reencuentros, siguen grabando: Back Roads and Abandoned Motels (2018) reúne canciones que Louris había escrito con las Dixie Chicks y Jakob Dylan, y en 2026 sacaron Sanctuary Park."
+    ],
+    "nota": "La lista va en orden cronológico. “Everybody Knows” y “Bitter End” las escribió Gary Louris con las Dixie Chicks, y “Gonna Be a Darkness” con Jakob Dylan, de The Wallflowers.",
+    "canciones": [
+      {
+        "titulo": "Ain’t No End",
+        "disco": "Blue Earth",
+        "anio": 1989
+      },
+      {
+        "titulo": "Sioux City",
+        "disco": "Blue Earth",
+        "anio": 1989
+      },
+      {
+        "titulo": "Waiting for the Sun",
+        "disco": "Hollywood Town Hall",
+        "anio": 1992
+      },
+      {
+        "titulo": "Nevada, California",
+        "disco": "Hollywood Town Hall",
+        "anio": 1992
+      },
+      {
+        "titulo": "Blue",
+        "disco": "Tomorrow the Green Grass",
+        "anio": 1995
+      },
+      {
+        "titulo": "I’d Run Away",
+        "disco": "Tomorrow the Green Grass",
+        "anio": 1995
+      },
+      {
+        "titulo": "See Him on the Street",
+        "disco": "Tomorrow the Green Grass",
+        "anio": 1995
+      },
+      {
+        "titulo": "The Man Who Loved Life",
+        "disco": "Sound of Lies",
+        "anio": 1997
+      },
+      {
+        "titulo": "Trouble",
+        "disco": "Sound of Lies",
+        "anio": 1997
+      },
+      {
+        "titulo": "It’s Up to You",
+        "disco": "Sound of Lies",
+        "anio": 1997
+      },
+      {
+        "titulo": "Stick in the Mud",
+        "disco": "Sound of Lies",
+        "anio": 1997
+      },
+      {
+        "titulo": "Smile",
+        "disco": "Smile",
+        "anio": 2000
+      },
+      {
+        "titulo": "I’m Gonna Make You Love Me",
+        "disco": "Smile",
+        "anio": 2000
+      },
+      {
+        "titulo": "What Led Me to This Town",
+        "disco": "Smile",
+        "anio": 2000
+      },
+      {
+        "titulo": "Somewhere in Ohio",
+        "disco": "Smile",
+        "anio": 2000
+      },
+      {
+        "titulo": "A Break in the Clouds",
+        "disco": "Smile",
+        "anio": 2000
+      },
+      {
+        "titulo": "Queen of the World",
+        "disco": "Smile",
+        "anio": 2000
+      },
+      {
+        "titulo": "Broken Harpoon",
+        "disco": "Smile",
+        "anio": 2000
+      },
+      {
+        "titulo": "Mr. Wilson",
+        "disco": "Smile",
+        "anio": 2000
+      },
+      {
+        "titulo": "Better Days",
+        "disco": "Smile",
+        "anio": 2000
+      },
+      {
+        "titulo": "Stumbling Through the Dark",
+        "disco": "Rainy Day Music",
+        "anio": 2003
+      },
+      {
+        "titulo": "Tailspin",
+        "disco": "Rainy Day Music",
+        "anio": 2003
+      },
+      {
+        "titulo": "All the Right Reasons",
+        "disco": "Rainy Day Music",
+        "anio": 2003
+      },
+      {
+        "titulo": "Save It for a Rainy Day",
+        "disco": "Rainy Day Music",
+        "anio": 2003
+      },
+      {
+        "titulo": "Eyes of Sarahjane",
+        "disco": "Rainy Day Music",
+        "anio": 2003
+      },
+      {
+        "titulo": "Pouring Rain at Dawn",
+        "disco": "Mockingbird Time",
+        "anio": 2011
+      },
+      {
+        "titulo": "Quiet Corners & Empty Spaces",
+        "disco": "Paging Mr. Proust",
+        "anio": 2016
+      },
+      {
+        "titulo": "Lovers of the Sun",
+        "disco": "Paging Mr. Proust",
+        "anio": 2016
+      },
+      {
+        "titulo": "Comeback Kids",
+        "disco": "Paging Mr. Proust",
+        "anio": 2016
+      },
+      {
+        "titulo": "Everybody Knows",
+        "disco": "Back Roads and Abandoned Motels",
+        "anio": 2018
+      },
+      {
+        "titulo": "Gonna Be a Darkness",
+        "disco": "Back Roads and Abandoned Motels",
+        "anio": 2018
+      },
+      {
+        "titulo": "Bitter End",
+        "disco": "Back Roads and Abandoned Motels",
+        "anio": 2018
+      },
+      {
+        "titulo": "This Forgotten Town",
+        "disco": "XOXO",
+        "anio": 2020
+      },
+      {
+        "titulo": "Bitter Pill",
+        "disco": "XOXO",
+        "anio": 2020
+      },
+      {
+        "titulo": "Keeping Our Heads Above Water",
+        "disco": "Sanctuary Park",
+        "anio": 2026
+      },
+      {
+        "titulo": "American Midnight",
+        "disco": "Sanctuary Park",
+        "anio": 2026
+      }
+    ]
   }
 ];

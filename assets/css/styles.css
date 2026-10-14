@@ -67,6 +67,11 @@ a { color: inherit; }
 .chip { font-family: var(--font-label); font-weight: 600; text-transform: uppercase; letter-spacing: .07em; font-size: .9rem; padding: .25rem .8rem; border: 1.5px solid var(--ink); background: transparent; color: var(--ink); }
 .chip:hover { background: var(--panel); }
 .chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.letra { font-family: var(--font-label); font-weight: 700; font-size: 1.05rem; min-width: 2.25rem; height: 2.25rem; padding: 0 .35rem; border: 1.5px solid var(--hair); background: transparent; color: var(--ink); }
+.letra.letra-todas { text-transform: uppercase; letter-spacing: .07em; font-size: .9rem; font-weight: 600; padding: 0 .7rem; border-color: var(--ink); }
+.letra:hover:not(:disabled) { border-color: var(--ink); background: var(--panel); }
+.letra[aria-pressed="true"] { background: var(--red); border-color: var(--red); color: #fff; }
+.letra:disabled { color: var(--hair); border-color: transparent; cursor: default; }
 
 /* tarjetas del carrusel */
 .cover { position: relative; display: block; text-decoration: none; background: var(--hero-bg); aspect-ratio: 4 / 5; max-width: 100%; overflow: hidden; }
@@ -76,7 +81,6 @@ a { color: inherit; }
 .cover-body { position: absolute; inset: auto 0 0 0; z-index: 2; padding: 1.1rem 1.2rem 1.3rem; color: var(--on-dark); display: grid; gap: .35rem; }
 .cover-top { position: absolute; top: 1rem; left: 1rem; z-index: 2; }
 .cover-name { font-family: var(--font-display); font-weight: 900; font-size: 2.4rem; line-height: .95; }
-.swiper { padding-bottom: 2.4rem !important; }
 .swiper-slide { height: auto; }
 .swiper-pagination-bullet { background: var(--muted); opacity: .45; border-radius: 0; width: 18px; height: 4px; }
 .swiper-pagination-bullet-active { background: var(--red); opacity: 1; }
