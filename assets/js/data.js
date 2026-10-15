@@ -8799,8 +8799,8 @@ const ARTISTAS = [
       "Jeff Beck (guitarra)",
       "Nile Rodgers (guitarra)"
     ],
-    "hero": "",
-    "heroPos": "center 30%",
+    "hero": "img/the-honeydrippers.jpg",
+    "heroPos": "center 25%",
     "bajada": "El homenaje de Robert Plant y Jimmy Page al rhythm and blues de los cincuenta.",
     "descripcion": [
       "The Honeydrippers fue un proyecto que Robert Plant armó en 1981, después de la separación de Led Zeppelin, para tocar en bares chicos las canciones de rhythm and blues y rock and roll que escuchaba de joven. El nombre venía de un viejo pianista de blues, Roosevelt “The Honeydripper” Sykes.",
