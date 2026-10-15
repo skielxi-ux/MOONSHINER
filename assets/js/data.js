@@ -8785,5 +8785,325 @@ const ARTISTAS = [
         "anio": 2025
       }
     ]
+  },
+  {
+    "id": "the-honeydrippers",
+    "nombre": "The Honeydrippers",
+    "pais": "Reino Unido",
+    "ciudad": "Inglaterra",
+    "anios": "1981 – 1985",
+    "genero": "Rhythm and blues, rock and roll",
+    "integrantes": [
+      "Robert Plant (voz)",
+      "Jimmy Page (guitarra)",
+      "Jeff Beck (guitarra)",
+      "Nile Rodgers (guitarra)"
+    ],
+    "hero": "",
+    "heroPos": "center 30%",
+    "bajada": "El homenaje de Robert Plant y Jimmy Page al rhythm and blues de los cincuenta.",
+    "descripcion": [
+      "The Honeydrippers fue un proyecto que Robert Plant armó en 1981, después de la separación de Led Zeppelin, para tocar en bares chicos las canciones de rhythm and blues y rock and roll que escuchaba de joven. El nombre venía de un viejo pianista de blues, Roosevelt “The Honeydripper” Sykes.",
+      "En 1984 grabaron un EP de cinco canciones, The Honeydrippers: Volume One, con Jimmy Page, Jeff Beck y Nile Rodgers como invitados. Su versión de “Sea of Love”, una balada de Phil Phillips de 1959, llegó al tercer puesto en Estados Unidos y fue el mayor éxito de Plant fuera de Led Zeppelin. Nunca hubo un “Volume Two”."
+    ],
+    "nota": "“Sea of Love” es una canción de Phil Phillips, de 1959.",
+    "canciones": [
+      {
+        "titulo": "Sea of Love",
+        "disco": "The Honeydrippers: Volume One",
+        "anio": 1984
+      }
+    ]
+  },
+  {
+    "id": "the-isley-brothers",
+    "nombre": "The Isley Brothers",
+    "pais": "Estados Unidos",
+    "ciudad": "Cincinnati, Ohio",
+    "anios": "1954 – presente",
+    "genero": "Soul, R&B, funk",
+    "integrantes": [
+      "Ronald Isley (voz)",
+      "O’Kelly Isley Jr. (voz)",
+      "Rudolph Isley (voz)",
+      "Ernie Isley (guitarra)",
+      "Marvin Isley (bajo)",
+      "Chris Jasper (teclados)"
+    ],
+    "hero": "img/the-isley-brothers.jpg",
+    "heroPos": "center 25%",
+    "bajada": "Siete décadas de soul, de “Shout” al funk de los setenta.",
+    "descripcion": [
+      "The Isley Brothers empezó en Cincinnati en los años cincuenta como un trío vocal de gospel formado por los hermanos O’Kelly, Rudolph y Ronald. En 1959 grabaron “Shout”, un tema lleno de energía, con llamadas y respuestas de iglesia, que se volvió un clásico de las fiestas y que después versionaron los Beatles y muchos otros. En 1966 pasaron por Motown con “This Old Heart of Mine”.",
+      "En los setenta se sumaron los hermanos menores Ernie y Marvin y su cuñado Chris Jasper, y el grupo se volvió una banda de funk y soul con temas como “It’s Your Thing” y “That Lady”. Un joven Jimi Hendrix fue su guitarrista a mediados de los sesenta. Ronald Isley sigue cantando."
+    ],
+    "nota": "La lista va en orden cronológico.",
+    "canciones": [
+      {
+        "titulo": "Shout (Parts 1 & 2)",
+        "disco": "Shout!",
+        "anio": 1959
+      },
+      {
+        "titulo": "This Old Heart of Mine (Is Weak for You)",
+        "disco": "This Old Heart of Mine",
+        "anio": 1966
+      }
+    ]
+  },
+  {
+    "id": "the-j-geils-band",
+    "nombre": "The J. Geils Band",
+    "pais": "Estados Unidos",
+    "ciudad": "Boston, Massachusetts",
+    "anios": "1967 – 1985 · reuniones posteriores",
+    "genero": "Rock, blues rock, new wave",
+    "integrantes": [
+      "Peter Wolf (voz)",
+      "J. Geils (guitarra)",
+      "Magic Dick (armónica)",
+      "Seth Justman (teclados)",
+      "Danny Klein (bajo)",
+      "Stephen Jo Bladd (batería)"
+    ],
+    "hero": "img/the-j-geils-band.jpg",
+    "heroPos": "center 30%",
+    "bajada": "La banda de bar de Boston que llegó al número uno.",
+    "descripcion": [
+      "The J. Geils Band se formó en Boston a fines de los sesenta como una banda de blues y rhythm and blues, con el guitarrista J. Geils, la armónica de Magic Dick y el carismático cantante Peter Wolf, que había sido disc jockey. Durante los setenta fueron famosos por sus conciertos enérgicos.",
+      "A comienzos de los ochenta, con el tecladista Seth Justman como compositor principal, se acercaron a la new wave y con Freeze-Frame (1981) llegaron al número uno, gracias a “Centerfold” y “Freeze-Frame”. “Angel in Blue”, del mismo disco, es su balada más recordada. Wolf se fue en 1983 y la banda se separó poco después."
+    ],
+    "nota": "",
+    "canciones": [
+      {
+        "titulo": "Angel in Blue",
+        "disco": "Freeze-Frame",
+        "anio": 1981
+      }
+    ]
+  },
+  {
+    "id": "john-cale",
+    "nombre": "John Cale",
+    "pais": "Reino Unido",
+    "ciudad": "Garnant, Gales",
+    "anios": "1963 – presente",
+    "genero": "Art rock, rock experimental, música clásica",
+    "integrantes": [
+      "John Cale (voz, viola, piano, bajo)"
+    ],
+    "hero": "img/john-cale.jpg",
+    "heroPos": "center 35%",
+    "bajada": "El galés de la viola eléctrica, cofundador de The Velvet Underground.",
+    "descripcion": [
+      "John Cale nació en 1942 en un pueblo minero de Gales y estudió música clásica antes de viajar a Nueva York, donde trabajó con compositores de vanguardia. En 1965 fundó con Lou Reed The Velvet Underground, a la que le aportó su viola eléctrica y su gusto por el ruido y la experimentación.",
+      "Después de dejar la banda en 1968 hizo una larga carrera solista que va de las canciones pop de Vintage Violence (1970) a la elegancia orquestal de Paris 1919 (1973), considerado su mejor disco. Fue también productor clave de los primeros discos de The Stooges, Patti Smith y Nico, y sigue grabando a los más de ochenta años."
+    ],
+    "nota": "La lista va en orden cronológico.",
+    "canciones": [
+      {
+        "titulo": "Big White Cloud",
+        "disco": "Vintage Violence",
+        "anio": 1970
+      },
+      {
+        "titulo": "Paris 1919",
+        "disco": "Paris 1919",
+        "anio": 1973
+      },
+      {
+        "titulo": "You Know More Than I Know",
+        "disco": "Fear",
+        "anio": 1974
+      }
+    ]
+  },
+  {
+    "id": "the-killers",
+    "nombre": "The Killers",
+    "pais": "Estados Unidos",
+    "ciudad": "Las Vegas, Nevada",
+    "anios": "2001 – presente",
+    "genero": "Rock alternativo, new wave, indie rock",
+    "integrantes": [
+      "Brandon Flowers (voz, teclados)",
+      "Dave Keuning (guitarra)",
+      "Mark Stoermer (bajo)",
+      "Ronnie Vannucci Jr. (batería)"
+    ],
+    "hero": "img/the-killers.jpg",
+    "heroPos": "center 25%",
+    "bajada": "Las Vegas, sintetizadores de los ochenta y estribillos de estadio.",
+    "descripcion": [
+      "The Killers se formó en Las Vegas en 2001, cuando Brandon Flowers respondió un aviso del guitarrista Dave Keuning. Su primer disco, Hot Fuss (2004), mezclaba la new wave británica de los ochenta con el rock de estadio, y trajo “Mr. Brightside”, “Somebody Told Me” y “All These Things That I’ve Done”.",
+      "Con Sam’s Town (2006) miraron hacia Bruce Springsteen y el rock estadounidense, y siguieron llenando estadios durante dos décadas. En 2021 sacaron Pressure Machine, un disco más tranquilo y acústico sobre el pueblo de Nephi, en Utah, donde creció Flowers."
+    ],
+    "nota": "La lista va en orden cronológico. “Quiet Town” y “Desperate Things” son de Pressure Machine, el disco sobre el pueblo de la infancia de Brandon Flowers.",
+    "canciones": [
+      {
+        "titulo": "All These Things That I’ve Done",
+        "disco": "Hot Fuss",
+        "anio": 2004
+      },
+      {
+        "titulo": "Quiet Town",
+        "disco": "Pressure Machine",
+        "anio": 2021
+      },
+      {
+        "titulo": "Desperate Things",
+        "disco": "Pressure Machine",
+        "anio": 2021
+      }
+    ]
+  },
+  {
+    "id": "the-kinks",
+    "nombre": "The Kinks",
+    "pais": "Reino Unido",
+    "ciudad": "Muswell Hill, Londres",
+    "anios": "1963 – 1996",
+    "genero": "Rock, pop barroco, hard rock",
+    "integrantes": [
+      "Ray Davies (voz, guitarra)",
+      "Dave Davies (guitarra, voz)",
+      "Pete Quaife (bajo)",
+      "Mick Avory (batería)",
+      "John Dalton (bajo)",
+      "John Gosling (teclados)"
+    ],
+    "hero": "img/the-kinks.jpg",
+    "heroPos": "center 30%",
+    "bajada": "El riff que inventó el hard rock y el cronista más inglés del rock.",
+    "descripcion": [
+      "The Kinks se formó en el barrio de Muswell Hill, en Londres, alrededor de los hermanos Ray y Dave Davies. En 1964 “You Really Got Me”, con un riff distorsionado que Dave consiguió tajeando el parlante de su amplificador, llegó al número uno y se considera uno de los primeros temas de hard rock.",
+      "Ray Davies se convirtió después en uno de los grandes compositores de su generación, con canciones irónicas y nostálgicas sobre la vida inglesa como “Sunny Afternoon” y “Waterloo Sunset”. Lola Versus Powerman (1970) es un disco conceptual sobre la industria musical. Las peleas entre los hermanos Davies fueron legendarias y la banda se separó en 1996."
+    ],
+    "nota": "La lista va en orden cronológico. “Strangers” la escribió y la canta Dave Davies. “God’s Children” es de la banda sonora de la película Percy.",
+    "canciones": [
+      {
+        "titulo": "You Really Got Me",
+        "disco": "Kinks",
+        "anio": 1964
+      },
+      {
+        "titulo": "Sunny Afternoon",
+        "disco": "Face to Face",
+        "anio": 1966
+      },
+      {
+        "titulo": "Strangers",
+        "disco": "Lola Versus Powerman and the Moneygoround, Part One",
+        "anio": 1970
+      },
+      {
+        "titulo": "This Time Tomorrow",
+        "disco": "Lola Versus Powerman and the Moneygoround, Part One",
+        "anio": 1970
+      },
+      {
+        "titulo": "A Long Way from Home",
+        "disco": "Lola Versus Powerman and the Moneygoround, Part One",
+        "anio": 1970
+      },
+      {
+        "titulo": "Apeman",
+        "disco": "Lola Versus Powerman and the Moneygoround, Part One",
+        "anio": 1970
+      },
+      {
+        "titulo": "Powerman",
+        "disco": "Lola Versus Powerman and the Moneygoround, Part One",
+        "anio": 1970
+      },
+      {
+        "titulo": "God’s Children",
+        "disco": "Percy (banda sonora)",
+        "anio": 1971
+      }
+    ]
+  },
+  {
+    "id": "the-lumineers",
+    "nombre": "The Lumineers",
+    "pais": "Estados Unidos",
+    "ciudad": "Denver, Colorado",
+    "anios": "2005 – presente",
+    "genero": "Folk rock, indie folk, Americana",
+    "integrantes": [
+      "Wesley Schultz (voz, guitarra)",
+      "Jeremiah Fraites (batería, piano)",
+      "Neyla Pekarek (chelo, voz)"
+    ],
+    "hero": "img/the-lumineers.jpg",
+    "heroPos": "center 30%",
+    "bajada": "El folk de pisotón y estribillo coreado que conquistó la radio.",
+    "descripcion": [
+      "The Lumineers nació en Nueva Jersey, donde Wesley Schultz y Jeremiah Fraites empezaron a componer juntos tras la muerte por sobredosis de Josh, el hermano de Fraites y mejor amigo de Schultz. En 2009 se mudaron a Denver, sumaron a la chelista Neyla Pekarek y en 2012 su primer disco, con “Ho Hey” y “Stubborn Love”, vendió millones de copias.",
+      "Siguieron con Cleopatra (2016), que llegó al número uno, y III (2019), un disco conceptual sobre una familia atravesada por las adicciones. Pekarek dejó la banda en 2018, y Schultz y Fraites siguieron con Brightside (2022) y Automatic (2025)."
+    ],
+    "nota": "La lista va en orden cronológico. “Gale Song” se grabó para la película Los juegos del hambre: En llamas y después se sumó a Cleopatra.",
+    "canciones": [
+      {
+        "titulo": "Ho Hey",
+        "disco": "The Lumineers",
+        "anio": 2012
+      },
+      {
+        "titulo": "Stubborn Love",
+        "disco": "The Lumineers",
+        "anio": 2012
+      },
+      {
+        "titulo": "Sleep on the Floor",
+        "disco": "Cleopatra",
+        "anio": 2016
+      },
+      {
+        "titulo": "Cleopatra",
+        "disco": "Cleopatra",
+        "anio": 2016
+      },
+      {
+        "titulo": "Gale Song",
+        "disco": "Cleopatra",
+        "anio": 2016
+      },
+      {
+        "titulo": "Long Way from Home",
+        "disco": "Cleopatra",
+        "anio": 2016
+      },
+      {
+        "titulo": "My Eyes",
+        "disco": "Cleopatra",
+        "anio": 2016
+      },
+      {
+        "titulo": "Patience",
+        "disco": "Cleopatra",
+        "anio": 2016
+      },
+      {
+        "titulo": "It Wasn’t Easy to Be Happy for You",
+        "disco": "III",
+        "anio": 2019
+      },
+      {
+        "titulo": "Big Shot",
+        "disco": "Brightside",
+        "anio": 2022
+      },
+      {
+        "titulo": "Automatic",
+        "disco": "Automatic",
+        "anio": 2025
+      },
+      {
+        "titulo": "So Long",
+        "disco": "Automatic",
+        "anio": 2025
+      }
+    ]
   }
 ];
