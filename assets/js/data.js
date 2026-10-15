@@ -8572,5 +8572,218 @@ const ARTISTAS = [
         "anio": 1982
       }
     ]
+  },
+  {
+    "id": "the-dave-clark-five",
+    "nombre": "The Dave Clark Five",
+    "pais": "Reino Unido",
+    "ciudad": "Tottenham, Londres",
+    "anios": "1958 – 1970",
+    "genero": "Beat, pop rock",
+    "integrantes": [
+      "Dave Clark (batería)",
+      "Mike Smith (voz, teclados)",
+      "Lenny Davidson (guitarra)",
+      "Rick Huxley (bajo)",
+      "Denis Payton (saxo)"
+    ],
+    "hero": "img/the-dave-clark-five.jpg",
+    "heroPos": "center 35%",
+    "bajada": "El “sonido Tottenham” que le disputó a los Beatles la Invasión Británica.",
+    "descripcion": [
+      "The Dave Clark Five se formó en el barrio londinense de Tottenham, liderado por el baterista Dave Clark, que además producía los discos y manejaba el negocio, algo muy raro para la época. Con la voz potente de Mike Smith, un saxo y una batería bien al frente, en 1964 “Glad All Over” desplazó a los Beatles del número uno en Inglaterra.",
+      "Ese mismo año fueron la segunda banda británica, después de los Beatles, en hacer una gira por Estados Unidos, y se presentaron más veces que nadie en el show de Ed Sullivan. “Because”, una balada escrita por Clark, fue uno de sus mayores éxitos en América. Se separaron en 1970 y en 2008 entraron al Salón de la Fama del Rock."
+    ],
+    "nota": "La lista va en orden cronológico. “I Need You, I Love You” salió como lado B de “Because” en algunos países.",
+    "canciones": [
+      {
+        "titulo": "Because",
+        "disco": "American Tour",
+        "anio": 1964
+      },
+      {
+        "titulo": "I Cried Over You",
+        "disco": "American Tour",
+        "anio": 1964
+      },
+      {
+        "titulo": "I Need You, I Love You",
+        "disco": "Simple · lado B de “Because”",
+        "anio": 1964
+      },
+      {
+        "titulo": "’Til the Right One Comes Along",
+        "disco": "Weekend in London",
+        "anio": 1965
+      }
+    ]
+  },
+  {
+    "id": "the-deep-dark-woods",
+    "nombre": "The Deep Dark Woods",
+    "pais": "Canadá",
+    "ciudad": "Saskatoon, Saskatchewan",
+    "anios": "2005 – presente",
+    "genero": "Folk, alt-country, Americana",
+    "integrantes": [
+      "Ryan Boldt (voz, guitarra)",
+      "Geoff Hilhorst (teclados)",
+      "Mike Silverman (batería)",
+      "Burke Barlow (guitarra)",
+      "Chris Mason (bajo)"
+    ],
+    "hero": "img/the-deep-dark-woods.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Baladas antiguas y folk oscuro desde las praderas canadienses.",
+    "descripcion": [
+      "The Deep Dark Woods nació en 2005 en Saskatoon, en las praderas del centro de Canadá, alrededor del cantante y compositor Ryan Boldt. Su música mezcla el country y el folk de los sesenta y setenta con viejas baladas tradicionales británicas y estadounidenses, con una voz melancólica y un órgano siempre presente.",
+      "Con Winter Hours (2009) y The Place I Left Behind (2011) ganaron premios en Canadá y empezaron a girar por Estados Unidos y Europa. Boldt también grabó discos solistas de baladas tradicionales, y la banda sigue sacando discos, como Yarrow (2017), Changing Faces (2021) y The Circle Remains (2025)."
+    ],
+    "nota": "La lista va en orden cronológico. “Everything Reminds Me” la canta junto a Kacy Clayton.",
+    "canciones": [
+      {
+        "titulo": "The Banks of the Leopold Canal",
+        "disco": "The Place I Left Behind",
+        "anio": 2011
+      },
+      {
+        "titulo": "Fallen Leaves",
+        "disco": "Yarrow",
+        "anio": 2017
+      },
+      {
+        "titulo": "Teardrops Fell",
+        "disco": "Yarrow",
+        "anio": 2017
+      },
+      {
+        "titulo": "Everything Reminds Me",
+        "disco": "Changing Faces",
+        "anio": 2021
+      }
+    ]
+  },
+  {
+    "id": "the-everly-brothers",
+    "nombre": "The Everly Brothers",
+    "pais": "Estados Unidos",
+    "ciudad": "Kentucky · Nashville, Tennessee",
+    "anios": "1956 – 1973 · 1983 – 2005",
+    "genero": "Rock and roll, country, pop",
+    "integrantes": [
+      "Don Everly (voz, guitarra)",
+      "Phil Everly (voz, guitarra)"
+    ],
+    "hero": "img/the-everly-brothers.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Las dos voces que enseñaron a cantar a los Beatles, Simon & Garfunkel y los Byrds.",
+    "descripcion": [
+      "Don y Phil Everly crecieron cantando en el programa de radio de sus padres, músicos country de Kentucky. A fines de los cincuenta, ya en Nashville, mezclaron las armonías cerradas del country con el rock and roll y llenaron las listas con “Bye Bye Love”, “Wake Up Little Susie”, “All I Have to Do Is Dream” y “Cathy’s Clown”.",
+      "Su forma de cantar a dos voces influyó directamente en los Beatles, Simon & Garfunkel, los Hollies y los Byrds. Las tensiones entre los hermanos los separaron en 1973, en pleno escenario, y recién volvieron a cantar juntos diez años después. Fueron de los primeros en entrar al Salón de la Fama del Rock, en 1986."
+    ],
+    "nota": "“Love Hurts”, de Boudleaux Bryant, la grabaron primero ellos; después la hicieron famosa Roy Orbison, Gram Parsons con Emmylou Harris y Nazareth.",
+    "canciones": [
+      {
+        "titulo": "Love Hurts",
+        "disco": "A Date with the Everly Brothers",
+        "anio": 1960
+      }
+    ]
+  },
+  {
+    "id": "the-guess-who",
+    "nombre": "The Guess Who",
+    "pais": "Canadá",
+    "ciudad": "Winnipeg, Manitoba",
+    "anios": "1965 – 1975 · reuniones posteriores",
+    "genero": "Rock, pop rock",
+    "integrantes": [
+      "Burton Cummings (voz, teclados)",
+      "Randy Bachman (guitarra)",
+      "Jim Kale (bajo)",
+      "Garry Peterson (batería)"
+    ],
+    "hero": "img/the-guess-who.jpg",
+    "heroPos": "center 35%",
+    "bajada": "La primera gran banda de rock canadiense en llegar al número uno en Estados Unidos.",
+    "descripcion": [
+      "The Guess Who nació en Winnipeg a mediados de los sesenta. Su nombre salió de una jugada de la discográfica, que mandó un simple a las radios con la pregunta “¿Adivinen quién?” para que creyeran que era una banda británica. Con la voz de Burton Cummings y la guitarra de Randy Bachman, en 1969 llegaron a las radios de Estados Unidos con “These Eyes” y “Laughing”.",
+      "En 1970 “American Woman”, nacida de una improvisación en un concierto, fue la primera canción de una banda canadiense en llegar al número uno en Estados Unidos. Ese mismo año Bachman se fue de la banda y formó Bachman–Turner Overdrive."
+    ],
+    "nota": "La lista va en orden cronológico. “No Time” apareció en Canned Wheat y la banda la volvió a grabar para American Woman en 1970.",
+    "canciones": [
+      {
+        "titulo": "Laughing",
+        "disco": "Canned Wheat",
+        "anio": 1969
+      },
+      {
+        "titulo": "No Time",
+        "disco": "Canned Wheat",
+        "anio": 1969
+      },
+      {
+        "titulo": "American Woman",
+        "disco": "American Woman",
+        "anio": 1970
+      }
+    ]
+  },
+  {
+    "id": "the-head-and-the-heart",
+    "nombre": "The Head and the Heart",
+    "pais": "Estados Unidos",
+    "ciudad": "Seattle, Washington",
+    "anios": "2009 – presente",
+    "genero": "Indie folk, folk rock",
+    "integrantes": [
+      "Jonathan Russell (voz, guitarra)",
+      "Charity Rose Thielen (violín, voz)",
+      "Kenny Hensley (piano)",
+      "Chris Zasche (bajo)",
+      "Tyler Williams (batería)",
+      "Matt Gervais (guitarra)",
+      "Josiah Johnson (voz, guitarra)"
+    ],
+    "hero": "img/the-head-and-the-heart.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Indie folk de Seattle hecho de armonías, piano y violín.",
+    "descripcion": [
+      "The Head and the Heart se formó en Seattle en 2009, cuando Jonathan Russell y Josiah Johnson se conocieron en las noches de micrófono abierto de un bar. Sumaron a la violinista Charity Rose Thielen y al pianista Kenny Hensley, y vendieron su primer disco a mano en los conciertos hasta que lo editó el sello Sub Pop.",
+      "Con Let’s Be Still (2013) y Signs of Light (2016) pasaron de los bares a los grandes festivales, con canciones como “Rivers and Roads” y “All We Ever Knew”. Johnson dejó la banda en 2016 y volvió en 2022. Su disco más reciente es Aperture (2025)."
+    ],
+    "nota": "La lista va en orden cronológico.",
+    "canciones": [
+      {
+        "titulo": "Another Story",
+        "disco": "Let’s Be Still",
+        "anio": 2013
+      },
+      {
+        "titulo": "10,000 Weight in Gold",
+        "disco": "Let’s Be Still",
+        "anio": 2013
+      },
+      {
+        "titulo": "Rhythm & Blues",
+        "disco": "Signs of Light",
+        "anio": 2016
+      },
+      {
+        "titulo": "Colors",
+        "disco": "Signs of Light",
+        "anio": 2016
+      },
+      {
+        "titulo": "Honeybee",
+        "disco": "Living Mirage",
+        "anio": 2019
+      },
+      {
+        "titulo": "Arrow",
+        "disco": "Aperture",
+        "anio": 2025
+      }
+    ]
   }
 ];
