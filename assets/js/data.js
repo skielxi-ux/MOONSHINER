@@ -8288,5 +8288,289 @@ const ARTISTAS = [
         "anio": 2026
       }
     ]
+  },
+  {
+    "id": "the-animals",
+    "nombre": "The Animals",
+    "pais": "Reino Unido",
+    "ciudad": "Newcastle upon Tyne, Inglaterra",
+    "anios": "1962 – 1969 · reuniones posteriores",
+    "genero": "Rhythm and blues, rock",
+    "integrantes": [
+      "Eric Burdon (voz)",
+      "Alan Price (teclados)",
+      "Hilton Valentine (guitarra)",
+      "Chas Chandler (bajo)",
+      "John Steel (batería)"
+    ],
+    "hero": "img/the-animals.jpg",
+    "heroPos": "center 30%",
+    "bajada": "El blues más negro de la Invasión Británica, con la voz de Eric Burdon.",
+    "descripcion": [
+      "The Animals se formó en Newcastle, en el norte de Inglaterra, a comienzos de los sesenta. Eran fanáticos del rhythm and blues estadounidense y tenían en Eric Burdon a uno de los cantantes blancos más intensos de su época. En 1964 su versión de “The House of the Rising Sun”, una vieja canción folk, con el órgano de Alan Price, llegó al número uno en Inglaterra y en Estados Unidos.",
+      "Siguieron éxitos como “Don’t Let Me Be Misunderstood” y “We Gotta Get Out of This Place”, pero las peleas por el dinero desarmaron la formación original en 1966. Burdon siguió con otra banda psicodélica, y el bajista Chas Chandler se convirtió en el mánager que descubrió a Jimi Hendrix. Los cinco originales se reunieron en 1977 para grabar Before We Were So Rudely Interrupted."
+    ],
+    "nota": "La lista va en orden cronológico. “Bring It On Home to Me” es de Sam Cooke y “It’s All Over Now, Baby Blue” de Bob Dylan, grabada en la reunión de 1977.",
+    "canciones": [
+      {
+        "titulo": "The House of the Rising Sun",
+        "disco": "The Animals",
+        "anio": 1964
+      },
+      {
+        "titulo": "Bring It On Home to Me",
+        "disco": "Animal Tracks",
+        "anio": 1965
+      },
+      {
+        "titulo": "It’s All Over Now, Baby Blue",
+        "disco": "Before We Were So Rudely Interrupted",
+        "anio": 1977
+      }
+    ]
+  },
+  {
+    "id": "the-association",
+    "nombre": "The Association",
+    "pais": "Estados Unidos",
+    "ciudad": "Los Ángeles, California",
+    "anios": "1965 – presente",
+    "genero": "Sunshine pop, folk rock",
+    "integrantes": [
+      "Terry Kirkman (voz, vientos)",
+      "Jules Alexander (guitarra, voz)",
+      "Russ Giguere (voz, guitarra)",
+      "Brian Cole (bajo, voz)",
+      "Ted Bluechel (batería, voz)",
+      "Jim Yester (guitarra, voz)",
+      "Larry Ramos (guitarra, voz)"
+    ],
+    "hero": "img/the-association.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Seis voces en armonía para el pop soleado de California.",
+    "descripcion": [
+      "The Association se formó en Los Ángeles en 1965 y se destacó por sus armonías vocales de muchas voces, en la línea de los Beach Boys y The Mamas & the Papas. En 1966 llegaron al número uno con “Cherish”, y al año siguiente con “Windy”.",
+      "“Never My Love”, de 1967, escrita por los hermanos Don y Dick Addrisi, es una de las canciones más pasadas por la radio estadounidense en todo el siglo XX. Fueron además la banda que abrió el festival de Monterey en 1967."
+    ],
+    "nota": "",
+    "canciones": [
+      {
+        "titulo": "Never My Love",
+        "disco": "Insight Out",
+        "anio": 1967
+      }
+    ]
+  },
+  {
+    "id": "the-band",
+    "nombre": "The Band",
+    "pais": "Canadá",
+    "ciudad": "Toronto · Woodstock, Nueva York",
+    "anios": "1967 – 1977 · 1983 – 1999",
+    "genero": "Rock de raíz, Americana",
+    "integrantes": [
+      "Robbie Robertson (guitarra)",
+      "Levon Helm (batería, voz)",
+      "Rick Danko (bajo, voz)",
+      "Richard Manuel (piano, voz)",
+      "Garth Hudson (órgano, saxo)"
+    ],
+    "hero": "img/the-band.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Cuatro canadienses y un sureño que inventaron la Americana.",
+    "descripcion": [
+      "Antes de llamarse The Band fueron The Hawks, la banda de acompañamiento del rockabilly Ronnie Hawkins y después de Bob Dylan en su polémica gira eléctrica de 1966. Instalados en una casa rosada de Woodstock, Nueva York, grabaron con Dylan las Basement Tapes y en 1968 sacaron su propio disco, Music from Big Pink, con “The Weight”.",
+      "Mezclaban country, gospel, soul y folk con tres voces distintas, las de Levon Helm, Rick Danko y Richard Manuel, y canciones que sonaban a otra época. Se despidieron en 1976 con un concierto en San Francisco con muchos invitados, que Martin Scorsese filmó en The Last Waltz."
+    ],
+    "nota": "La lista va en orden cronológico. “I Shall Be Released” es una canción de Bob Dylan; la canta Richard Manuel en falsete.",
+    "canciones": [
+      {
+        "titulo": "The Weight",
+        "disco": "Music from Big Pink",
+        "anio": 1968
+      },
+      {
+        "titulo": "I Shall Be Released",
+        "disco": "Music from Big Pink",
+        "anio": 1968
+      },
+      {
+        "titulo": "It Makes No Difference",
+        "disco": "Northern Lights – Southern Cross",
+        "anio": 1975
+      }
+    ]
+  },
+  {
+    "id": "the-black-crowes",
+    "nombre": "The Black Crowes",
+    "pais": "Estados Unidos",
+    "ciudad": "Atlanta, Georgia",
+    "anios": "1984 – 2015 · 2019 – presente",
+    "genero": "Southern rock, blues rock, hard rock",
+    "integrantes": [
+      "Chris Robinson (voz)",
+      "Rich Robinson (guitarra)",
+      "Steve Gorman (batería)",
+      "Johnny Colt (bajo)",
+      "Marc Ford (guitarra)",
+      "Eddie Harsch (teclados)"
+    ],
+    "hero": "img/the-black-crowes.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Los hermanos Robinson y el rock sureño de los setenta, en plenos noventa.",
+    "descripcion": [
+      "The Black Crowes nació en Atlanta alrededor de los hermanos Chris y Rich Robinson. En 1990, cuando todo era hair metal o grunge, sacaron Shake Your Money Maker, un disco que sonaba a los Rolling Stones y a los Faces, con éxitos como su versión de “Hard to Handle” y la balada “She Talks to Angels”.",
+      "Con The Southern Harmony and Musical Companion (1992) llegaron al número uno en Estados Unidos. Las peleas entre los hermanos los separaron varias veces, pero en 2019 volvieron a juntarse y siguen tocando."
+    ],
+    "nota": "La lista va en orden cronológico. “Hard to Handle” es una canción de Otis Redding.",
+    "canciones": [
+      {
+        "titulo": "Twice as Hard",
+        "disco": "Shake Your Money Maker",
+        "anio": 1990
+      },
+      {
+        "titulo": "Hard to Handle",
+        "disco": "Shake Your Money Maker",
+        "anio": 1990
+      },
+      {
+        "titulo": "She Talks to Angels",
+        "disco": "Shake Your Money Maker",
+        "anio": 1990
+      },
+      {
+        "titulo": "Remedy",
+        "disco": "The Southern Harmony and Musical Companion",
+        "anio": 1992
+      }
+    ]
+  },
+  {
+    "id": "the-black-keys",
+    "nombre": "The Black Keys",
+    "pais": "Estados Unidos",
+    "ciudad": "Akron, Ohio",
+    "anios": "2001 – presente",
+    "genero": "Garage rock, blues rock",
+    "integrantes": [
+      "Dan Auerbach (voz, guitarra)",
+      "Patrick Carney (batería)"
+    ],
+    "hero": "img/the-black-keys.jpg",
+    "heroPos": "center 35%",
+    "bajada": "Un guitarrista y un baterista de Ohio, con el blues sucio y crudo.",
+    "descripcion": [
+      "The Black Keys es el dúo de Dan Auerbach y Patrick Carney, dos amigos de la infancia de Akron, Ohio. Empezaron en 2001 grabando en el sótano de Carney un blues rock crudo y de garage, y durante años tocaron en bares chicos con una camioneta como única gira.",
+      "El salto llegó con Brothers (2010) y sobre todo con El Camino (2011), producido junto a Danger Mouse, con “Lonely Boy” y “Gold on the Ceiling”, que los llevó a llenar estadios y a ganar varios Grammy. Auerbach es además productor de muchos artistas de blues y country."
+    ],
+    "nota": "La lista va en orden cronológico.",
+    "canciones": [
+      {
+        "titulo": "Lonely Boy",
+        "disco": "El Camino",
+        "anio": 2011
+      },
+      {
+        "titulo": "Gold on the Ceiling",
+        "disco": "El Camino",
+        "anio": 2011
+      },
+      {
+        "titulo": "Wild Child",
+        "disco": "Dropout Boogie",
+        "anio": 2022
+      }
+    ]
+  },
+  {
+    "id": "the-cars",
+    "nombre": "The Cars",
+    "pais": "Estados Unidos",
+    "ciudad": "Boston, Massachusetts",
+    "anios": "1976 – 1988 · 2010 – 2011",
+    "genero": "New wave, power pop",
+    "integrantes": [
+      "Ric Ocasek (voz, guitarra)",
+      "Benjamin Orr (bajo, voz)",
+      "Elliot Easton (guitarra)",
+      "Greg Hawkes (teclados)",
+      "David Robinson (batería)"
+    ],
+    "hero": "img/the-cars.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Guitarras de rock y sintetizadores: la new wave hecha en Boston.",
+    "descripcion": [
+      "The Cars se formó en Boston en 1976 alrededor de Ric Ocasek, que escribía las canciones, y Benjamin Orr, que compartía la voz. Su primer disco, The Cars (1978), mezclaba guitarras de rock con sintetizadores y estribillos pegadizos, y casi todas sus canciones, como “Just What I Needed”, sonaron en la radio.",
+      "Con Heartbeat City (1984) y sus videos llegaron a lo más alto en MTV: “You Might Think” ganó el primer premio al Video del Año, y “Drive”, cantada por Orr, se volvió un himno cuando sonó en el Live Aid de 1985. Orr murió en 2000 y Ocasek en 2019."
+    ],
+    "nota": "La lista va en orden cronológico. “Just What I Needed” y “Drive” las canta Benjamin Orr.",
+    "canciones": [
+      {
+        "titulo": "Just What I Needed",
+        "disco": "The Cars",
+        "anio": 1978
+      },
+      {
+        "titulo": "You Might Think",
+        "disco": "Heartbeat City",
+        "anio": 1984
+      },
+      {
+        "titulo": "Drive",
+        "disco": "Heartbeat City",
+        "anio": 1984
+      }
+    ]
+  },
+  {
+    "id": "the-clash",
+    "nombre": "The Clash",
+    "pais": "Reino Unido",
+    "ciudad": "Londres",
+    "anios": "1976 – 1986",
+    "genero": "Punk rock, post-punk, reggae",
+    "integrantes": [
+      "Joe Strummer (voz, guitarra)",
+      "Mick Jones (guitarra, voz)",
+      "Paul Simonon (bajo)",
+      "Topper Headon (batería)"
+    ],
+    "hero": "img/the-clash.jpg",
+    "heroPos": "center 30%",
+    "bajada": "“La única banda que importa”: el punk con conciencia política.",
+    "descripcion": [
+      "The Clash se formó en Londres en 1976, en plena explosión del punk, con Joe Strummer y Mick Jones como compositores. A diferencia de otras bandas de la época, sus letras hablaban de política, desempleo y racismo, y muy pronto mezclaron el punk con reggae, ska, rockabilly y funk.",
+      "London Calling (1979), un disco doble, está entre los mejores de la historia del rock. Después vinieron el experimental Sandinista! y Combat Rock (1982), con “Rock the Casbah” y “Should I Stay or Should I Go”, que fueron sus mayores éxitos en Estados Unidos. Las peleas internas terminaron con la banda en 1986. Strummer murió en 2002."
+    ],
+    "nota": "La lista va en orden cronológico. “Train in Vain” no figuraba en la tapa de London Calling: se agregó a último momento como tema oculto. “Should I Stay or Should I Go” la canta Mick Jones.",
+    "canciones": [
+      {
+        "titulo": "London Calling",
+        "disco": "London Calling",
+        "anio": 1979
+      },
+      {
+        "titulo": "Train in Vain",
+        "disco": "London Calling",
+        "anio": 1979
+      },
+      {
+        "titulo": "The Magnificent Seven",
+        "disco": "Sandinista!",
+        "anio": 1980
+      },
+      {
+        "titulo": "Rock the Casbah",
+        "disco": "Combat Rock",
+        "anio": 1982
+      },
+      {
+        "titulo": "Should I Stay or Should I Go",
+        "disco": "Combat Rock",
+        "anio": 1982
+      }
+    ]
   }
 ];
