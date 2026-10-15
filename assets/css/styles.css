@@ -222,3 +222,8 @@ a { color: inherit; }
   .song .num { font-size: 1.05rem; }
   .songs-title { font-size: 1.8rem; }
 }
+
+/* banderas junto al nombre */
+.flag { display: inline-block; height: .62em; width: auto; aspect-ratio: 4 / 3; margin-left: .45em; vertical-align: .08em; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0,0,0,.15); object-fit: cover; }
+.hero img.flag, .cover img.flag { position: static; inset: auto; width: auto; transform: none; }
+.hero-name .flag { height: .45em; vertical-align: .12em; box-shadow: 0 0 0 1px rgba(255,255,255,.35); }

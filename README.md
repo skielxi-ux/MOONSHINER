@@ -8,6 +8,7 @@ Los recomendados esenciales de la historia del rock, por Exequiel Fernández Mon
 index.html              página principal
 assets/css/styles.css   estilos (incluye los de Swiper)
 assets/js/data.js       artistas, descripciones y canciones
+assets/js/banderas.js   banderas de cada país (SVG)
 assets/js/app.js        buscador, páginas de artista, favoritos y reproductor
 img/                    fotos de portada, una por artista
 ```

@@ -4,6 +4,7 @@ const sortKey = a => a.nombre.replace(/^(the|los|las|el|la)\s+/i, '').toLowerCas
 const artistas = [...ARTISTAS].sort((a, b) => sortKey(a).localeCompare(sortKey(b), 'es'));
 const paises = [...new Set(artistas.map(a => a.pais))].sort((a, b) => a.localeCompare(b, 'es'));
 const pad = n => String(n).padStart(2, '0');
+const bandera = a => (typeof BANDERAS !== 'undefined' && BANDERAS[a.pais]) ? `<img class="flag" src="${BANDERAS[a.pais]}" alt="Bandera de ${esc(a.pais)}" title="${esc(a.pais)}">` : '';
 
 const store = {
   get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
@@ -157,7 +158,7 @@ function renderResults() {
     return `<a class="toc-row" href="#${a.id}">
       <span class="toc-num">${pad(i)}</span>
       <span class="min-w-0 grid gap-1">
-        <span class="toc-name">${esc(a.nombre)}</span>
+        <span class="toc-name">${esc(a.nombre)}${bandera(a)}</span>
         <span class="text-muted text-[.98rem]">${esc(a.bajada || a.genero)}</span>
       </span>
       <span class="kicker text-muted text-right">${esc(a.pais)}<br><span class="text-ink">${r.n} temas</span></span>
@@ -182,7 +183,7 @@ function heroHTML(a, { tools = true } = {}) {
     </div>` : ''}
     <div class="hero-text">
       <span><span class="tag">${esc(a.pais)}</span></span>
-      <h1 class="hero-name">${esc(a.nombre)}</h1>
+      <h1 class="hero-name">${esc(a.nombre)}${bandera(a)}</h1>
       <span class="kicker" style="opacity:.85">${esc(a.ciudad)} · ${esc(a.anios)}</span>
     </div>
   </div>`;
@@ -539,7 +540,7 @@ function buildBook() {
     <section class="book-page">${cartaHTML()}</section>
     <section class="book-page">
       <h2 class="font-display" style="font-weight:900;font-size:2rem;line-height:1;border-bottom:4px solid var(--ink);padding-bottom:.4rem">En este número</h2>
-      ${artistas.map((a, i) => `<div class="toc-row"><span class="toc-num" style="font-size:1.5rem">${pad(i + 1)}</span><span class="toc-name" style="font-size:1.25rem">${esc(a.nombre)}</span><span class="kicker text-muted">${esc(a.pais)}</span></div>`).join('')}
+      ${artistas.map((a, i) => `<div class="toc-row"><span class="toc-num" style="font-size:1.5rem">${pad(i + 1)}</span><span class="toc-name" style="font-size:1.25rem">${esc(a.nombre)}${bandera(a)}</span><span class="kicker text-muted">${esc(a.pais)}</span></div>`).join('')}
     </section>
     ${artistas.map(a => {
       const r = resumen(a);
