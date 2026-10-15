@@ -9105,5 +9105,236 @@ const ARTISTAS = [
         "anio": 2025
       }
     ]
+  },
+  {
+    "id": "the-turtles",
+    "nombre": "The Turtles",
+    "pais": "Estados Unidos",
+    "ciudad": "Los Ángeles, California",
+    "anios": "1965 – 1970 · reuniones posteriores",
+    "genero": "Pop, folk rock",
+    "integrantes": [
+      "Howard Kaylan (voz)",
+      "Mark Volman (voz)",
+      "Al Nichol (guitarra)",
+      "Jim Tucker (guitarra)",
+      "Chuck Portz (bajo)",
+      "Jim Pons (bajo)",
+      "John Barbata (batería)"
+    ],
+    "hero": "img/the-turtles.jpg",
+    "heroPos": "center 30%",
+    "bajada": "El pop soleado de Los Ángeles y una de las canciones más felices de la historia.",
+    "descripcion": [
+      "The Turtles nació en el sur de California a mediados de los sesenta, liderado por las voces de Howard Kaylan y Mark Volman. Empezaron en el folk rock, con una versión de “It Ain’t Me Babe” de Bob Dylan, y en 1967 llegaron al número uno con “Happy Together”, que desplazó a los Beatles de la cima de las listas estadounidenses.",
+      "La canción, escrita por Garry Bonner y Alan Gordon, había sido rechazada por muchas bandas antes de llegar a ellos. Después de la separación, Kaylan y Volman se sumaron a The Mothers of Invention de Frank Zappa y cantaron en discos de T. Rex y Bruce Springsteen, con el nombre de Flo & Eddie."
+    ],
+    "nota": "",
+    "canciones": [
+      {
+        "titulo": "Happy Together",
+        "disco": "Happy Together",
+        "anio": 1967
+      }
+    ]
+  },
+  {
+    "id": "tyler-hilton",
+    "nombre": "Tyler Hilton",
+    "pais": "Estados Unidos",
+    "ciudad": "Palm Springs, California",
+    "anios": "2000 – presente",
+    "genero": "Pop rock, cantautor",
+    "integrantes": [
+      "Tyler Hilton (voz, guitarra, piano)"
+    ],
+    "hero": "img/tyler-hilton.jpg",
+    "heroPos": "center 25%",
+    "bajada": "El cantautor californiano que fue Chris Keller en One Tree Hill y Elvis en el cine.",
+    "descripcion": [
+      "Tyler Hilton nació en Palm Springs, California, y creció en el desierto de Bermuda Dunes. Grabó su primer disco a los 17 años y en 2004 sacó The Tracks of Tyler Hilton con un sello grande. Ese mismo año empezó a interpretar a Chris Keller, un músico arrogante, en la serie One Tree Hill.",
+      "En 2005 hizo de un joven Elvis Presley en la película Walk the Line, sobre la vida de Johnny Cash. Siguió grabando discos de canciones con piano y guitarra acústica, como Forget the Storm (2012), de donde sale “Kicking My Heels”, que estrenó en un capítulo de One Tree Hill."
+    ],
+    "nota": "",
+    "canciones": [
+      {
+        "titulo": "Kicking My Heels",
+        "disco": "Forget the Storm",
+        "anio": 2012
+      }
+    ]
+  },
+  {
+    "id": "the-verve",
+    "nombre": "The Verve",
+    "pais": "Reino Unido",
+    "ciudad": "Wigan, Inglaterra",
+    "anios": "1990 – 1999 · 2007 – 2009",
+    "genero": "Rock alternativo, britpop, rock psicodélico",
+    "integrantes": [
+      "Richard Ashcroft (voz, guitarra)",
+      "Nick McCabe (guitarra)",
+      "Simon Jones (bajo)",
+      "Peter Salisbury (batería)",
+      "Simon Tong (guitarra, teclados)"
+    ],
+    "hero": "img/the-verve.jpg",
+    "heroPos": "center 25%",
+    "bajada": "Los violines de “Bitter Sweet Symphony” y la voz de Richard Ashcroft.",
+    "descripcion": [
+      "The Verve se formó en 1990 en Wigan, en el norte de Inglaterra, alrededor del cantante Richard Ashcroft y el guitarrista Nick McCabe. Sus primeros discos eran de un rock psicodélico y expansivo, y la banda se separó por primera vez en 1995 por peleas internas y problemas con las drogas.",
+      "Volvieron en 1997 con Urban Hymns, uno de los discos británicos más vendidos de la década, con “Bitter Sweet Symphony”, “The Drugs Don’t Work” y “Lucky Man”. Por usar unos violines tomados de una versión orquestal de los Rolling Stones, los derechos de “Bitter Sweet Symphony” quedaron en manos de Mick Jagger y Keith Richards durante más de veinte años, hasta que se los devolvieron a Ashcroft en 2019."
+    ],
+    "nota": "La lista va en orden cronológico.",
+    "canciones": [
+      {
+        "titulo": "Bitter Sweet Symphony",
+        "disco": "Urban Hymns",
+        "anio": 1997
+      },
+      {
+        "titulo": "Lucky Man",
+        "disco": "Urban Hymns",
+        "anio": 1997
+      }
+    ]
+  },
+  {
+    "id": "the-walker-brothers",
+    "nombre": "The Walker Brothers",
+    "pais": "Estados Unidos",
+    "ciudad": "Los Ángeles · Londres",
+    "anios": "1964 – 1968 · 1975 – 1978",
+    "genero": "Pop barroco, baladas",
+    "integrantes": [
+      "Scott Walker (voz, bajo)",
+      "John Walker (voz, guitarra)",
+      "Gary Walker (batería)"
+    ],
+    "hero": "img/the-walker-brothers.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Tres estadounidenses que triunfaron en Londres con baladas enormes y la voz de Scott Walker.",
+    "descripcion": [
+      "The Walker Brothers no eran hermanos ni se llamaban Walker: Scott Engel, John Maus y Gary Leeds eran tres músicos de Los Ángeles que adoptaron el mismo apellido artístico y en 1965 se mudaron a Londres. Allí, con producciones de muro de sonido al estilo de Phil Spector, llegaron al número uno con “Make It Easy on Yourself” y “The Sun Ain’t Gonna Shine Anymore”.",
+      "En Inglaterra tuvieron un fanatismo comparable al de los Beatles, pero la presión llevó a Scott Walker a dejar la banda en 1967 y emprender una carrera solista de culto. Se reunieron a mediados de los setenta y grabaron Lines (1976) y No Regrets, con versiones de canciones country y soft rock."
+    ],
+    "nota": "La lista va en orden cronológico. “The Sun Ain’t Gonna Shine Anymore” salió como simple. “We’re All Alone” es una canción de Boz Scaggs.",
+    "canciones": [
+      {
+        "titulo": "The Sun Ain’t Gonna Shine Anymore",
+        "disco": "Simple (fuera de álbum)",
+        "anio": 1966
+      },
+      {
+        "titulo": "Lines",
+        "disco": "Lines",
+        "anio": 1976
+      },
+      {
+        "titulo": "We’re All Alone",
+        "disco": "Lines",
+        "anio": 1976
+      }
+    ]
+  },
+  {
+    "id": "the-war-on-drugs",
+    "nombre": "The War on Drugs",
+    "pais": "Estados Unidos",
+    "ciudad": "Filadelfia, Pensilvania",
+    "anios": "2005 – presente",
+    "genero": "Indie rock, heartland rock, rock psicodélico",
+    "integrantes": [
+      "Adam Granduciel (voz, guitarra)",
+      "David Hartley (bajo)",
+      "Robbie Bennett (teclados)",
+      "Charlie Hall (batería)",
+      "Jon Natchez (saxo, teclados)",
+      "Anthony LaMarca (guitarra)"
+    ],
+    "hero": "img/the-war-on-drugs.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Springsteen y Dylan pasados por guitarras infinitas y sintetizadores de ensueño.",
+    "descripcion": [
+      "The War on Drugs se formó en Filadelfia en 2005 alrededor de Adam Granduciel, junto a Kurt Vile, que después siguió su propio camino. Su sonido toma el rock de ruta de Bruce Springsteen, Tom Petty y Bob Dylan y lo envuelve en capas de guitarras, teclados y ecos, con canciones largas que avanzan como un viaje.",
+      "Lost in the Dream (2014), con “Red Eyes”, fue elegido entre los mejores discos de la década, y A Deeper Understanding (2017) les dio un Grammy al mejor disco de rock. Granduciel es conocido por trabajar durante años cada canción en el estudio."
+    ],
+    "nota": "",
+    "canciones": [
+      {
+        "titulo": "Red Eyes",
+        "disco": "Lost in the Dream",
+        "anio": 2014
+      }
+    ]
+  },
+  {
+    "id": "the-wonders",
+    "nombre": "The Wonders",
+    "pais": "Estados Unidos",
+    "ciudad": "Erie, Pensilvania (ficticia)",
+    "anios": "1964 (en la película) · 1996",
+    "genero": "Pop rock, beat",
+    "integrantes": [
+      "Jimmy Mattingly II (voz, guitarra) · Johnathon Schaech",
+      "Guy Patterson (batería) · Tom Everett Scott",
+      "Lenny Haise (guitarra) · Steve Zahn",
+      "El bajista (bajo) · Ethan Embry"
+    ],
+    "hero": "img/the-wonders.jpg",
+    "heroPos": "center 30%",
+    "bajada": "La banda de un solo éxito más famosa que nunca existió.",
+    "descripcion": [
+      "The Wonders es la banda ficticia de That Thing You Do! (1996), la película que escribió y dirigió Tom Hanks. Cuenta la historia de cuatro chicos de Erie, Pensilvania, que en 1964 graban una canción que se vuelve un éxito nacional y viven en pocos meses el ascenso y la caída de una banda de un solo hit.",
+      "Las canciones se compusieron para la película imitando el sonido de la Invasión Británica. “That Thing You Do!”, escrita por Adam Schlesinger, de Fountains of Wayne, y cantada por Mike Viola, llegó a las listas reales de Estados Unidos e Inglaterra y fue nominada al Oscar a la mejor canción original."
+    ],
+    "nota": "Los nombres de los integrantes son los de los personajes, seguidos del actor que los interpreta. Tom Hanks hace de su mánager.",
+    "canciones": [
+      {
+        "titulo": "That Thing You Do!",
+        "disco": "That Thing You Do! (banda sonora)",
+        "anio": 1996
+      },
+      {
+        "titulo": "Little Wild One",
+        "disco": "That Thing You Do! (banda sonora)",
+        "anio": 1996
+      }
+    ]
+  },
+  {
+    "id": "the-zombies",
+    "nombre": "The Zombies",
+    "pais": "Reino Unido",
+    "ciudad": "St Albans, Inglaterra",
+    "anios": "1961 – 1967 · 2004 – presente",
+    "genero": "Pop barroco, beat, rock psicodélico",
+    "integrantes": [
+      "Colin Blunstone (voz)",
+      "Rod Argent (teclados)",
+      "Paul Atkinson (guitarra)",
+      "Chris White (bajo)",
+      "Hugh Grundy (batería)"
+    ],
+    "hero": "img/the-zombies.jpg",
+    "heroPos": "center 30%",
+    "bajada": "La voz susurrada de Colin Blunstone y el órgano de Rod Argent.",
+    "descripcion": [
+      "The Zombies se formó en St Albans, al norte de Londres, con compañeros de escuela. En 1964 su primer simple, “She’s Not There”, con el piano eléctrico de Rod Argent y la voz suave de Colin Blunstone, fue un éxito en Inglaterra y en Estados Unidos. Su primer disco, Begin Here (1965), mezclaba canciones propias con versiones de soul y rhythm and blues.",
+      "En 1967 grabaron Odessey and Oracle, hoy considerado una obra maestra del pop psicodélico, pero la banda se separó antes de su lanzamiento. Paradójicamente, “Time of the Season”, de ese disco, se volvió un éxito en 1969, cuando ya no existían. Blunstone y Argent volvieron a tocar juntos en 2004."
+    ],
+    "nota": "La lista va en orden cronológico. “You’ve Really Got a Hold on Me” es de Smokey Robinson y en el disco aparece unida a “Bring It On Home to Me”, de Sam Cooke. “Can’t Nobody Love You” es de Solomon Burke.",
+    "canciones": [
+      {
+        "titulo": "You’ve Really Got a Hold on Me",
+        "disco": "Begin Here",
+        "anio": 1965
+      },
+      {
+        "titulo": "Can’t Nobody Love You",
+        "disco": "Begin Here",
+        "anio": 1965
+      }
+    ]
   }
 ];
