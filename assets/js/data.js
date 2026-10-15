@@ -1291,7 +1291,7 @@ const ARTISTAS = [
       "Graham Russell"
     ],
     "hero": "img/air-supply.jpg",
-    "heroPos": "center 24%",
+    "heroPos": "center 30%",
     "bajada": "Dos voces, baladas enormes y el sonido romántico que dominó la radio a comienzos de los ochenta.",
     "descripcion": [
       "Russell Hitchcock y Graham Russell, este último nacido en Inglaterra, se conocieron en 1975 en Sídney, durante los ensayos del musical Jesus Christ Superstar, y ese mismo año formaron el dúo en Melbourne. La voz aguda y cristalina de Hitchcock y las canciones de Russell fueron desde el principio la fórmula del grupo.",
@@ -7812,7 +7812,7 @@ const ARTISTAS = [
       "Chris Isaak (voz, guitarra)"
     ],
     "hero": "img/chris-isaak.jpg",
-    "heroPos": "center 25%",
+    "heroPos": "75% 20%",
     "bajada": "El heredero californiano de Roy Orbison y Elvis.",
     "descripcion": [
       "Chris Isaak nació en Stockton, California, en 1956, y fue boxeador aficionado antes de dedicarse a la música. Con su banda Silvertone grabó discos que mezclaban rockabilly, baladas y guitarras con mucho eco, y una voz que pasaba del registro grave al falsete, al estilo de Roy Orbison.",
@@ -8867,7 +8867,7 @@ const ARTISTAS = [
       "Stephen Jo Bladd (batería)"
     ],
     "hero": "img/the-j-geils-band.jpg",
-    "heroPos": "center 30%",
+    "heroPos": "center 25%",
     "bajada": "La banda de bar de Boston que llegó al número uno.",
     "descripcion": [
       "The J. Geils Band se formó en Boston a fines de los sesenta como una banda de blues y rhythm and blues, con el guitarrista J. Geils, la armónica de Magic Dick y el carismático cantante Peter Wolf, que había sido disc jockey. Durante los setenta fueron famosos por sus conciertos enérgicos.",
