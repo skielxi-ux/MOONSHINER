@@ -9934,5 +9934,167 @@ const ARTISTAS = [
         "anio": 2026
       }
     ]
+  },
+  {
+    "id": "the-weeknd",
+    "nombre": "The Weeknd",
+    "pais": "Canadá",
+    "ciudad": "Toronto",
+    "anios": "2010 – presente",
+    "genero": "R&B, pop, synth-pop",
+    "integrantes": [
+      "Abel Tesfaye (voz)"
+    ],
+    "hero": "img/the-weeknd.jpg",
+    "heroPos": "center 25%",
+    "bajada": "El R&B nocturno de Toronto que se volvió el pop más escuchado del mundo.",
+    "descripcion": [
+      "The Weeknd es el nombre artístico de Abel Tesfaye, nacido en Toronto en 1990, hijo de inmigrantes etíopes. En 2011 subió a internet, de forma anónima, tres mixtapes de un R&B oscuro y melancólico que llamaron la atención de Drake y de toda la escena. Con Beauty Behind the Madness (2015) y “Can’t Feel My Face”, una canción con aire a Michael Jackson, llegó al número uno.",
+      "Starboy (2016), grabado en parte con Daft Punk, y sobre todo After Hours (2020) lo convirtieron en una estrella mundial. “Blinding Lights”, con sus sintetizadores de los ochenta, figura como la canción más exitosa en la historia de las listas de Billboard. En 2021 protagonizó el show de medio tiempo del Super Bowl."
+    ],
+    "nota": "La lista va en orden cronológico. “I Feel It Coming” la grabó con el dúo francés Daft Punk.",
+    "canciones": [
+      {
+        "titulo": "Can’t Feel My Face",
+        "disco": "Beauty Behind the Madness",
+        "anio": 2015
+      },
+      {
+        "titulo": "I Feel It Coming (con Daft Punk)",
+        "disco": "Starboy",
+        "anio": 2016
+      },
+      {
+        "titulo": "Blinding Lights",
+        "disco": "After Hours",
+        "anio": 2020
+      },
+      {
+        "titulo": "In Your Eyes",
+        "disco": "After Hours",
+        "anio": 2020
+      },
+      {
+        "titulo": "Save Your Tears",
+        "disco": "After Hours",
+        "anio": 2020
+      }
+    ]
+  },
+  {
+    "id": "the-velvet-underground",
+    "nombre": "The Velvet Underground",
+    "pais": "Estados Unidos",
+    "ciudad": "Nueva York",
+    "anios": "1964 – 1973 · 1990 · 1992 – 1993",
+    "genero": "Art rock, rock experimental, proto-punk",
+    "integrantes": [
+      "Lou Reed (voz, guitarra)",
+      "John Cale (viola, bajo, teclados)",
+      "Sterling Morrison (guitarra)",
+      "Maureen Tucker (batería)",
+      "Nico (voz)",
+      "Doug Yule (bajo, teclados, voz)"
+    ],
+    "hero": "img/the-velvet-underground.jpg",
+    "heroPos": "center 30%",
+    "bajada": "La banda que pocos escucharon en su época y que influyó a todos los que vinieron después.",
+    "descripcion": [
+      "The Velvet Underground se formó en Nueva York en 1964 con Lou Reed, el galés John Cale, Sterling Morrison y Maureen Tucker. Andy Warhol los adoptó como banda de su estudio, la Factory, les sumó a la cantante alemana Nico y diseñó la famosa banana de la tapa de su primer disco, The Velvet Underground & Nico (1967), que hablaba de drogas y de la noche neoyorquina como nadie se había animado.",
+      "Vendieron muy pocos discos, pero Brian Eno dijo que cada persona que compró ese primer disco formó una banda. Cale se fue en 1968, y con Loaded (1970) Reed dejó canciones luminosas como “Sweet Jane” y “Rock & Roll” antes de seguir su carrera solista. Hoy se los considera los padres del punk, el rock alternativo y el indie."
+    ],
+    "nota": "La lista va en orden cronológico. “Ride into the Sun” es una grabación de las sesiones de Loaded que quedó afuera del disco y se editó años después. John Cale, que también está en este libro, fue fundador de la banda.",
+    "canciones": [
+      {
+        "titulo": "Sunday Morning",
+        "disco": "The Velvet Underground & Nico",
+        "anio": 1967
+      },
+      {
+        "titulo": "I’m Waiting for the Man",
+        "disco": "The Velvet Underground & Nico",
+        "anio": 1967
+      },
+      {
+        "titulo": "I’ll Be Your Mirror",
+        "disco": "The Velvet Underground & Nico",
+        "anio": 1967
+      },
+      {
+        "titulo": "Who Loves the Sun",
+        "disco": "Loaded",
+        "anio": 1970
+      },
+      {
+        "titulo": "Sweet Jane",
+        "disco": "Loaded",
+        "anio": 1970
+      },
+      {
+        "titulo": "Rock & Roll",
+        "disco": "Loaded",
+        "anio": 1970
+      },
+      {
+        "titulo": "I Found a Reason",
+        "disco": "Loaded",
+        "anio": 1970
+      },
+      {
+        "titulo": "Oh! Sweet Nuthin’",
+        "disco": "Loaded",
+        "anio": 1970
+      },
+      {
+        "titulo": "Ride into the Sun",
+        "disco": "Loaded · toma descartada",
+        "anio": 1970
+      }
+    ]
+  },
+  {
+    "id": "t-rex",
+    "nombre": "T. Rex",
+    "pais": "Reino Unido",
+    "ciudad": "Londres",
+    "anios": "1967 – 1977",
+    "genero": "Glam rock, rock psicodélico, folk",
+    "integrantes": [
+      "Marc Bolan (voz, guitarra)",
+      "Mickey Finn (percusión)",
+      "Steve Peregrin Took (percusión)",
+      "Steve Currie (bajo)",
+      "Bill Legend (batería)"
+    ],
+    "hero": "img/t-rex.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Marc Bolan, brillantina y boogie: el nacimiento del glam rock.",
+    "descripcion": [
+      "T. Rex empezó en Londres a fines de los sesenta como Tyrannosaurus Rex, un dúo acústico y hippie de Marc Bolan con un percusionista, con letras llenas de magos y criaturas fantásticas. En 1970 Bolan acortó el nombre, enchufó la guitarra eléctrica y, con Mickey Finn, empezó a tocar un rock pegadizo y bailable.",
+      "Electric Warrior (1971), con “Get It On”, “Jeepster” y “Cosmic Dancer”, los convirtió en la banda más popular de Inglaterra, con un fanatismo que la prensa llamó “T. Rextasy”. Con su brillantina y su ropa de lentejuelas, Bolan inventó el glam rock que después siguieron David Bowie y muchos más. Murió en un accidente de auto en 1977, a los 29 años."
+    ],
+    "nota": "Las cuatro canciones son de Electric Warrior. En los coros del disco cantan Howard Kaylan y Mark Volman, de The Turtles, que también están en este libro.",
+    "canciones": [
+      {
+        "titulo": "Cosmic Dancer",
+        "disco": "Electric Warrior",
+        "anio": 1971
+      },
+      {
+        "titulo": "Jeepster",
+        "disco": "Electric Warrior",
+        "anio": 1971
+      },
+      {
+        "titulo": "Get It On",
+        "disco": "Electric Warrior",
+        "anio": 1971
+      },
+      {
+        "titulo": "Life’s a Gas",
+        "disco": "Electric Warrior",
+        "anio": 1971
+      }
+    ]
   }
 ];
