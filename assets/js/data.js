@@ -10096,5 +10096,134 @@ const ARTISTAS = [
         "anio": 1971
       }
     ]
+  },
+  {
+    "id": "traveling-wilburys",
+    "nombre": "Traveling Wilburys",
+    "pais": "Estados Unidos",
+    "ciudad": "Los Ángeles, California",
+    "anios": "1988 – 1991",
+    "genero": "Rock, folk rock, country rock",
+    "integrantes": [
+      "George Harrison (“Nelson Wilbury”)",
+      "Jeff Lynne (“Otis Wilbury”)",
+      "Roy Orbison (“Lefty Wilbury”)",
+      "Bob Dylan (“Lucky Wilbury”)",
+      "Tom Petty (“Charlie T. Wilbury Jr.”)"
+    ],
+    "hero": "img/traveling-wilburys.jpg",
+    "heroPos": "center 25%",
+    "bajada": "El supergrupo más grande de la historia nació de una tarde entre amigos.",
+    "descripcion": [
+      "En 1988 George Harrison necesitaba grabar un lado B y llamó a los amigos que tenía cerca: Jeff Lynne, de ELO, que producía su disco; Roy Orbison; Tom Petty, en cuyo garaje estaba la guitarra que Harrison había ido a buscar; y Bob Dylan, que les prestó su estudio casero. La canción que salió, “Handle with Care”, era demasiado buena para un lado B, y decidieron grabar un disco entero.",
+      "Se presentaron como los hermanos Wilbury, cada uno con un apodo, y Traveling Wilburys Vol. 1 fue un éxito enorme. Orbison murió en diciembre de 1988, pocas semanas después de la salida del disco; en el video de “End of the Line” su lugar lo ocupa una guitarra en una mecedora. Los cuatro restantes grabaron un segundo disco, en broma titulado Vol. 3."
+    ],
+    "nota": "Las tres canciones son de Traveling Wilburys Vol. 1. Bob Dylan, George Harrison y ELO, el grupo de Jeff Lynne, también están en este libro.",
+    "canciones": [
+      {
+        "titulo": "Handle with Care",
+        "disco": "Traveling Wilburys Vol. 1",
+        "anio": 1988
+      },
+      {
+        "titulo": "Heading for the Light",
+        "disco": "Traveling Wilburys Vol. 1",
+        "anio": 1988
+      },
+      {
+        "titulo": "End of the Line",
+        "disco": "Traveling Wilburys Vol. 1",
+        "anio": 1988
+      }
+    ]
+  },
+  {
+    "id": "travis",
+    "nombre": "Travis",
+    "pais": "Reino Unido",
+    "ciudad": "Glasgow, Escocia",
+    "anios": "1990 – presente",
+    "genero": "Britpop, rock alternativo, indie pop",
+    "integrantes": [
+      "Fran Healy (voz, guitarra)",
+      "Andy Dunlop (guitarra)",
+      "Dougie Payne (bajo)",
+      "Neil Primrose (batería)"
+    ],
+    "hero": "img/travis.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Las melodías suaves de Glasgow que abrieron el camino a Coldplay.",
+    "descripcion": [
+      "Travis se formó en Glasgow, Escocia, a comienzos de los noventa, y se consolidó cuando el estudiante de arte Fran Healy se sumó como cantante y compositor. Después de mudarse a Londres, con The Man Who (1999) y canciones como “Why Does It Always Rain on Me?” se volvieron una de las bandas más queridas de Inglaterra, con un rock melódico y melancólico que influyó a Coldplay y Keane.",
+      "The Invisible Band (2001), con “Sing” y “Side”, llegó al número uno en Inglaterra. Los cuatro integrantes originales siguen juntos y grabando discos, como Everything at Once (2016)."
+    ],
+    "nota": "La lista va en orden cronológico.",
+    "canciones": [
+      {
+        "titulo": "Sing",
+        "disco": "The Invisible Band",
+        "anio": 2001
+      },
+      {
+        "titulo": "Side",
+        "disco": "The Invisible Band",
+        "anio": 2001
+      },
+      {
+        "titulo": "3 Miles High",
+        "disco": "Everything at Once",
+        "anio": 2016
+      }
+    ]
+  },
+  {
+    "id": "the-platters",
+    "nombre": "The Platters",
+    "pais": "Estados Unidos",
+    "ciudad": "Los Ángeles, California",
+    "anios": "1952 – 1970",
+    "genero": "Doo-wop, rhythm and blues, pop",
+    "integrantes": [
+      "Tony Williams (voz principal)",
+      "Zola Taylor (voz)",
+      "David Lynch (voz)",
+      "Paul Robi (voz)",
+      "Herb Reed (voz)"
+    ],
+    "hero": "img/the-platters.jpg",
+    "heroPos": "center 25%",
+    "bajada": "La voz de Tony Williams y las baladas más románticas de los cincuenta.",
+    "descripcion": [
+      "The Platters se formó en Los Ángeles a comienzos de los cincuenta. Su mánager, el compositor Buck Ram, les dio un sonido de baladas elegantes, a medio camino entre el doo-wop y la canción clásica, y la voz aguda y emotiva de Tony Williams se convirtió en su marca. En 1955 “Only You” y “The Great Pretender” los llevaron a lo más alto de las listas.",
+      "Fueron uno de los primeros grupos afroamericanos en llegar al número uno de las listas pop de Estados Unidos y en triunfar en todo el mundo. “Smoke Gets in Your Eyes”, una vieja canción de los años treinta, fue otro de sus grandes éxitos en 1958. Entraron al Salón de la Fama del Rock en 1990."
+    ],
+    "nota": "La lista va en orden cronológico. “You’ll Never Never Know” salió como simple en 1956. “Don’t Blame Me” es un estándar de los años treinta; no pude confirmar en qué disco de ellos aparece.",
+    "canciones": [
+      {
+        "titulo": "Only You (And You Alone)",
+        "disco": "The Platters",
+        "anio": 1956
+      },
+      {
+        "titulo": "The Great Pretender",
+        "disco": "The Platters",
+        "anio": 1956
+      },
+      {
+        "titulo": "You’ll Never Never Know",
+        "disco": "Simple (fuera de álbum)",
+        "anio": 1956
+      },
+      {
+        "titulo": "Smoke Gets in Your Eyes",
+        "disco": "Remember When?",
+        "anio": 1959
+      },
+      {
+        "titulo": "Don’t Blame Me",
+        "disco": "Disco por confirmar",
+        "anio": null
+      }
+    ]
   }
 ];
