@@ -10225,5 +10225,62 @@ const ARTISTAS = [
         "anio": null
       }
     ]
+  },
+  {
+    "id": "toto",
+    "nombre": "Toto",
+    "pais": "Estados Unidos",
+    "ciudad": "Los Ángeles, California",
+    "anios": "1977 – 2008 · 2010 – presente",
+    "genero": "Rock, soft rock, AOR",
+    "integrantes": [
+      "David Paich (teclados, voz)",
+      "Steve Lukather (guitarra, voz)",
+      "Jeff Porcaro (batería)",
+      "Steve Porcaro (teclados)",
+      "David Hungate (bajo)",
+      "Mike Porcaro (bajo)",
+      "Bobby Kimball (voz)"
+    ],
+    "hero": "img/toto.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Los mejores músicos de sesión de Los Ángeles, juntos en una banda.",
+    "descripcion": [
+      "Toto se formó en Los Ángeles en 1977 con músicos de estudio que ya habían tocado en discos de Boz Scaggs, Steely Dan y Aretha Franklin, entre muchos otros. Liderados por el tecladista David Paich y el baterista Jeff Porcaro, debutaron en 1978 con “Hold the Line”, que mezclaba rock, pop y funk con una precisión impecable.",
+      "Toto IV (1982), con “Rosanna” y “Africa”, ganó seis premios Grammy, incluido el de disco del año. En paralelo, sus integrantes siguieron grabando como músicos de sesión, por ejemplo en Thriller, de Michael Jackson. Jeff Porcaro murió en 1992, pero la banda siguió, con Steve Lukather al frente, y “Africa” volvió a ser un fenómeno en internet décadas después."
+    ],
+    "nota": "La lista va en orden cronológico.",
+    "canciones": [
+      {
+        "titulo": "Hold the Line",
+        "disco": "Toto",
+        "anio": 1978
+      },
+      {
+        "titulo": "Rosanna",
+        "disco": "Toto IV",
+        "anio": 1982
+      },
+      {
+        "titulo": "I Won’t Hold You Back",
+        "disco": "Toto IV",
+        "anio": 1982
+      },
+      {
+        "titulo": "Africa",
+        "disco": "Toto IV",
+        "anio": 1982
+      },
+      {
+        "titulo": "I’ll Be Over You",
+        "disco": "Fahrenheit",
+        "anio": 1986
+      },
+      {
+        "titulo": "Stop Loving You",
+        "disco": "The Seventh One",
+        "anio": 1988
+      }
+    ]
   }
 ];
