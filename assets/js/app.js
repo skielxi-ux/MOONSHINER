@@ -652,7 +652,7 @@ function renderOpiniones() {
           <input id="op-nombre" class="op-input" type="text" maxlength="60" autocomplete="name" required placeholder="Por ejemplo: Laura"></label>
         <div class="grid gap-1.5"><span class="kicker" id="op-cal-label">Tu calificación</span>
           <div class="op-elegir" role="radiogroup" aria-labelledby="op-cal-label">
-            ${[1, 2, 3, 4, 5].map(n => `<button type="button" role="radio" aria-checked="false" data-n="${n}" aria-label="${n} ${n === 1 ? 'estrella' : 'estrellas'}"><i class="fa-regular fa-star"></i></button>`).join('')}
+            ${[1, 2, 3, 4, 5].map(n => `<button type="button" role="radio" aria-checked="false" data-n="${n}" aria-label="${n} ${n === 1 ? 'estrella' : 'estrellas'}"><i class="fa-regular fa-star off" aria-hidden="true"></i><i class="fa-solid fa-star on" aria-hidden="true"></i></button>`).join('')}
           </div></div>
         <label class="grid gap-1.5"><span class="kicker">Tu comentario <span class="text-muted normal-case tracking-normal font-body">(opcional)</span></span>
           <textarea id="op-comentario" class="op-input" rows="4" maxlength="600" placeholder="Contanos qué te pareció…"></textarea></label>
@@ -684,8 +684,7 @@ function renderOpiniones() {
 
   const botones = [...document.querySelectorAll('.op-elegir button')];
   const marcar = (n, fijo) => botones.forEach(b => {
-    const on = +b.dataset.n <= n;
-    b.querySelector('i').className = (on ? 'fa-solid' : 'fa-regular') + ' fa-star';
+    b.classList.toggle('activo', +b.dataset.n <= n);
     if (fijo) b.setAttribute('aria-checked', +b.dataset.n === n);
   });
   botones.forEach(b => {

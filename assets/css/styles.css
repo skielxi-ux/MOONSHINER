@@ -245,6 +245,8 @@ a { color: inherit; }
 .op-input:focus { outline: 3px solid var(--red); outline-offset: 1px; }
 .op-elegir { display: flex; gap: .35rem; }
 .op-elegir button { font-size: 2rem; color: var(--red); background: none; border: 0; padding: .1rem; cursor: pointer; line-height: 1; }
+.op-elegir button .on, .op-elegir button.activo .off { display: none; }
+.op-elegir button.activo .on { display: inline-block; }
 .op-elegir button:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
 .op-enviar { font-family: var(--font-label); font-weight: 700; text-transform: uppercase; letter-spacing: .08em; font-size: 1rem; padding: .8rem 1.4rem; background: var(--ink); color: var(--paper); border: 0; cursor: pointer; }
 .op-enviar:hover { background: var(--red); }
