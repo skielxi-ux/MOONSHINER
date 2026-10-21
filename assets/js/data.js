@@ -10282,5 +10282,41 @@ const ARTISTAS = [
         "anio": 1988
       }
     ]
+  },
+  {
+    "id": "tracy-chapman",
+    "nombre": "Tracy Chapman",
+    "pais": "Estados Unidos",
+    "ciudad": "Cleveland, Ohio",
+    "anios": "1986 – presente",
+    "genero": "Folk, folk rock, cantautora",
+    "integrantes": [
+      "Tracy Chapman (voz, guitarra)"
+    ],
+    "hero": "img/tracy-chapman.jpg",
+    "heroPos": "center 25%",
+    "bajada": "Una guitarra acústica y una voz grave para contar la vida de los que no tienen nada.",
+    "descripcion": [
+      "Tracy Chapman nació en 1964 en Cleveland, Ohio, en una familia humilde, y empezó a tocar la guitarra de chica. Mientras estudiaba antropología en la Universidad Tufts, cantaba en cafés y en la calle en Boston, donde un compañero de estudios la presentó a su padre, que trabajaba en una editorial de música.",
+      "Su primer disco, Tracy Chapman (1988), salió en plena época de sintetizadores y fue un éxito inesperado. Su presentación en el concierto por los 70 años de Nelson Mandela en Wembley, donde reemplazó de urgencia a Stevie Wonder, la hizo conocida en todo el mundo, y ganó tres premios Grammy. En 2024, “Fast Car” volvió a sonar gracias a la versión de Luke Combs y ella la cantó con él en los Grammy."
+    ],
+    "nota": "Las tres canciones son de su primer disco, de 1988.",
+    "canciones": [
+      {
+        "titulo": "Talkin’ ’bout a Revolution",
+        "disco": "Tracy Chapman",
+        "anio": 1988
+      },
+      {
+        "titulo": "Fast Car",
+        "disco": "Tracy Chapman",
+        "anio": 1988
+      },
+      {
+        "titulo": "Baby Can I Hold You",
+        "disco": "Tracy Chapman",
+        "anio": 1988
+      }
+    ]
   }
 ];

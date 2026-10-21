@@ -567,15 +567,169 @@ function buildBook() {
 }
 
 /* ---------- navegación ---------- */
+/* ---------- vista: opiniones (reviews guardadas en Supabase) ---------- */
+const OPINIONES_API = 'https://khtkjswuwglfiucviqiu.supabase.co/rest/v1/reviews';
+const OPINIONES_KEY = 'sb_publishable_8VwpRbKv5IbOpE2PIGWMIA_VtSEZtRN';
+const OPINION_HECHA = 'moonshiner:opinion-enviada';
+let swiperOpiniones = null;
+
+const estrellasHTML = (n, size = '') => [1, 2, 3, 4, 5].map(i =>
+  `<i class="${i <= Math.round(n) ? 'fa-solid' : 'fa-regular'} fa-star ${size}" aria-hidden="true"></i>`).join('');
+
+async function cargarOpiniones() {
+  const r = await fetch(`${OPINIONES_API}?select=id,nombre,estrellas,comentario,creado&order=creado.desc&limit=200`, { headers: { apikey: OPINIONES_KEY } });
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+  return r.json();
+}
+
+async function enviarOpinion(o) {
+  const r = await fetch(OPINIONES_API, {
+    method: 'POST',
+    headers: { apikey: OPINIONES_KEY, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
+    body: JSON.stringify(o)
+  });
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+}
+
+function resumenOpiniones(lista) {
+  const total = lista.length;
+  const prom = total ? lista.reduce((s, o) => s + o.estrellas, 0) / total : 0;
+  const dist = [5, 4, 3, 2, 1].map(n => ({ n, c: lista.filter(o => o.estrellas === n).length }));
+  return `
+    <div class="op-resumen">
+      <div class="grid gap-1 justify-items-start">
+        <span class="op-promedio">${total ? prom.toFixed(1).replace('.', ',') : '—'}</span>
+        <span class="op-estrellas text-xl">${estrellasHTML(prom)}</span>
+        <span class="kicker text-muted">${total === 1 ? '1 opinión' : `${total} opiniones`}</span>
+      </div>
+      <div class="grid gap-1.5 w-full">
+        ${dist.map(d => `<div class="op-barra"><span class="kicker">${d.n} <i class="fa-solid fa-star text-red"></i></span>
+          <span class="op-barra-fondo"><span style="width:${total ? (d.c / total * 100) : 0}%"></span></span>
+          <span class="kicker text-muted text-right">${d.c}</span></div>`).join('')}
+      </div>
+    </div>`;
+}
+
+function tarjetaOpinion(o) {
+  const fecha = new Date(o.creado).toLocaleDateString('es-AR', { day: 'numeric', month: 'long', year: 'numeric' });
+  return `<div class="swiper-slide"><figure class="op-card">
+    <span class="op-estrellas">${estrellasHTML(o.estrellas)}<span class="sr-only">${o.estrellas} de 5 estrellas</span></span>
+    ${o.comentario ? `<blockquote class="op-texto">“${esc(o.comentario)}”</blockquote>` : `<p class="op-texto text-muted italic">Sin comentario.</p>`}
+    <figcaption class="op-firma"><span class="font-label font-bold uppercase tracking-wider">${esc(o.nombre)}</span><span class="text-muted">${fecha}</span></figcaption>
+  </figure></div>`;
+}
+
+function renderOpiniones() {
+  $('#stats').textContent = '';
+  let nota = 0;
+  const yaEnvio = store.get(OPINION_HECHA);
+  $('#view').innerHTML = `
+    <section class="view-enter grid gap-10">
+      <a href="#" class="kicker inline-flex items-center gap-2 w-fit hover:text-red no-underline"><i class="fa-solid fa-arrow-left"></i>Volver al sumario</a>
+      <div class="grid gap-3">
+        <span class="kicker text-red">Correo de lectores</span>
+        <h1 class="songs-title">Opiniones</h1>
+        <p class="text-lg text-muted max-w-2xl">¿Qué te pareció Moonshiner? Dejá tu calificación y, si querés, unas palabras. Solo te pedimos tu nombre.</p>
+      </div>
+
+      <div id="op-resumen" class="border-y-4 border-ink py-6"><p class="text-muted"><i class="fa-solid fa-spinner fa-spin mr-2"></i>Cargando opiniones…</p></div>
+
+      <div class="grid gap-4">
+        <div class="flex items-end justify-between gap-4 border-b-4 border-ink pb-2">
+          <h2 class="font-display font-black text-3xl sm:text-4xl leading-none">Lo que dicen los lectores</h2>
+          <div class="flex gap-2">
+            <button class="nav-btn js-op-prev" aria-label="Opinión anterior"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="nav-btn js-op-next" aria-label="Opinión siguiente"><i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="swiper op-swiper w-full"><div class="swiper-wrapper" id="op-lista"></div></div>
+      </div>
+
+      <form id="op-form" class="op-form" novalidate>
+        <h2 class="font-display font-black text-3xl leading-none">Dejá tu opinión</h2>
+        ${yaEnvio ? `<p class="op-aviso"><i class="fa-solid fa-circle-check mr-2"></i>Ya dejaste una opinión desde este navegador. ¡Gracias! Podés dejar otra si querés.</p>` : ''}
+        <label class="grid gap-1.5"><span class="kicker">Tu nombre</span>
+          <input id="op-nombre" class="op-input" type="text" maxlength="60" autocomplete="name" required placeholder="Por ejemplo: Laura"></label>
+        <div class="grid gap-1.5"><span class="kicker" id="op-cal-label">Tu calificación</span>
+          <div class="op-elegir" role="radiogroup" aria-labelledby="op-cal-label">
+            ${[1, 2, 3, 4, 5].map(n => `<button type="button" role="radio" aria-checked="false" data-n="${n}" aria-label="${n} ${n === 1 ? 'estrella' : 'estrellas'}"><i class="fa-regular fa-star"></i></button>`).join('')}
+          </div></div>
+        <label class="grid gap-1.5"><span class="kicker">Tu comentario <span class="text-muted normal-case tracking-normal font-body">(opcional)</span></span>
+          <textarea id="op-comentario" class="op-input" rows="4" maxlength="600" placeholder="Contanos qué te pareció…"></textarea></label>
+        <input type="text" id="op-web" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="flex flex-wrap items-center gap-4">
+          <button type="submit" class="op-enviar"><i class="fa-solid fa-paper-plane mr-2"></i>Publicar opinión</button>
+          <span id="op-msg" class="text-muted" role="status"></span>
+        </div>
+      </form>
+    </section>`;
+
+  const pintar = lista => {
+    $('#op-resumen').innerHTML = resumenOpiniones(lista);
+    $('#op-lista').innerHTML = lista.length ? lista.map(tarjetaOpinion).join('')
+      : `<div class="swiper-slide"><div class="op-card items-center justify-center text-center"><i class="fa-regular fa-comment text-4xl text-muted"></i><p class="text-lg">Todavía no hay opiniones.</p><p class="text-muted">¡Sé el primero en dejar la tuya!</p></div></div>`;
+    if (swiperOpiniones) swiperOpiniones.destroy(true, true);
+    swiperOpiniones = new Swiper('.op-swiper', {
+      slidesPerView: 1.1, spaceBetween: 20, grabCursor: true,
+      navigation: { prevEl: '.js-op-prev', nextEl: '.js-op-next' },
+      breakpoints: { 600: { slidesPerView: 2 }, 960: { slidesPerView: 3 } },
+      a11y: { prevSlideMessage: 'Opinión anterior', nextSlideMessage: 'Opinión siguiente' }
+    });
+  };
+  const recargar = () => cargarOpiniones().then(pintar).catch(() => {
+    $('#op-resumen').innerHTML = `<p class="text-muted"><i class="fa-solid fa-triangle-exclamation text-red mr-2"></i>No se pudieron cargar las opiniones. Revisá tu conexión e intentá de nuevo.</p>`;
+    $('#op-lista').innerHTML = '';
+  });
+  recargar();
+
+  const botones = [...document.querySelectorAll('.op-elegir button')];
+  const marcar = (n, fijo) => botones.forEach(b => {
+    const on = +b.dataset.n <= n;
+    b.querySelector('i').className = (on ? 'fa-solid' : 'fa-regular') + ' fa-star';
+    if (fijo) b.setAttribute('aria-checked', +b.dataset.n === n);
+  });
+  botones.forEach(b => {
+    b.addEventListener('click', () => { nota = +b.dataset.n; marcar(nota, true); });
+    b.addEventListener('mouseenter', () => marcar(+b.dataset.n));
+    b.addEventListener('keydown', e => {
+      if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+        e.preventDefault(); nota = Math.min(5, Math.max(1, (nota || 0) + (e.key === 'ArrowRight' ? 1 : -1)));
+        marcar(nota, true); botones[nota - 1].focus();
+      }
+    });
+  });
+  $('.op-elegir').addEventListener('mouseleave', () => marcar(nota));
+
+  $('#op-form').addEventListener('submit', async e => {
+    e.preventDefault();
+    const msg = $('#op-msg'), btn = $('.op-enviar');
+    const nombre = $('#op-nombre').value.trim(), comentario = $('#op-comentario').value.trim();
+    if ($('#op-web').value) return;
+    if (!nombre) { msg.textContent = 'Escribí tu nombre.'; $('#op-nombre').focus(); return; }
+    if (!nota) { msg.textContent = 'Elegí de 1 a 5 estrellas.'; botones[0].focus(); return; }
+    btn.disabled = true; msg.textContent = 'Publicando…';
+    try {
+      await enviarOpinion({ nombre, estrellas: nota, comentario });
+      store.set(OPINION_HECHA, '1');
+      $('#op-form').reset(); nota = 0; marcar(0, true);
+      msg.innerHTML = '<span class="text-ink"><i class="fa-solid fa-circle-check text-red mr-1"></i>¡Gracias! Tu opinión ya está publicada.</span>';
+      recargar();
+    } catch (err) {
+      msg.textContent = 'No se pudo publicar. Probá de nuevo en un momento.';
+    } finally { btn.disabled = false; }
+  });
+}
+
 function route() {
   stopPlayer();
   const id = decodeURIComponent(location.hash.slice(1));
   const a = artistas.find(x => x.id === id);
   const h = id.startsWith('historia-') ? historias.find(x => 'historia-' + x.id === id) : null;
-  const tab = id === 'favoritos' ? 'favoritos' : (id === 'historias' || h) ? 'historias' : a ? '' : 'sumario';
+  const tab = id === 'opiniones' ? 'opiniones' : id === 'favoritos' ? 'favoritos' : (id === 'historias' || h) ? 'historias' : a ? '' : 'sumario';
   document.querySelectorAll('.tabs a').forEach(t => t.dataset.tab === tab ? t.setAttribute('aria-current', 'page') : t.removeAttribute('aria-current'));
   if (id === 'historias') { renderHistorias(); document.title = 'Historias · Moonshiner'; }
   else if (h) { renderHistoria(h); document.title = h.titulo + ' · Moonshiner'; }
+  else if (id === 'opiniones') { renderOpiniones(); document.title = 'Opiniones · Moonshiner'; }
   else if (id === 'favoritos') { renderFavs(); document.title = 'Mis favoritos · Moonshiner'; }
   else if (a) { renderArtist(a); document.title = a.nombre + ' · Moonshiner'; }
   else { renderHome(); document.title = 'Moonshiner'; }
