@@ -10318,5 +10318,378 @@ const ARTISTAS = [
         "anio": 1988
       }
     ]
+  },
+  {
+    "id": "tom-petty",
+    "nombre": "Tom Petty",
+    "pais": "Estados Unidos",
+    "ciudad": "Gainesville, Florida",
+    "anios": "1976 – 2017",
+    "genero": "Rock, heartland rock, rock de raíz",
+    "integrantes": [
+      "Tom Petty (voz, guitarra)",
+      "Mike Campbell (guitarra)",
+      "Benmont Tench (teclados)",
+      "Ron Blair (bajo)",
+      "Howie Epstein (bajo)",
+      "Stan Lynch (batería)",
+      "Steve Ferrone (batería)",
+      "Scott Thurston (guitarra, teclados)"
+    ],
+    "hero": "img/tom-petty.jpg",
+    "heroPos": "center 25%",
+    "bajada": "Canciones de ruta, guitarras Rickenbacker y una voz que no se dejaba vencer.",
+    "descripcion": [
+      "Tom Petty nació en 1950 en Gainesville, Florida, y decidió dedicarse a la música después de ver a Elvis Presley de chico y a los Beatles en televisión. En 1976 debutó con The Heartbreakers, su banda de toda la vida, con “American Girl” y “Breakdown”, y con Damn the Torpedoes (1979) se convirtió en una de las grandes figuras del rock estadounidense, con un sonido heredero de los Byrds y de Bob Dylan.",
+      "En 1989 grabó su primer disco solista, Full Moon Fever, producido por Jeff Lynne, con “Free Fallin’” e “I Won’t Back Down”, y ese mismo año formó parte de los Traveling Wilburys. Siguieron Into the Great Wide Open y Wildflowers (1994), considerado su obra maestra. Alternó discos solistas y con los Heartbreakers hasta su muerte, en octubre de 2017, una semana después de terminar una gira por los 40 años de la banda."
+    ],
+    "nota": "La lista va en orden cronológico e incluye sus discos solistas (Full Moon Fever, Wildflowers y Highway Companion) y los de Tom Petty and the Heartbreakers. “Parade of Loons” es una canción inédita grabada hacia 1977 que salió recién en 2026, en la caja Origins 1971–1978. Petty también formó parte de los Traveling Wilburys.",
+    "canciones": [
+      {
+        "titulo": "Rockin’ Around (With You)",
+        "disco": "Tom Petty and the Heartbreakers",
+        "anio": 1976
+      },
+      {
+        "titulo": "Breakdown",
+        "disco": "Tom Petty and the Heartbreakers",
+        "anio": 1976
+      },
+      {
+        "titulo": "American Girl",
+        "disco": "Tom Petty and the Heartbreakers",
+        "anio": 1976
+      },
+      {
+        "titulo": "Here Comes My Girl",
+        "disco": "Damn the Torpedoes",
+        "anio": 1979
+      },
+      {
+        "titulo": "Century City",
+        "disco": "Damn the Torpedoes",
+        "anio": 1979
+      },
+      {
+        "titulo": "You Tell Me",
+        "disco": "Damn the Torpedoes",
+        "anio": 1979
+      },
+      {
+        "titulo": "Louisiana Rain",
+        "disco": "Damn the Torpedoes",
+        "anio": 1979
+      },
+      {
+        "titulo": "The Waiting",
+        "disco": "Hard Promises",
+        "anio": 1981
+      },
+      {
+        "titulo": "You Got Lucky",
+        "disco": "Long After Dark",
+        "anio": 1982
+      },
+      {
+        "titulo": "Rebels",
+        "disco": "Southern Accents",
+        "anio": 1985
+      },
+      {
+        "titulo": "Don’t Come Around Here No More",
+        "disco": "Southern Accents",
+        "anio": 1985
+      },
+      {
+        "titulo": "Make It Better (Forget About Me)",
+        "disco": "Southern Accents",
+        "anio": 1985
+      },
+      {
+        "titulo": "It’ll All Work Out",
+        "disco": "Let Me Up (I’ve Had Enough)",
+        "anio": 1987
+      },
+      {
+        "titulo": "All Mixed Up",
+        "disco": "Let Me Up (I’ve Had Enough)",
+        "anio": 1987
+      },
+      {
+        "titulo": "Free Fallin’",
+        "disco": "Full Moon Fever",
+        "anio": 1989
+      },
+      {
+        "titulo": "I Won’t Back Down",
+        "disco": "Full Moon Fever",
+        "anio": 1989
+      },
+      {
+        "titulo": "Love Is a Long Road",
+        "disco": "Full Moon Fever",
+        "anio": 1989
+      },
+      {
+        "titulo": "A Face in the Crowd",
+        "disco": "Full Moon Fever",
+        "anio": 1989
+      },
+      {
+        "titulo": "Runnin’ Down a Dream",
+        "disco": "Full Moon Fever",
+        "anio": 1989
+      },
+      {
+        "titulo": "Yer So Bad",
+        "disco": "Full Moon Fever",
+        "anio": 1989
+      },
+      {
+        "titulo": "Zombie Zoo",
+        "disco": "Full Moon Fever",
+        "anio": 1989
+      },
+      {
+        "titulo": "Learning to Fly",
+        "disco": "Into the Great Wide Open",
+        "anio": 1991
+      },
+      {
+        "titulo": "Kings Highway",
+        "disco": "Into the Great Wide Open",
+        "anio": 1991
+      },
+      {
+        "titulo": "Into the Great Wide Open",
+        "disco": "Into the Great Wide Open",
+        "anio": 1991
+      },
+      {
+        "titulo": "Two Gunslingers",
+        "disco": "Into the Great Wide Open",
+        "anio": 1991
+      },
+      {
+        "titulo": "The Dark of the Sun",
+        "disco": "Into the Great Wide Open",
+        "anio": 1991
+      },
+      {
+        "titulo": "All or Nothin’",
+        "disco": "Into the Great Wide Open",
+        "anio": 1991
+      },
+      {
+        "titulo": "All the Wrong Reasons",
+        "disco": "Into the Great Wide Open",
+        "anio": 1991
+      },
+      {
+        "titulo": "Out in the Cold",
+        "disco": "Into the Great Wide Open",
+        "anio": 1991
+      },
+      {
+        "titulo": "You and I Will Meet Again",
+        "disco": "Into the Great Wide Open",
+        "anio": 1991
+      },
+      {
+        "titulo": "Makin’ Some Noise",
+        "disco": "Into the Great Wide Open",
+        "anio": 1991
+      },
+      {
+        "titulo": "Built to Last",
+        "disco": "Into the Great Wide Open",
+        "anio": 1991
+      },
+      {
+        "titulo": "Wildflowers",
+        "disco": "Wildflowers",
+        "anio": 1994
+      },
+      {
+        "titulo": "You Don’t Know How It Feels",
+        "disco": "Wildflowers",
+        "anio": 1994
+      },
+      {
+        "titulo": "Time to Move On",
+        "disco": "Wildflowers",
+        "anio": 1994
+      },
+      {
+        "titulo": "You Wreck Me",
+        "disco": "Wildflowers",
+        "anio": 1994
+      },
+      {
+        "titulo": "It’s Good to Be King",
+        "disco": "Wildflowers",
+        "anio": 1994
+      },
+      {
+        "titulo": "Only a Broken Heart",
+        "disco": "Wildflowers",
+        "anio": 1994
+      },
+      {
+        "titulo": "Honey Bee",
+        "disco": "Wildflowers",
+        "anio": 1994
+      },
+      {
+        "titulo": "To Find a Friend",
+        "disco": "Wildflowers",
+        "anio": 1994
+      },
+      {
+        "titulo": "Crawling Back to You",
+        "disco": "Wildflowers",
+        "anio": 1994
+      },
+      {
+        "titulo": "Wake Up Time",
+        "disco": "Wildflowers",
+        "anio": 1994
+      },
+      {
+        "titulo": "Walls (Circus)",
+        "disco": "She’s the One (banda sonora)",
+        "anio": 1996
+      },
+      {
+        "titulo": "Change the Locks",
+        "disco": "She’s the One (banda sonora)",
+        "anio": 1996
+      },
+      {
+        "titulo": "Lonesome Sundown",
+        "disco": "Echo",
+        "anio": 1999
+      },
+      {
+        "titulo": "Swingin’",
+        "disco": "Echo",
+        "anio": 1999
+      },
+      {
+        "titulo": "Echo",
+        "disco": "Echo",
+        "anio": 1999
+      },
+      {
+        "titulo": "Billy the Kid",
+        "disco": "Echo",
+        "anio": 1999
+      },
+      {
+        "titulo": "No More",
+        "disco": "Echo",
+        "anio": 1999
+      },
+      {
+        "titulo": "One More Day, One More Night",
+        "disco": "Echo",
+        "anio": 1999
+      },
+      {
+        "titulo": "The Last DJ",
+        "disco": "The Last DJ",
+        "anio": 2002
+      },
+      {
+        "titulo": "Money Becomes King",
+        "disco": "The Last DJ",
+        "anio": 2002
+      },
+      {
+        "titulo": "Like a Diamond",
+        "disco": "The Last DJ",
+        "anio": 2002
+      },
+      {
+        "titulo": "Blue Sunday",
+        "disco": "The Last DJ",
+        "anio": 2002
+      },
+      {
+        "titulo": "You and Me",
+        "disco": "The Last DJ",
+        "anio": 2002
+      },
+      {
+        "titulo": "Have Love, Will Travel",
+        "disco": "The Last DJ",
+        "anio": 2002
+      },
+      {
+        "titulo": "Saving Grace",
+        "disco": "Highway Companion",
+        "anio": 2006
+      },
+      {
+        "titulo": "Square One",
+        "disco": "Highway Companion",
+        "anio": 2006
+      },
+      {
+        "titulo": "Down South",
+        "disco": "Highway Companion",
+        "anio": 2006
+      },
+      {
+        "titulo": "Big Weekend",
+        "disco": "Highway Companion",
+        "anio": 2006
+      },
+      {
+        "titulo": "Damaged by Love",
+        "disco": "Highway Companion",
+        "anio": 2006
+      },
+      {
+        "titulo": "The Golden Rose",
+        "disco": "Highway Companion",
+        "anio": 2006
+      },
+      {
+        "titulo": "Jefferson Jericho Blues",
+        "disco": "Mojo",
+        "anio": 2010
+      },
+      {
+        "titulo": "No Reason to Cry",
+        "disco": "Mojo",
+        "anio": 2010
+      },
+      {
+        "titulo": "I Should Have Known It",
+        "disco": "Mojo",
+        "anio": 2010
+      },
+      {
+        "titulo": "Something Good Coming",
+        "disco": "Mojo",
+        "anio": 2010
+      },
+      {
+        "titulo": "Good Enough",
+        "disco": "Mojo",
+        "anio": 2010
+      },
+      {
+        "titulo": "Sins of My Youth",
+        "disco": "Hypnotic Eye",
+        "anio": 2014
+      },
+      {
+        "titulo": "Parade of Loons",
+        "disco": "Origins 1971–1978 · inédito grabado c. 1977",
+        "anio": 2026
+      }
+    ]
   }
 ];
