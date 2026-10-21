@@ -7002,7 +7002,7 @@ const ARTISTAS = [
       "Van Morrison (voz, guitarra, saxo, armónica)"
     ],
     "hero": "img/van-morrison.jpg",
-    "heroPos": "center 30%",
+    "heroPos": "center 20%",
     "bajada": "La voz de Belfast que mezcló el soul de Ray Charles con la poesía irlandesa.",
     "descripcion": [
       "George Ivan Morrison nació en Belfast en 1945 y creció escuchando los discos de jazz, blues y soul que coleccionaba su padre. A mediados de los sesenta cantó en Them, la banda de “Gloria”, y en 1967 se lanzó solo con “Brown Eyed Girl”, que se volvió uno de los temas más pasados de la radio.",
@@ -9334,6 +9334,92 @@ const ARTISTAS = [
         "titulo": "Can’t Nobody Love You",
         "disco": "Begin Here",
         "anio": 1965
+      }
+    ]
+  },
+  {
+    "id": "wilson-pickett",
+    "nombre": "Wilson Pickett",
+    "pais": "Estados Unidos",
+    "ciudad": "Prattville, Alabama",
+    "anios": "1955 – 2004",
+    "genero": "Soul, R&B",
+    "integrantes": [
+      "Wilson Pickett (voz)"
+    ],
+    "hero": "img/wilson-pickett.jpg",
+    "heroPos": "center 25%",
+    "bajada": "“The Wicked Pickett”: el grito más feroz del soul sureño.",
+    "descripcion": [
+      "Wilson Pickett nació en 1941 en Prattville, Alabama, y aprendió a cantar en el coro de la iglesia bautista. Ya en Detroit cantó gospel y después con el grupo The Falcons, y en 1963 empezó su carrera solista con “If You Need Me”, una balada que escribió él mismo.",
+      "Al firmar con Atlantic grabó en los estudios Stax de Memphis y en Muscle Shoals, Alabama, con algunos de los mejores músicos del soul. Allí nacieron “In the Midnight Hour”, escrita junto al guitarrista Steve Cropper, “Land of 1000 Dances” y “Mustang Sally”. Su voz áspera y desbordada lo convirtió en uno de los grandes del soul. Entró al Salón de la Fama del Rock en 1991 y murió en 2006."
+    ],
+    "nota": "La lista va en orden cronológico. “In the Midnight Hour” salió primero en el disco de 1965 del mismo nombre y volvió a aparecer en The Exciting Wilson Pickett. “Something You Got” es una canción de Chris Kenner.",
+    "canciones": [
+      {
+        "titulo": "If You Need Me",
+        "disco": "It’s Too Late",
+        "anio": 1963
+      },
+      {
+        "titulo": "In the Midnight Hour",
+        "disco": "In the Midnight Hour",
+        "anio": 1965
+      },
+      {
+        "titulo": "Land of 1000 Dances",
+        "disco": "The Exciting Wilson Pickett",
+        "anio": 1966
+      },
+      {
+        "titulo": "634-5789 (Soulsville, U.S.A.)",
+        "disco": "The Exciting Wilson Pickett",
+        "anio": 1966
+      },
+      {
+        "titulo": "Something You Got",
+        "disco": "The Exciting Wilson Pickett",
+        "anio": 1966
+      },
+      {
+        "titulo": "Mustang Sally",
+        "disco": "The Wicked Pickett",
+        "anio": 1966
+      }
+    ]
+  },
+  {
+    "id": "velvet-revolver",
+    "nombre": "Velvet Revolver",
+    "pais": "Estados Unidos",
+    "ciudad": "Los Ángeles, California",
+    "anios": "2002 – 2008 · reuniones posteriores",
+    "genero": "Hard rock",
+    "integrantes": [
+      "Scott Weiland (voz)",
+      "Slash (guitarra)",
+      "Duff McKagan (bajo)",
+      "Matt Sorum (batería)",
+      "Dave Kushner (guitarra)"
+    ],
+    "hero": "img/velvet-revolver.jpg",
+    "heroPos": "center 30%",
+    "bajada": "Tres Guns N’ Roses y la voz de Stone Temple Pilots: un supergrupo de verdad.",
+    "descripcion": [
+      "Velvet Revolver nació en 2002, cuando Slash, Duff McKagan y Matt Sorum, ex Guns N’ Roses, se juntaron con el guitarrista Dave Kushner y buscaron un cantante durante meses. El elegido fue Scott Weiland, la voz de Stone Temple Pilots, que acababa de separarse de su banda.",
+      "Su primer disco, Contraband (2004), debutó en el número uno en Estados Unidos y les dio un Grammy por “Slither”. “Fall to Pieces”, una balada sobre las adicciones de Weiland, fue su canción más emotiva. Después de Libertad (2007), las peleas y los problemas de Weiland terminaron con la banda en 2008. Weiland murió en 2015."
+    ],
+    "nota": "La lista va en orden cronológico. “Loving the Alien” es una canción propia, distinta de la de David Bowie que lleva el mismo nombre.",
+    "canciones": [
+      {
+        "titulo": "Fall to Pieces",
+        "disco": "Contraband",
+        "anio": 2004
+      },
+      {
+        "titulo": "Loving the Alien",
+        "disco": "Contraband",
+        "anio": 2004
       }
     ]
   }
