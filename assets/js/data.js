@@ -8552,7 +8552,7 @@ const ARTISTAS = [
         "anio": 1979
       },
       {
-        "titulo": "Train in Vain",
+        "titulo": "Train in Vain (Stand by Me)",
         "disco": "London Calling",
         "anio": 1979
       },
@@ -9420,6 +9420,153 @@ const ARTISTAS = [
         "titulo": "Loving the Alien",
         "disco": "Contraband",
         "anio": 2004
+      }
+    ]
+  },
+  {
+    "id": "the-cure",
+    "nombre": "The Cure",
+    "pais": "Reino Unido",
+    "ciudad": "Crawley, Inglaterra",
+    "anios": "1978 – presente",
+    "genero": "Post-punk, rock gótico, new wave",
+    "integrantes": [
+      "Robert Smith (voz, guitarra)",
+      "Simon Gallup (bajo)",
+      "Porl Thompson (guitarra)",
+      "Boris Williams (batería)",
+      "Roger O’Donnell (teclados)",
+      "Lol Tolhurst (batería, teclados)"
+    ],
+    "hero": "img/the-cure.jpg",
+    "heroPos": "center 25%",
+    "bajada": "El pelo revuelto y el lápiz labial corrido de Robert Smith: tristeza y pop en partes iguales.",
+    "descripcion": [
+      "The Cure se formó en Crawley, al sur de Londres, a fines de los setenta, alrededor de Robert Smith, su cantante, guitarrista y compositor. Empezaron en el post-punk con temas secos como “Boys Don’t Cry”, y a comienzos de los ochenta grabaron una trilogía oscura que los convirtió en referentes del rock gótico.",
+      "Smith siempre alternó esa melancolía con canciones pop luminosas, como “Just Like Heaven” y “Friday I’m in Love”. Disintegration (1989), con “Pictures of You” y “Lovesong”, es considerado su obra maestra. Después de dieciséis años sin disco nuevo, en 2024 volvieron con Songs of a Lost World, que cierra con “Endsong”."
+    ],
+    "nota": "La lista va en orden cronológico. “Boys Don’t Cry” salió como simple en 1979 y quedó en el disco del mismo nombre de 1980. Robert Smith escribió “Lovesong” como regalo de bodas para su esposa, Mary.",
+    "canciones": [
+      {
+        "titulo": "Boys Don’t Cry",
+        "disco": "Boys Don’t Cry",
+        "anio": 1980
+      },
+      {
+        "titulo": "Just Like Heaven",
+        "disco": "Kiss Me, Kiss Me, Kiss Me",
+        "anio": 1987
+      },
+      {
+        "titulo": "Pictures of You",
+        "disco": "Disintegration",
+        "anio": 1989
+      },
+      {
+        "titulo": "Lovesong",
+        "disco": "Disintegration",
+        "anio": 1989
+      },
+      {
+        "titulo": "Friday I’m in Love",
+        "disco": "Wish",
+        "anio": 1992
+      },
+      {
+        "titulo": "Endsong",
+        "disco": "Songs of a Lost World",
+        "anio": 2024
+      }
+    ]
+  },
+  {
+    "id": "the-offspring",
+    "nombre": "The Offspring",
+    "pais": "Estados Unidos",
+    "ciudad": "Garden Grove, California",
+    "anios": "1984 – presente",
+    "genero": "Punk rock, pop punk, skate punk",
+    "integrantes": [
+      "Dexter Holland (voz, guitarra)",
+      "Noodles (guitarra)",
+      "Todd Morse (bajo)",
+      "Brandon Pertzborn (batería)",
+      "Greg K. (bajo)",
+      "Ron Welty (batería)"
+    ],
+    "hero": "img/the-offspring.jpg",
+    "heroPos": "center 30%",
+    "bajada": "El punk californiano que llevó los estribillos de skate a las radios del mundo.",
+    "descripcion": [
+      "The Offspring se formó en el condado de Orange, California, en los ochenta, liderado por Dexter Holland, que en paralelo estudiaba un doctorado en biología molecular. Durante años tocaron en el circuito punk local, hasta que Smash (1994), editado por un sello independiente, vendió más de diez millones de copias gracias a “Come Out and Play” y “Self Esteem”.",
+      "Con Americana (1998) y “Pretty Fly (for a White Guy)” se volvieron una de las bandas más populares del mundo, mezclando punk rápido con humor y crítica social. Siguieron grabando y girando sin pausa, y en 2024 sacaron Supercharged, con “Make It All Right”."
+    ],
+    "nota": "La lista va en orden cronológico. “Original Prankster” tiene la participación del rapero Redman. Las canciones repetidas en la lista quedaron una sola vez.",
+    "canciones": [
+      {
+        "titulo": "Come Out and Play",
+        "disco": "Smash",
+        "anio": 1994
+      },
+      {
+        "titulo": "Self Esteem",
+        "disco": "Smash",
+        "anio": 1994
+      },
+      {
+        "titulo": "Pretty Fly (for a White Guy)",
+        "disco": "Americana",
+        "anio": 1998
+      },
+      {
+        "titulo": "The Kids Aren’t Alright",
+        "disco": "Americana",
+        "anio": 1998
+      },
+      {
+        "titulo": "She’s Got Issues",
+        "disco": "Americana",
+        "anio": 1998
+      },
+      {
+        "titulo": "Why Don’t You Get a Job?",
+        "disco": "Americana",
+        "anio": 1998
+      },
+      {
+        "titulo": "Original Prankster",
+        "disco": "Conspiracy of One",
+        "anio": 2000
+      },
+      {
+        "titulo": "Want You Bad",
+        "disco": "Conspiracy of One",
+        "anio": 2000
+      },
+      {
+        "titulo": "One Fine Day",
+        "disco": "Conspiracy of One",
+        "anio": 2000
+      },
+      {
+        "titulo": "Hit That",
+        "disco": "Splinter",
+        "anio": 2003
+      },
+      {
+        "titulo": "You’re Gonna Go Far, Kid",
+        "disco": "Rise and Fall, Rage and Grace",
+        "anio": 2008
+      },
+      {
+        "titulo": "Kristy, Are You Doing Okay?",
+        "disco": "Rise and Fall, Rage and Grace",
+        "anio": 2008
+      },
+      {
+        "titulo": "Make It All Right",
+        "disco": "Supercharged",
+        "anio": 2024
       }
     ]
   }
