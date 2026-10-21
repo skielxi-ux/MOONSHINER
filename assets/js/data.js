@@ -9569,5 +9569,370 @@ const ARTISTAS = [
         "anio": 2024
       }
     ]
+  },
+  {
+    "id": "the-police",
+    "nombre": "The Police",
+    "pais": "Reino Unido",
+    "ciudad": "Londres",
+    "anios": "1977 – 1986 · 2007 – 2008",
+    "genero": "New wave, reggae rock, post-punk",
+    "integrantes": [
+      "Sting (voz, bajo)",
+      "Andy Summers (guitarra)",
+      "Stewart Copeland (batería)"
+    ],
+    "hero": "img/the-police.jpg",
+    "heroPos": "center 25%",
+    "bajada": "Tres músicos virtuosos que mezclaron el punk con el reggae.",
+    "descripcion": [
+      "The Police se formó en Londres en 1977, en plena explosión del punk, con el baterista estadounidense Stewart Copeland, el bajista y cantante Sting y, poco después, el guitarrista Andy Summers. Aunque se tiñeron el pelo de rubio y tocaban rápido, eran músicos de jazz y de rock con mucho oficio, y enseguida sumaron el ritmo del reggae a sus canciones.",
+      "Su primer disco, Outlandos d’Amour (1978), trajo “Roxanne”, “Can’t Stand Losing You” y “So Lonely”. En cinco discos se convirtieron en la banda más grande del mundo, y Synchronicity (1983), con “Every Breath You Take”, llegó al número uno en Estados Unidos. Las tensiones entre Sting y Copeland los separaron en 1986; se reunieron para una gira mundial en 2007."
+    ],
+    "nota": "La lista va en orden cronológico. “Every Breath You Take” parece una canción de amor, pero Sting la escribió sobre los celos y la obsesión.",
+    "canciones": [
+      {
+        "titulo": "Roxanne",
+        "disco": "Outlandos d’Amour",
+        "anio": 1978
+      },
+      {
+        "titulo": "Can’t Stand Losing You",
+        "disco": "Outlandos d’Amour",
+        "anio": 1978
+      },
+      {
+        "titulo": "So Lonely",
+        "disco": "Outlandos d’Amour",
+        "anio": 1978
+      },
+      {
+        "titulo": "Every Breath You Take",
+        "disco": "Synchronicity",
+        "anio": 1983
+      }
+    ]
+  },
+  {
+    "id": "the-rolling-stones",
+    "nombre": "The Rolling Stones",
+    "pais": "Reino Unido",
+    "ciudad": "Londres",
+    "anios": "1962 – presente",
+    "genero": "Rock, blues rock, rhythm and blues",
+    "integrantes": [
+      "Mick Jagger (voz, armónica)",
+      "Keith Richards (guitarra, voz)",
+      "Ronnie Wood (guitarra)",
+      "Charlie Watts (batería)",
+      "Brian Jones (guitarra)",
+      "Bill Wyman (bajo)",
+      "Mick Taylor (guitarra)"
+    ],
+    "hero": "img/the-rolling-stones.jpg",
+    "heroPos": "center 25%",
+    "bajada": "“La banda de rock and roll más grande del mundo”, más de sesenta años después.",
+    "descripcion": [
+      "The Rolling Stones se formó en Londres en 1962, cuando Mick Jagger y Keith Richards, amigos de la infancia, se cruzaron con el guitarrista Brian Jones en el circuito del blues. Empezaron tocando versiones de Chuck Berry, Muddy Waters y el rhythm and blues estadounidense, y su manager los vendió como la contracara peligrosa de los Beatles.",
+      "Desde “Satisfaction” (1965), Jagger y Richards se volvieron una de las grandes duplas de compositores, y entre Beggars Banquet (1968) y Exile on Main St. (1972) grabaron una serie de discos considerada de las mejores de la historia del rock. Nunca dejaron de tocar: Charlie Watts, su baterista durante casi sesenta años, murió en 2021, y en 2023 y 2026 sacaron Hackney Diamonds y Foreign Tongues."
+    ],
+    "nota": "La lista va en orden cronológico. Los discos de los sesenta son las ediciones de Estados Unidos, donde aparecen estas canciones. “Confessin’ the Blues”, “It’s All Over Now”, “Time Is on My Side”, “Little Red Rooster” y “Cry to Me” son versiones de otros artistas.",
+    "canciones": [
+      {
+        "titulo": "Confessin’ the Blues",
+        "disco": "12 X 5",
+        "anio": 1964
+      },
+      {
+        "titulo": "It’s All Over Now",
+        "disco": "12 X 5",
+        "anio": 1964
+      },
+      {
+        "titulo": "Time Is on My Side",
+        "disco": "12 X 5",
+        "anio": 1964
+      },
+      {
+        "titulo": "Little Red Rooster",
+        "disco": "The Rolling Stones, Now!",
+        "anio": 1965
+      },
+      {
+        "titulo": "(I Can’t Get No) Satisfaction",
+        "disco": "Out of Our Heads",
+        "anio": 1965
+      },
+      {
+        "titulo": "Cry to Me",
+        "disco": "Out of Our Heads",
+        "anio": 1965
+      },
+      {
+        "titulo": "Paint It, Black",
+        "disco": "Aftermath",
+        "anio": 1966
+      },
+      {
+        "titulo": "Under My Thumb",
+        "disco": "Aftermath",
+        "anio": 1966
+      },
+      {
+        "titulo": "Out of Time",
+        "disco": "Aftermath",
+        "anio": 1966
+      },
+      {
+        "titulo": "Ruby Tuesday",
+        "disco": "Between the Buttons",
+        "anio": 1967
+      },
+      {
+        "titulo": "She’s a Rainbow",
+        "disco": "Their Satanic Majesties Request",
+        "anio": 1967
+      },
+      {
+        "titulo": "Sympathy for the Devil",
+        "disco": "Beggars Banquet",
+        "anio": 1968
+      },
+      {
+        "titulo": "No Expectations",
+        "disco": "Beggars Banquet",
+        "anio": 1968
+      },
+      {
+        "titulo": "Jigsaw Puzzle",
+        "disco": "Beggars Banquet",
+        "anio": 1968
+      },
+      {
+        "titulo": "Street Fighting Man",
+        "disco": "Beggars Banquet",
+        "anio": 1968
+      },
+      {
+        "titulo": "Gimme Shelter",
+        "disco": "Let It Bleed",
+        "anio": 1969
+      },
+      {
+        "titulo": "You Can’t Always Get What You Want",
+        "disco": "Let It Bleed",
+        "anio": 1969
+      },
+      {
+        "titulo": "Brown Sugar",
+        "disco": "Sticky Fingers",
+        "anio": 1971
+      },
+      {
+        "titulo": "Sway",
+        "disco": "Sticky Fingers",
+        "anio": 1971
+      },
+      {
+        "titulo": "Wild Horses",
+        "disco": "Sticky Fingers",
+        "anio": 1971
+      },
+      {
+        "titulo": "Can’t You Hear Me Knocking",
+        "disco": "Sticky Fingers",
+        "anio": 1971
+      },
+      {
+        "titulo": "Dead Flowers",
+        "disco": "Sticky Fingers",
+        "anio": 1971
+      },
+      {
+        "titulo": "Tumbling Dice",
+        "disco": "Exile on Main St.",
+        "anio": 1972
+      },
+      {
+        "titulo": "Loving Cup",
+        "disco": "Exile on Main St.",
+        "anio": 1972
+      },
+      {
+        "titulo": "Let It Loose",
+        "disco": "Exile on Main St.",
+        "anio": 1972
+      },
+      {
+        "titulo": "All Down the Line",
+        "disco": "Exile on Main St.",
+        "anio": 1972
+      },
+      {
+        "titulo": "Angie",
+        "disco": "Goats Head Soup",
+        "anio": 1973
+      },
+      {
+        "titulo": "Star Star",
+        "disco": "Goats Head Soup",
+        "anio": 1973
+      },
+      {
+        "titulo": "Time Waits for No One",
+        "disco": "It’s Only Rock ’n Roll",
+        "anio": 1974
+      },
+      {
+        "titulo": "Fool to Cry",
+        "disco": "Black and Blue",
+        "anio": 1976
+      },
+      {
+        "titulo": "Miss You",
+        "disco": "Some Girls",
+        "anio": 1978
+      },
+      {
+        "titulo": "Just My Imagination (Running Away with Me)",
+        "disco": "Some Girls",
+        "anio": 1978
+      },
+      {
+        "titulo": "Some Girls",
+        "disco": "Some Girls",
+        "anio": 1978
+      },
+      {
+        "titulo": "Beast of Burden",
+        "disco": "Some Girls",
+        "anio": 1978
+      },
+      {
+        "titulo": "Emotional Rescue",
+        "disco": "Emotional Rescue",
+        "anio": 1980
+      },
+      {
+        "titulo": "She’s So Cold",
+        "disco": "Emotional Rescue",
+        "anio": 1980
+      },
+      {
+        "titulo": "Start Me Up",
+        "disco": "Tattoo You",
+        "anio": 1981
+      },
+      {
+        "titulo": "No Use in Crying",
+        "disco": "Tattoo You",
+        "anio": 1981
+      },
+      {
+        "titulo": "Harlem Shuffle",
+        "disco": "Dirty Work",
+        "anio": 1986
+      },
+      {
+        "titulo": "Mixed Emotions",
+        "disco": "Steel Wheels",
+        "anio": 1989
+      },
+      {
+        "titulo": "Blinded by Love",
+        "disco": "Steel Wheels",
+        "anio": 1989
+      },
+      {
+        "titulo": "Love Is Strong",
+        "disco": "Voodoo Lounge",
+        "anio": 1994
+      },
+      {
+        "titulo": "You Got Me Rocking",
+        "disco": "Voodoo Lounge",
+        "anio": 1994
+      },
+      {
+        "titulo": "Out of Tears",
+        "disco": "Voodoo Lounge",
+        "anio": 1994
+      },
+      {
+        "titulo": "Blinded by Rainbows",
+        "disco": "Voodoo Lounge",
+        "anio": 1994
+      },
+      {
+        "titulo": "Anybody Seen My Baby?",
+        "disco": "Bridges to Babylon",
+        "anio": 1997
+      },
+      {
+        "titulo": "Already Over Me",
+        "disco": "Bridges to Babylon",
+        "anio": 1997
+      },
+      {
+        "titulo": "Out of Control",
+        "disco": "Bridges to Babylon",
+        "anio": 1997
+      },
+      {
+        "titulo": "Saint of Me",
+        "disco": "Bridges to Babylon",
+        "anio": 1997
+      },
+      {
+        "titulo": "Always Suffering",
+        "disco": "Bridges to Babylon",
+        "anio": 1997
+      },
+      {
+        "titulo": "Let Me Down Slow",
+        "disco": "A Bigger Bang",
+        "anio": 2005
+      },
+      {
+        "titulo": "Rain Fall Down",
+        "disco": "A Bigger Bang",
+        "anio": 2005
+      },
+      {
+        "titulo": "Streets of Love",
+        "disco": "A Bigger Bang",
+        "anio": 2005
+      },
+      {
+        "titulo": "Biggest Mistake",
+        "disco": "A Bigger Bang",
+        "anio": 2005
+      },
+      {
+        "titulo": "Sweet Sounds of Heaven (con Lady Gaga y Stevie Wonder)",
+        "disco": "Hackney Diamonds",
+        "anio": 2023
+      },
+      {
+        "titulo": "Rough and Twisted",
+        "disco": "Foreign Tongues",
+        "anio": 2026
+      },
+      {
+        "titulo": "Jealous Lover",
+        "disco": "Foreign Tongues",
+        "anio": 2026
+      },
+      {
+        "titulo": "Some of Us",
+        "disco": "Foreign Tongues",
+        "anio": 2026
+      },
+      {
+        "titulo": "Back in Your Life",
+        "disco": "Foreign Tongues",
+        "anio": 2026
+      }
+    ]
   }
 ];
